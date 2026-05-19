@@ -1,0 +1,4628 @@
+[
+  {
+    "id": "it_ab_41",
+    "name": "AB 41",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка Breda Mod.35",
+      "description": "Автоматическая пушка с обойменным питанием",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/ОФЗТ (Бронебойно-зажигательный/Осколочно-зажигательный)",
+          "ammo_in_game_type": "API/HEI",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БЗТ (Бронебойно-зажигательный)",
+          "ammo_in_game_type": "API",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПТ/БЗТ (Бронебойно-подкалиберный/Бронебойно-зажигательный)",
+          "ammo_in_game_type": "HVAP/API",
+          "penetration_mm": [48, 45, 31, 20, 13, 8],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 456,
+      "clip_size": 8,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -12, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 1992,
+        "belt_size": 24,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 80, "rpm": 3200, "model": "FIAT-SPA ABM 2", "layout": "6‑цилиндровый бензиновый", "weight_tonnes": 7.4 },
+    "hull": { "front": 8, "sides": 8, "rear": 8 },
+    "turret": { "front": 18, "sides": 8, "rear": 8 },
+    "notes": "Итальянский бронеавтомобиль. Основные особенности: хорошая подвижность, скорострельная 20-мм пушка, слабое бронирование. На ранних рангах эффективен во фланговых атаках и против легкобронированной техники."
+  },
+  {
+    "id": "it_l6",
+    "name": "L6/40",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка Breda Mod.35",
+      "description": "Автоматическая пушка с обойменным питанием",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/ОФЗТ",
+          "ammo_in_game_type": "API/HEI",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БЗТ",
+          "ammo_in_game_type": "API",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПТ/БЗТ",
+          "ammo_in_game_type": "HVAP/API",
+          "penetration_mm": [48, 45, 31, 20, 13, 8],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 296,
+      "clip_size": 8,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -12, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 1560,
+        "belt_size": 24,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 2,
+    "engine": { "power_hp": 68, "rpm": 3000, "model": "SPA 18D", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 6.8 },
+    "hull": { "front": 30, "sides": 15, "rear": 15 },
+    "turret": { "front": 30, "sides": 15, "rear": 15 },
+    "notes": "Лёгкий и маневренный танк со скорострельной 20-мм пушкой. Слабая броня и долгая перезарядка."
+  },
+  {
+    "id": "it_as_42_metropolitana",
+    "name": "AS 42 «Sahariana» (Metropolitana)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 700,
+    "exp_price": 2900,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка Breda Mod.35",
+      "description": "Автоматическая пушка с обойменным питанием",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/ОФЗТ",
+          "ammo_in_game_type": "API/HEI",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФЗТ",
+          "ammo_in_game_type": "HEI",
+          "penetration_mm": [5, 5, 4, 4, 4, 4],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БЗТ",
+          "ammo_in_game_type": "API",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПТ/БЗТ",
+          "ammo_in_game_type": "HVAP/API",
+          "penetration_mm": [48, 45, 31, 20, 13, 8],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 1200,
+      "clip_size": 12,
+      "reload": { "seconds": 3.9, "aces": 3.0 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -10, "max_deg": 80 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 110, "rpm": 2800, "model": "FIAT-SPA ABM 3", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 6.0 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "turret": { "front": 0, "sides": 0, "rear": 0 },
+    "notes": "Разведывательная машина с открытой кабиной и отличной подвижностью. Отсутствие брони, но хороший обзор и УВН."
+  },
+  {
+    "id": "it_l3_cc",
+    "name": "L3/33 CC",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "20-мм противотанковое ружьё Solothurn S-18/1000",
+      "description": "Крупнокалиберное ПТР",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ",
+          "ammo_in_game_type": "API",
+          "penetration_mm": [40, 38, 28, 20, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 120,
+      "clip_size": 10,
+      "reload": { "seconds": 5.0, "aces": 3.8 },
+      "fire_rate": 120,
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 43, "rpm": 3000, "model": "FIAT-SPA CV3", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 3.2 },
+    "hull": { "front": 13, "sides": 8, "rear": 6 },
+    "notes": "Малый танк с ПТР в открытой установке. Очень слабая броня, но неплохое пробитие для своего ранга."
+  },
+  {
+    "id": "it_39m_csaba",
+    "name": "39M Csaba",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка 36M",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ",
+          "ammo_in_game_type": "API",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 200,
+      "clip_size": 8,
+      "reload": { "seconds": 7.0, "aces": 5.4 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт 34/40M",
+        "mount": "coaxial",
+        "ammo": 2400,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 90, "rpm": 3000, "model": "FIAT 6-цилиндровый", "layout": "бензиновый", "weight_tonnes": 6.0 },
+    "hull": { "front": 13, "sides": 9, "rear": 9 },
+    "turret": { "front": 13, "sides": 9, "rear": 9 },
+    "notes": "Венгерский бронеавтомобиль. Хорошая подвижность и скорострельное орудие."
+  },
+  {
+    "id": "it_l6_leone",
+    "name": "L6/40 (Leone)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "20-мм пушка Breda Mod.35",
+      "description": "Автоматическая пушка с обойменным питанием",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/ОФЗТ",
+          "ammo_in_game_type": "API/HEI",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПТ/БЗТ",
+          "ammo_in_game_type": "HVAP/API",
+          "penetration_mm": [48, 45, 31, 20, 13, 8],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 296,
+      "clip_size": 8,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -12, "max_deg": 20 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 68, "rpm": 3000, "model": "SPA 18D", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 6.8 },
+    "hull": { "front": 30, "sides": 15, "rear": 15 },
+    "turret": { "front": 30, "sides": 15, "rear": 15 },
+    "notes": "Премиумная версия L6/40. Имеет уникальный камуфляж и повышенный коэффициент заработка."
+  },
+  {
+    "id": "it_toldi_ii_a",
+    "name": "38M Toldi IIA",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 450,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "40-мм пушка 37/42M",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [62, 60, 51, 42, 34, 28],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [8, 8, 7, 6, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [72, 69, 60, 50, 42, 35],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 55,
+      "reload": { "seconds": 3.6, "aces": 2.8 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт 34/40M",
+        "mount": "coaxial",
+        "ammo": 3200,
+        "belt_size": 100,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 155, "rpm": 2400, "model": "Weiss WM-823", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 9.3 },
+    "hull": { "front": 20, "sides": 13, "rear": 9 },
+    "turret": { "front": 33, "sides": 13, "rear": 13 },
+    "notes": "Венгерский лёгкий премиум-танк. Хорошая скорострельная 40-мм пушка, но посредственная броня."
+  },
+  {
+    "id": "it_m11_39",
+    "name": "M11/39",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка Vickers-Terni 37/40",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [48, 45, 36, 28, 22, 18],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [58, 54, 42, 32, 25, 20],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 72,
+      "reload": { "seconds": 3.8, "aces": 2.9 },
+      "elevation": { "min_deg": -8, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 2400,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 105, "rpm": 2400, "model": "FIAT-SPA 8T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 11.0 },
+    "hull": { "front": 30, "sides": 15, "rear": 15 },
+    "turret": { "front": 30, "sides": 15, "rear": 15 },
+    "notes": "Итальянский средний танк с основным орудием в корпусе. Необычная компоновка, слабая броня."
+  },
+  {
+    "id": "it_m13_40_serie_1",
+    "name": "M13/40 (I серия)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/32",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [58, 55, 45, 35, 28, 22],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [8, 8, 7, 6, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 104,
+      "reload": { "seconds": 4.2, "aces": 3.2 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 2592,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 125, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 13.0 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 42, "sides": 30, "rear": 30 },
+    "notes": "Базовый итальянский средний танк. Неплохая броня башни, но слабое орудие."
+  },
+  {
+    "id": "it_m13_40_serie_2",
+    "name": "M13/40 (II серия)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/32",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [58, 55, 45, 35, 28, 22],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [8, 8, 7, 6, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 104,
+      "reload": { "seconds": 4.2, "aces": 3.2 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 2592,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 125, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 13.0 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 42, "sides": 30, "rear": 30 },
+    "notes": "Вторая серия M13/40. Небольшие улучшения по сравнению с первой серией."
+  },
+  {
+    "id": "it_m13_40_serie_3",
+    "name": "M13/40 (III серия)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/32",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [58, 55, 45, 35, 28, 22],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [8, 8, 7, 6, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 104,
+      "reload": { "seconds": 4.2, "aces": 3.2 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 2592,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 125, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 13.0 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 42, "sides": 30, "rear": 30 },
+    "notes": "Третья серия M13/40. Имеет дополнительные топливные баки на корме."
+  },
+  {
+    "id": "it_m14_41",
+    "name": "M14/41",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 2.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/40",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [66, 63, 52, 41, 33, 26],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [8, 8, 7, 6, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 104,
+      "reload": { "seconds": 4.0, "aces": 3.1 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 2592,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 145, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 14.0 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 45, "sides": 30, "rear": 30 },
+    "notes": "Улучшенная версия M13/40 с более мощным двигателем и броней."
+  },
+  {
+    "id": "it_semovente_l40",
+    "name": "Semovente L40",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 1.3,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/32",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [58, 55, 45, 35, 28, 22],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [8, 8, 7, 6, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 70,
+      "reload": { "seconds": 4.5, "aces": 3.5 },
+      "elevation": { "min_deg": -12, "max_deg": 20 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 68, "rpm": 3000, "model": "SPA 18D", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 6.5 },
+    "hull": { "front": 30, "sides": 15, "rear": 15 },
+    "notes": "Лёгкая САУ на базе L6/40. Неподвижная рубка с 47-мм орудием."
+  },
+  {
+    "id": "it_as_42_47",
+    "name": "AS 42 (47/32)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 2.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/32",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [58, 55, 45, 35, 28, 22],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 70,
+      "reload": { "seconds": 4.2, "aces": 3.2 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 110, "rpm": 2800, "model": "FIAT-SPA ABM 3", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 6.5 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "notes": "Разведывательная машина с установленной 47-мм пушкой. Открытая кабина, слабая броня."
+  },
+  {
+    "id": "it_lancia3ro_100",
+    "name": "Lancia 3Ro (100/17)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "100-мм гаубица 100/17",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФ (Осколочно-фугасный)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [35, 35, 35, 35, 35, 35],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ББ (Бетонобойный)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [75, 72, 62, 50, 42, 35],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 12.0, "aces": 9.2 },
+      "elevation": { "min_deg": -5, "max_deg": 20 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 93, "rpm": 2000, "model": "Lancia 5-цилиндровый", "layout": "дизельный", "weight_tonnes": 8.5 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "notes": "Импровизированная САУ на шасси грузовика Lancia 3Ro. Мощная 100-мм гаубица, но абсолютно отсутствует броня."
+  },
+  {
+  "id": "it_l6_leone",
+  "name": "L6/40 (Leone)",
+  "nation": "italy",
+  "nation_label": "🇮🇹 Италия",
+  "type": "light",
+  "type_label": "Лёгкий танк",
+  "br": 1.7,
+  "rank": "I",
+  "silver_price": 0,
+  "exp_price": 0,
+  "premium": true,
+  "gun": {
+    "name": "20-мм пушка Breda Mod.35",
+    "description": "Автоматическая пушка с обойменным питанием",
+    "penetration": [
+      {
+        "ammo_type": "БЗТ/ОФЗТ (Бронебойно-зажигательный/Осколочно-зажигательный)",
+        "ammo_in_game_type": "API/HEI",
+        "penetration_mm": [38, 36, 27, 19, 14, 10],
+        "distance_m": [10, 100, 500, 1000, 1500, 2000]
+      },
+      {
+        "ammo_type": "БЗТ (Бронебойно-зажигательный)",
+        "ammo_in_game_type": "API",
+        "penetration_mm": [38, 36, 27, 19, 14, 10],
+        "distance_m": [10, 100, 500, 1000, 1500, 2000]
+      },
+      {
+        "ammo_type": "БПТ/БЗТ (Бронебойно-подкалиберный/Бронебойно-зажигательный)",
+        "ammo_in_game_type": "HVAP/API",
+        "penetration_mm": [48, 45, 31, 20, 13, 8],
+        "distance_m": [10, 100, 500, 1000, 1500, 2000]
+      }
+    ],
+    "ammo_total": 296,
+    "clip_size": 8,
+    "reload": { "seconds": 7.8, "aces": 6.0 },
+    "fire_rate": 240,
+    "elevation": { "min_deg": -12, "max_deg": 20 }
+  },
+  "machine_guns": [
+    {
+      "name": "8-мм пулемёт Breda Mod. 38",
+      "mount": "coaxial",
+      "ammo": 1560,
+      "belt_size": 24,
+      "fire_rate": 600,
+      "penetration": [13, 12, 7, 3, 2, 0]
+    }
+  ],
+  "crew": 2,
+  "engine": {
+    "power_hp": 68,
+    "rpm": 3000,
+    "model": "SPA 18D",
+    "layout": "4-цилиндровый бензиновый",
+    "weight_tonnes": 6.8
+  },
+  "hull": { "front": 30, "sides": 15, "rear": 15 },
+  "turret": { "front": 30, "sides": 15, "rear": 15 },
+  "notes": "Премиумная версия итальянского лёгкого танка L6/40. Отличается от стандартной версии уникальным камуфляжем и повышенным коэффициентом заработка (премиум-статус). Сохранил скорострельную 20-мм автоматическую пушку."
+},
+{
+  "id": "it_39m_csaba",
+  "name": "39.M Csaba",
+  "nation": "italy",
+  "nation_label": "🇮🇹 Италия",
+  "type": "light",
+  "type_label": "Лёгкий танк",
+  "br": 1.0,
+  "rank": "I",
+  "silver_price": 700,
+  "exp_price": 2900,
+  "premium": false,
+  "gun": {
+    "name": "20-мм пушка Solothurn QF.36M",
+    "description": "Автоматическая пушка с обойменным питанием",
+    "penetration": [
+      {
+        "ammo_type": "БС (Бронебойный снаряд)",
+        "ammo_in_game_type": "AP",
+        "penetration_mm": [34, 32, 25, 18, 13, 9],
+        "distance_m": [10, 100, 500, 1000, 1500, 2000]
+      }
+    ],
+    "ammo_total": 200,
+    "clip_size": 5,
+    "reload": { "seconds": 3.9, "aces": 3.0 },
+    "fire_rate": 60,
+    "elevation": { "min_deg": -10, "max_deg": 25 }
+  },
+  "machine_guns": [
+    {
+      "name": "8-мм пулемёт 34/40M",
+      "mount": "coaxial",
+      "ammo": 3000,
+      "belt_size": 100,
+      "fire_rate": 900,
+      "penetration": [13, 12, 7, 3, 2, 0]
+    }
+  ],
+  "crew": 4,
+  "engine": {
+    "power_hp": 90,
+    "rpm": 3200,
+    "model": "Weiss Manfred 8-цилиндровый",
+    "layout": "бензиновый",
+    "weight_tonnes": 6.0
+  },
+  "hull": { "front": 13, "sides": 7, "rear": 7 },
+  "turret": { "front": 10, "sides": 10, "rear": 10 },
+  "notes": "Венгерский бронеавтомобиль. Отличная подвижность и задний ход, скорострельное 20-мм орудие. Слабая броня и низкое пробитие на дальних дистанциях. Экипаж размещён плотно, что снижает живучесть."
+},
+
+{
+  "id": "it_l3_cc",
+  "name": "L3/33 CC",
+  "nation": "italy",
+  "nation_label": "🇮🇹 Италия",
+  "type": "tank_destroyer",
+  "type_label": "САУ",
+  "br": 1.0,
+  "rank": "I",
+  "silver_price": 700,
+  "exp_price": 2900,
+  "premium": false,
+  "gun": {
+    "name": "20-мм противотанковое ружье Fucile Controcarri S Mod.39",
+    "description": "Крупнокалиберное противотанковое ружьё",
+    "penetration": [
+      {
+        "ammo_type": "БС (Бронебойный снаряд)",
+        "ammo_in_game_type": "AP",
+        "penetration_mm": [38, 36, 27, 19, 14, 10],
+        "distance_m": [10, 100, 500, 1000, 1500, 2000]
+      }
+    ],
+    "ammo_total": 110,
+    "clip_size": 10,
+    "reload": { "seconds": 7.8, "aces": 6.0 },
+    "fire_rate": 60,
+    "elevation": { "min_deg": -15, "max_deg": 15 }
+  },
+  "crew": 2,
+  "engine": { "power_hp": 43, "rpm": 3000, "model": "FIAT-SPA CV3", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 3.2 },
+  "hull": { "front": 14, "sides": 14, "rear": 8 },
+  "turret": { "front": 14, "sides": 14, "rear": 14 },
+  "notes": "Итальянская танкетка с 20-мм ПТР. Очень малые размеры и хорошая подвижность. Слабая броня, отсутствие башни."
+},
+
+  {
+    "id": "it_ab_43",
+    "name": "AB 43",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/40 mod.38",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [5, 5, 5, 5, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [62, 61, 53, 46, 39, 33],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 146,
+      "reload": { "seconds": 4.3, "aces": 3.3 },
+      "elevation": { "min_deg": -7, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 1992,
+        "belt_size": 24,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 110, "rpm": 3200, "model": "FIAT-SPA ABM 3", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 7.8 },
+    "hull": { "front": 8, "sides": 8, "rear": 8 },
+    "turret": { "front": 18, "sides": 8, "rear": 8 },
+    "notes": "Усовершенствованный бронеавтомобиль с 47-мм пушкой. Отличная подвижность, но крайне слабая броня."
+  },
+  {
+    "id": "it_m15_42",
+    "name": "M15/42",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "47-мм пушка 47/40 mod.38",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [5, 5, 5, 5, 5, 5],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [62, 61, 53, 46, 39, 33],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 111,
+      "reload": { "seconds": 3.8, "aces": 2.9 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 288,
+        "belt_size": 24,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 190, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 15.0 },
+    "hull": { "front": 50, "sides": 25, "rear": 25 },
+    "turret": { "front": 45, "sides": 25, "rear": 25 },
+    "notes": "Финальный итальянский средний танк серии M. Улучшенная броня и более мощный двигатель."
+  },
+  {
+    "id": "it_pzkpfw_iii_ausf_n",
+    "name": "▄Pz.III N",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 3.3,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 4600,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка KwK37",
+      "description": "Короткоствольная пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [52, 51, 45, 39, 34, 30],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (кумулятивный)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [80, 80, 80, 80, 80, 80],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 64,
+      "reload": { "seconds": 4.3, "aces": 3.3 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,92-мм пулемёт MG34",
+        "mount": "coaxial",
+        "ammo": 3450,
+        "belt_size": 150,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 300, "rpm": 3000, "model": "Maybach HL 120 TRM", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 23.0 },
+    "hull": { "front": 53, "sides": 30, "rear": 53 },
+    "turret": { "front": 50, "sides": 30, "rear": 30 },
+    "notes": "Трофейный немецкий танк в итальянском дереве. Хорошая броня и мощные кумулятивные снаряды."
+  },
+  {
+    "id": "it_fiat_cm52",
+    "name": "CM52",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 2.3,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "4 x 12,7-мм пулемёт M2HB",
+      "description": "Четыре крупнокалиберных пулемёта",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/З/Б/БЗТ",
+          "ammo_in_game_type": "API/HEI/AP/API",
+          "penetration_mm": [31, 29, 21, 14, 9, 6],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 3200,
+      "clip_size": 200,
+      "reload": { "seconds": 18.2, "aces": 14.0 },
+      "fire_rate": 575,
+      "elevation": { "min_deg": -10, "max_deg": 90 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 92, "rpm": 3000, "model": "Fiat 6601", "layout": "6-цилиндровый дизельный", "weight_tonnes": 6.9 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "notes": "ЗСУ на базе грузовика с четырьмя 12,7-мм пулемётами. Отличная скорострельность, но нет брони."
+  },
+  {
+    "id": "it_semovente_m41_75_18",
+    "name": "75/18 M41",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 2.0,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка 75/18 mod.34",
+      "description": "Гаубица",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [45, 44, 39, 33, 29, 25],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [100, 100, 100, 100, 100, 100],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 43,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -12, "max_deg": 22 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 160, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 13.1 },
+    "hull": { "front": 30, "sides": 25, "rear": 27 },
+    "turret": { "front": 50, "sides": 25, "rear": 25 },
+    "notes": "Штурмовое орудие с 75-мм гаубицей. Хорошие кумулятивные снаряды, но посредственная баллистика."
+  },
+  {
+    "id": "it_semovente_m41_75_32",
+    "name": "75/32 M41",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 2.3,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 4600,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка 75/32 mod.37",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [77, 75, 66, 57, 49, 42],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [100, 100, 100, 100, 100, 100],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 43,
+      "reload": { "seconds": 9.7, "aces": 7.5 },
+      "elevation": { "min_deg": -12, "max_deg": 22 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 160, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 14.5 },
+    "hull": { "front": 30, "sides": 25, "rear": 27 },
+    "turret": { "front": 50, "sides": 25, "rear": 25 },
+    "notes": "САУ с удлинённой 75-мм пушкой. Лучшее пробитие, чем у 75/18, но без пулемёта."
+  },
+  {
+    "id": "it_semovente_m42_75_34",
+    "name": "75/34 M42",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Italia",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 2.3,
+    "rank": "II",
+    "silver_price": 22000,
+    "exp_price": 5600,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка 75/34 mod.39",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [79, 78, 71, 64, 58, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [100, 100, 100, 100, 100, 100],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 45,
+      "reload": { "seconds": 8.5, "aces": 6.5 },
+      "elevation": { "min_deg": -10, "max_deg": 22 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 185, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 13.3 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 50, "sides": 25, "rear": 25 },
+    "notes": "Штурмовое орудие на базе M15/42. Отличное орудие, слабая броня."
+  },
+  {
+    "id": "it_40m_turan_1",
+    "name": "Turan I",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 2.3,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка MAVAG 41.M 40/51",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [63, 61, 52, 43, 35, 29],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 101,
+      "reload": { "seconds": 3.6, "aces": 2.8 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт 34/40M",
+        "mount": "coaxial",
+        "ammo": 3200,
+        "belt_size": 100,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 260, "rpm": 2200, "model": "Weiss Manfred V-8H", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 18.7 },
+    "hull": { "front": 50, "sides": 25, "rear": 25 },
+    "turret": { "front": 50, "sides": 25, "rear": 25 },
+    "notes": "Венгерский средний танк. Неплохая броня и стабилизатор орудия."
+  },
+  {
+    "id": "it_m3a3_stuart",
+    "name": "▄M3A3 Stuart",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 9200,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка M6",
+      "description": "Пушка с раздельным заряжанием",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [79, 76, 65, 54, 45, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 174,
+      "reload": { "seconds": 3.7, "aces": 2.9 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 262, "rpm": 2800, "model": "Cummins HXD", "layout": "8-цилиндровый дизельный", "weight_tonnes": 14.4 },
+    "hull": { "front": 25, "sides": 25, "rear": 25 },
+    "turret": { "front": 38, "sides": 31, "rear": 31 },
+    "notes": "Американский лёгкий танк на службе Италии. Отличная подвижность и неплохое орудие."
+  },
+  {
+    "id": "it_p_40",
+    "name": "P40",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 3.3,
+    "rank": "II",
+    "silver_price": 32000,
+    "exp_price": 14000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка Ansaldo 75 L/34",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [79, 78, 71, 64, 58, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [100, 100, 100, 100, 100, 100],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 63,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -10, "max_deg": 23 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "coaxial",
+        "ammo": 288,
+        "belt_size": 24,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 330, "rpm": 2100, "model": "FIAT V-12", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 26.0 },
+    "hull": { "front": 50, "sides": 45, "rear": 40 },
+    "turret": { "front": 50, "sides": 45, "rear": 45 },
+    "notes": "Тяжёлый по итальянской классификации средний танк. Хорошая броня и мощное орудие."
+  },
+
+  {
+    "id": "it_semovente_m43_75_34",
+    "name": "75/34 M43",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.3,
+    "rank": "II",
+    "silver_price": 32000,
+    "exp_price": 6900,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка Ansaldo 75 L/34",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [79, 78, 71, 64, 58, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [100, 100, 100, 100, 100, 100],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 9, 9, 9, 9],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 45,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -10, "max_deg": 16 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 185, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.5 },
+    "hull": { "front": 50, "sides": 40, "rear": 25 },
+    "turret": { "front": 100, "sides": 70, "rear": 45 },
+    "notes": "Улучшенная САУ с усиленной лобовой бронёй (до 100 мм в рубке). Орудие от P40, плотная компоновка."
+  },
+  {
+    "id": "it_40_43m_zrinyi_2",
+    "name": "40/43M Zrinyi II",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 9200,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка Mavag 40/43M",
+      "description": "Гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [27, 27, 27, 27, 27, 27],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [120, 120, 120, 120, 120, 120],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 52,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -7, "max_deg": 16 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 260, "rpm": 2200, "model": "Weiss Manfred V-8H", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 22.6 },
+    "hull": { "front": 75, "sides": 25, "rear": 25 },
+    "turret": { "front": 75, "sides": 25, "rear": 25 },
+    "notes": "Венгерская штурмовая САУ на базе танка Turan. Мощная 105-мм гаубица с кумулятивными снарядами, неплохая броня."
+  },
+  {
+    "id": "it_semovente_m43_105",
+    "name": "105/25 M43",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.0,
+    "rank": "II",
+    "silver_price": 22000,
+    "exp_price": 11000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка Cannone Ansaldo da 105/25",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 89, 81, 72, 64, 57],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [120, 120, 120, 120, 120, 120],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -10, "max_deg": 16 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 185, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.7 },
+    "hull": { "front": 50, "sides": 40, "rear": 25 },
+    "turret": { "front": 75, "sides": 45, "rear": 45 },
+    "notes": "Тяжёлая итальянская САУ с 105-мм орудием. Мощные фугасные и кумулятивные снаряды, усиленная броня рубки (75 мм)."
+  },
+  
+  {
+    "id": "it_m24_chaffee",
+    "name": "M24 Chaffee",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка M6",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 88, 78, 67, 57, 49],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [104, 102, 93, 84, 75, 68],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 8.4, "aces": 6.5 },
+      "elevation": { "min_deg": -10, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 400,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 3750,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 296, "rpm": 2800, "model": "Cummins HXD", "layout": "8-цилиндровый дизельный", "weight_tonnes": 18.4 },
+    "hull": { "front": 25, "sides": 25, "rear": 19 },
+    "turret": { "front": 25, "sides": 25, "rear": 25 },
+    "notes": "Американский лёгкий танк на службе Италии. Отличная подвижность, хорошее орудие, стабилизатор."
+  },
+  {
+    "id": "it_m4a4_sherman",
+    "name": "Sherman V",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 3.7,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка M3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 88, 78, 67, 57, 49],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [104, 102, 93, 84, 75, 68],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 98,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 425, "rpm": 2850, "model": "Chrysler A57 Multibank", "layout": "30-цилиндровый бензиновый", "weight_tonnes": 32.2 },
+    "hull": { "front": 50, "sides": 38, "rear": 38 },
+    "turret": { "front": 76, "sides": 50, "rear": 50 },
+    "notes": "Американский средний танк M4A4 на службе Италии. Хорошее орудие со стабилизатором, достойная броня."
+  },
+  {
+    "id": "it_m15_42_contraereo",
+    "name": "M42 Contraereo",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 3.7,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "4 x 20-мм пушка Scotti-IF 20/70 mod.41",
+      "description": "Счетверённые автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/ОФЗТ",
+          "ammo_in_game_type": "API/HEI",
+          "penetration_mm": [38, 36, 27, 19, 14, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПТ/БЗТ",
+          "ammo_in_game_type": "HVAP/API",
+          "penetration_mm": [48, 45, 31, 20, 13, 8],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 640,
+      "clip_size": 160,
+      "fire_rate": 600,
+      "elevation": { "min_deg": -5, "max_deg": 90 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 185, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.5 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 15, "sides": 15, "rear": 15 },
+    "notes": "ЗСУ на базе M15/42 со счетверёнными 20-мм пушками. Высокая плотность огня, но малый боекомплект."
+  },
+  {
+    "id": "it_m55",
+    "name": "M55",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "203-мм пушка M47",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [65, 65, 65, 65, 65, 65],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 10,
+      "reload": { "seconds": 38.9, "aces": 29.9 },
+      "elevation": { "min_deg": -5, "max_deg": 65 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 900,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 6,
+    "engine": { "power_hp": 810, "rpm": 2800, "model": "Continental AVDS-1790-2B", "layout": "12-цилиндровый дизельный", "weight_tonnes": 44.0 },
+    "hull": { "front": 12, "sides": 12, "rear": 12 },
+    "notes": "Американская 203-мм САУ на службе Италии. Огромный калибр, но долгая перезарядка и слабая броня."
+  },
+  {
+    "id": "it_43m_turan_3",
+    "name": "43M Turán III",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка 43.M",
+      "description": "Длинноствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [145, 143, 130, 116, 104, 93],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [80, 80, 80, 80, 80, 80],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 32,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт 34/40M",
+        "mount": "coaxial",
+        "ammo": 3200,
+        "belt_size": 100,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 260, "rpm": 2200, "model": "Weiss Manfred V-8H", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 19.8 },
+    "hull": { "front": 75, "sides": 35, "rear": 35 },
+    "turret": { "front": 75, "sides": 35, "rear": 25 },
+    "notes": "Венгерский средний танк с мощной длинноствольной 75-мм пушкой. Усиленная броня и отличное пробитие."
+  },
+  {
+    "id": "it_m44",
+    "name": "M44",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 76000,
+    "exp_price": 26000,
+    "premium": false,
+    "gun": {
+      "name": "155-мм пушка M45",
+      "description": "Гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [61, 61, 61, 61, 61, 61],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 24,
+      "reload": { "seconds": 19.5, "aces": 15.0 },
+      "elevation": { "min_deg": -5, "max_deg": 65 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 1000,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 500, "rpm": 2800, "model": "Continental AVI-1790-8B", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 29.0 },
+    "hull": { "front": 12, "sides": 12, "rear": 12 },
+    "notes": "Американская 155-мм САУ на службе Италии. Компактная, мощная гаубица, но открытая рубка."
+  },
+  {
+    "id": "it_sherman_vii",
+    "name": "Sherman Ic",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 4.7,
+    "rank": "III",
+    "silver_price": 135000,
+    "exp_price": 40000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка Ordnance QF 17-pounder",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [171, 168, 155, 139, 126, 113],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [20, 20, 18, 16, 15, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [190, 187, 172, 155, 140, 126],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 65,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -4, "max_deg": 21 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 800,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт L3A1",
+        "mount": "coaxial",
+        "ammo": 5000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 400, "rpm": 2800, "model": "Chrysler A57 Multibank", "layout": "30-цилиндровый бензиновый", "weight_tonnes": 31.5 },
+    "hull": { "front": 63, "sides": 38, "rear": 38 },
+    "turret": { "front": 76, "sides": 50, "rear": 63 },
+    "notes": "Итальянский Sherman Firefly с мощной 17-фунтовой пушкой. Отличное пробитие, но слабая броня."
+  },
+  {
+    "id": "it_semovente_m41m_90",
+    "name": "90/53 M41M",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.7,
+    "rank": "III",
+    "silver_price": 76000,
+    "exp_price": 26000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка 90/53 mod.41",
+      "description": "Зенитная/противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [152, 149, 139, 127, 115, 105],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [20, 20, 18, 17, 15, 14],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 8,
+      "reload": { "seconds": 10.4, "aces": 8.0 },
+      "elevation": { "min_deg": -5, "max_deg": 19 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 160, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.7 },
+    "hull": { "front": 30, "sides": 25, "rear": 25 },
+    "turret": { "front": 30, "sides": 15, "rear": 0 },
+    "notes": "САУ с мощной 90-мм пушкой. Очень малый боекомплект (8 снарядов), слабая броня."
+  },
+  {
+    "id": "it_stug_iii_ausf_g",
+    "name": "StuG III G",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 105000,
+    "exp_price": 17000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка StuK40 L48",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [145, 143, 130, 116, 104, 93],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [182, 177, 159, 140, 122, 107],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 54,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -6, "max_deg": 17 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 300, "rpm": 3000, "model": "Maybach HL 120 TRM", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 24.4 },
+    "hull": { "front": 80, "sides": 30, "rear": 50 },
+    "turret": { "front": 80, "sides": 30, "rear": 30 },
+    "notes": "Трофейная немецкая САУ StuG III G на службе Италии. Отличная пушка и лобовая броня."
+  },
+  {
+    "id": "it_semovente_breda_501",
+    "name": "Breda 501",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 5.0,
+    "rank": "III",
+    "silver_price": 135000,
+    "exp_price": 40000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка 90/53 mod.41",
+      "description": "Зенитная/противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [152, 149, 139, 127, 115, 105],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [20, 20, 18, 17, 15, 14],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 30,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -4, "max_deg": 21 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт Breda Mod. 38",
+        "mount": "roof pintle",
+        "ammo": 3360,
+        "belt_size": 24,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 140, "rpm": 2800, "model": "Breda 102", "layout": "6-цилиндровый дизельный", "weight_tonnes": 8.9 },
+    "hull": { "front": 30, "sides": 8, "rear": 8 },
+    "notes": "Колёсный истребитель танков с мощной 90-мм пушкой. Отличная подвижность, но отсутствие брони."
+  },
+  {
+    "id": "it_semovente_m43_75_46",
+    "name": "75/46 M43",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.3,
+    "rank": "III",
+    "silver_price": 125000,
+    "exp_price": 48000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка 75/46 mod.34",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [134, 132, 119, 104, 92, 82],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [182, 177, 158, 138, 120, 105],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -10, "max_deg": 16 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 185, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.5 },
+    "hull": { "front": 50, "sides": 40, "rear": 25 },
+    "turret": { "front": 75, "sides": 45, "rear": 45 },
+    "notes": "Итальянская САУ с длинноствольной 75-мм пушкой. Хорошая броня рубки и отличное пробитие."
+  },
+
+  {
+    "id": "it_semovente_m43_105_leoncello",
+    "name": "M43 \"G.C. Leoncello\"",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.0,
+    "rank": "III",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "105-мм пушка Cannone Ansaldo da 105/25",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 89, 81, 72, 64, 57],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [120, 120, 120, 120, 120, 120],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -10, "max_deg": 16 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 185, "rpm": 2400, "model": "FIAT-SPA 15T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.7 },
+    "hull": { "front": 50, "sides": 40, "rear": 25 },
+    "turret": { "front": 75, "sides": 45, "rear": 45 },
+    "notes": "Премиумная версия САУ 105/25 M43 с уникальным камуфляжем подразделения Leoncello. Мощная 105-мм гаубица."
+  },
+  {
+    "id": "it_44m_zrinyi_1",
+    "name": "44M Zrínyi I",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "75-мм пушка 43.M",
+      "description": "Длинноствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [145, 143, 130, 116, 104, 93],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [80, 80, 80, 80, 80, 80],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -8, "max_deg": 25 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 260, "rpm": 2200, "model": "Weiss Manfred V-8H", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 22.0 },
+    "hull": { "front": 75, "sides": 25, "rear": 25 },
+    "notes": "Венгерская опытная САУ на базе Turan. Отличная пушка и реверсивная КПП. Без башни и пулемёта."
+  },
+  {
+    "id": "it_sherman_75_37",
+    "name": "Sherman I Composito",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Italia",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 3.7,
+    "rank": "III",
+    "silver_price": 1300,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "75-мм пушка M3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 88, 78, 67, 57, 49],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [104, 102, 93, 84, 75, 68],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 97,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 400,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 400, "rpm": 2800, "model": "Chrysler A57 Multibank", "layout": "30-цилиндровый бензиновый", "weight_tonnes": 31.5 },
+    "hull": { "front": 63, "sides": 38, "rear": 38 },
+    "turret": { "front": 76, "sides": 50, "rear": 50 },
+    "notes": "Премиумный Sherman с литой лобовой частью. Хорошее орудие и рикошетная броня."
+  },
+  {
+    "id": "it_breda_52_autocannone",
+    "name": "Breda 90/53",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "90-мм пушка 90/53 mod.41",
+      "description": "Зенитная/противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [152, 149, 139, 127, 115, 105],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [20, 20, 18, 17, 15, 14],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 30,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -2, "max_deg": 85 }
+    },
+    "crew": 6,
+    "engine": { "power_hp": 115, "rpm": 2200, "model": "Breda 52", "layout": "6-цилиндровый дизельный", "weight_tonnes": 11.5 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "turret": { "front": 7, "sides": 0, "rear": 0 },
+    "notes": "Колёсная САУ с мощной 90-мм пушкой. Отличное орудие, но полное отсутствие брони."
+  },
+  {
+    "id": "it_pzkpfw_iv_ausf_g",
+    "name": "Pz.IV G",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 1750,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "75-мм пушка KwK40 L48",
+      "description": "Длинноствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [145, 143, 130, 116, 104, 93],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [80, 80, 80, 80, 80, 80],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [182, 177, 159, 140, 122, 107],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 87,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,92-мм пулемёт MG34",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 150,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 300, "rpm": 3000, "model": "Maybach HL 120 TRM", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 23.7 },
+    "hull": { "front": 80, "sides": 30, "rear": 20 },
+    "turret": { "front": 50, "sides": 30, "rear": 30 },
+    "notes": "Трофейный немецкий средний танк на службе Италии. Хорошая пушка и неплохая броня."
+  },
+  
+  {
+    "id": "it_m18_hellcat",
+    "name": "M18 Hellcat",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 6.0,
+    "rank": "IV",
+    "silver_price": 185000,
+    "exp_price": 54000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка M1",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [134, 132, 121, 109, 99, 89],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [16, 16, 14, 13, 11, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [149, 146, 133, 119, 106, 95],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 45,
+      "reload": { "seconds": 7.9, "aces": 6.1 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 1000,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 460, "rpm": 2800, "model": "Continental R-975-C4", "layout": "9-цилиндровый радиальный бензиновый", "weight_tonnes": 17.7 },
+    "hull": { "front": 12, "sides": 12, "rear": 12 },
+    "turret": { "front": 25, "sides": 12, "rear": 12 },
+    "notes": "Американский истребитель танков M18 на службе Италии. Отличная подвижность, хорошая пушка, но очень слабая броня."
+  },
+  {
+    "id": "it_sherman_vc_firefly",
+    "name": "Sherman Vc Firefly",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 5.0,
+    "rank": "IV",
+    "silver_price": 155000,
+    "exp_price": 46000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка Ordnance QF 17-pounder",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [171, 168, 155, 139, 126, 113],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [20, 20, 18, 16, 15, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [269, 264, 246, 226, 207, 189],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 80,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -4, "max_deg": 21 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 800,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт L3A1",
+        "mount": "coaxial",
+        "ammo": 5000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 425, "rpm": 2850, "model": "Chrysler A57 Multibank", "layout": "30-цилиндровый бензиновый", "weight_tonnes": 35.3 },
+    "hull": { "front": 51, "sides": 38, "rear": 38 },
+    "turret": { "front": 76, "sides": 51, "rear": 51 },
+    "notes": "Итальянский Sherman Firefly на базе M4A4. Мощная 17-фунтовая пушка с подкалиберными снарядами."
+  },
+  {
+    "id": "it_leopard_bofors",
+    "name": "Leopard 40/70",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 6.0,
+    "rank": "IV",
+    "silver_price": 155000,
+    "exp_price": 46000,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка Bofors DA 40/70",
+      "description": "Автоматическая зенитная пушка",
+      "penetration": [
+        {
+          "ammo_type": "БТ/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [93, 90, 77, 63, 51, 42],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 228,
+      "clip_size": 4,
+      "reload": { "seconds": 0.6, "aces": 0.5 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -5, "max_deg": 90 }
+    },
+    "crew": 5,
+    "engine": { "power_hp": 830, "rpm": 2200, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 35.5 },
+    "hull": { "front": 70, "sides": 30, "rear": 25 },
+    "turret": { "front": 8, "sides": 8, "rear": 0 },
+    "notes": "ЗСУ на базе Leopard 1 с 40-мм пушкой Bofors. Отличная подвижность и мощное орудие, но слабая броня."
+  },
+  {
+    "id": "it_m36b1",
+    "name": "M36B1",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 5.7,
+    "rank": "IV",
+    "silver_price": 185000,
+    "exp_price": 54000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка Cannone da 90/50 M3A1",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [162, 160, 148, 135, 123, 113],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [291, 286, 264, 240, 217, 197],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [305, 305, 305, 305, 305, 305],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 64,
+      "reload": { "seconds": 9.7, "aces": 7.5 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 1000,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 500, "rpm": 2800, "model": "Ford GAA", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 30.9 },
+    "hull": { "front": 63, "sides": 38, "rear": 38 },
+    "turret": { "front": 76, "sides": 31, "rear": 25 },
+    "notes": "Итальянский M36B1 на базе корпуса Sherman. Мощная 90-мм пушка, открытая башня, неплохая подвижность."
+  },
+  {
+    "id": "it_2s1",
+    "name": "2S1 Gvozdika",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 6.0,
+    "rank": "IV",
+    "silver_price": 185000,
+    "exp_price": 54000,
+    "premium": false,
+    "gun": {
+      "name": "122-мм пушка 2A31",
+      "description": "Гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [51, 51, 51, 51, 51, 51],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -3, "max_deg": 70 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 300, "rpm": 2600, "model": "YaMZ-238N", "layout": "8-цилиндровый дизельный", "weight_tonnes": 15.7 },
+    "hull": { "front": 14, "sides": 7, "rear": 7 },
+    "turret": { "front": 14, "sides": 7, "rear": 7 },
+    "notes": "Венгерская САУ 2S1 «Гвоздика». 122-мм гаубица с мощными кумулятивными снарядами, слабая броня."
+  },
+  {
+    "id": "it_fiat_6616_cockerill",
+    "name": "AUBL/74",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 6.7,
+    "rank": "IV",
+    "silver_price": 210000,
+    "exp_price": 71000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка Cockerill Mk.3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [250, 250, 250, 250, 250, 250],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БФС (Бронебойно-фугасный снаряд)",
+          "ammo_in_game_type": "HESH",
+          "penetration_mm": [102, 102, 102, 102, 102, 102],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 28,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 27 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 800,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 160, "rpm": 3200, "model": "FIAT 806.24", "layout": "6-цилиндровый дизельный", "weight_tonnes": 8.2 },
+    "hull": { "front": 8, "sides": 8, "rear": 8 },
+    "turret": { "front": 15, "sides": 8, "rear": 8 },
+    "notes": "Колёсный лёгкий танк с 90-мм пушкой. Огромная скорость, слабая броня, хорошие кумулятивные снаряды."
+  },
+  {
+    "id": "it_fiat_6614_106sr",
+    "name": "FIAT 6614",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 6.7,
+    "rank": "IV",
+    "silver_price": 210000,
+    "exp_price": 35000,
+    "premium": false,
+    "gun": {
+      "name": "106-мм безоткатное орудие Cannone da 106 s.r.M40A1",
+      "description": "Безоткатное орудие",
+      "penetration": [
+        {
+          "ammo_type": "ПГ (Противотанковый гранатомётный выстрел)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [433, 433, 433, 433, 433, 433],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БФС (Бронебойно-фугасный снаряд)",
+          "ammo_in_game_type": "HESH",
+          "penetration_mm": [152, 152, 152, 152, 152, 152],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 17,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -17, "max_deg": 65 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M8C",
+        "mount": "coaxial",
+        "ammo": 120,
+        "clip_size": 10,
+        "fire_rate": 300,
+        "penetration": [7, 7, 6, 5, 0, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 160, "rpm": 3200, "model": "FIAT 806.24", "layout": "6-цилиндровый дизельный", "weight_tonnes": 8.7 },
+    "hull": { "front": 8, "sides": 8, "rear": 8 },
+    "notes": "Колёсная машина с 106-мм безоткатным орудием. Высокая скорость, очень мощное пробитие, но долгая перезарядка."
+  },
+  {
+    "id": "it_m26a1_pershing",
+    "name": "M26A1 Pershing",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 6.7,
+    "rank": "IV",
+    "silver_price": 200000,
+    "exp_price": 63000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка Cannone da 90/50 M3A1",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [162, 160, 148, 135, 123, 113],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [291, 286, 264, 240, 217, 197],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 70,
+      "reload": { "seconds": 9.7, "aces": 7.5 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 600,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 5000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 500, "rpm": 2800, "model": "Ford GAF", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 42.0 },
+    "hull": { "front": 101, "sides": 76, "rear": 51 },
+    "turret": { "front": 101, "sides": 76, "rear": 76 },
+    "notes": "Американский M26 Pershing на службе Италии. Хорошая броня и мощная 90-мм пушка."
+  },
+  {
+    "id": "it_oto_r3_t20_fa",
+    "name": "R3 T20 FA-HS",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 6.0,
+    "rank": "IV",
+    "silver_price": 185000,
+    "exp_price": 54000,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка Oerlikon KAD",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПТ/ФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [57, 52, 37, 24, 15, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 600,
+      "clip_size": 120,
+      "reload": { "seconds": 9.1, "aces": 7.0 },
+      "fire_rate": 996,
+      "elevation": { "min_deg": -10, "max_deg": 60 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 95, "rpm": 4800, "model": "Fiat 126", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 3.4 },
+    "hull": { "front": 33, "sides": 15, "rear": 15 },
+    "notes": "Сверхбыстрая колёсная ЗСУ на базе R3. Скорострельная 20-мм пушка, отсутствие брони."
+  },
+  {
+    "id": "it_m109g",
+    "name": "M109G",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 6.0,
+    "rank": "IV",
+    "silver_price": 200000,
+    "exp_price": 63000,
+    "premium": false,
+    "gun": {
+      "name": "155-мм пушка M126E1",
+      "description": "Гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [61, 61, 61, 61, 61, 61],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 28,
+      "reload": { "seconds": 17.3, "aces": 13.3 },
+      "elevation": { "min_deg": -3, "max_deg": 70 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 600,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 6,
+    "engine": { "power_hp": 405, "rpm": 2800, "model": "Detroit Diesel 8V-71T", "layout": "8-цилиндровый дизельный", "weight_tonnes": 24.5 },
+    "hull": { "front": 32, "sides": 32, "rear": 32 },
+    "turret": { "front": 32, "sides": 32, "rear": 32 },
+    "notes": "Американская 155-мм САУ M109 на службе Италии. Мощные фугасные снаряды, открытая рубка."
+  },
+
+  {
+    "id": "it_c13_t90",
+    "name": "C13 T90",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 7.3,
+    "rank": "V",
+    "silver_price": 240000,
+    "exp_price": 82000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка Cockerill Mk.3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [250, 250, 250, 250, 250, 250],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БФС (Бронебойно-фугасный снаряд)",
+          "ammo_in_game_type": "HESH",
+          "penetration_mm": [102, 102, 102, 102, 102, 102],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 28,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 27 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт FN MAG 60-40",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 200,
+        "fire_rate": 1000,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 360, "rpm": 2800, "model": "Iveco 806.25", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.3 },
+    "hull": { "front": 50, "sides": 38, "rear": 38 },
+    "turret": { "front": 8, "sides": 8, "rear": 8 },
+    "notes": "Итальянский лёгкий танк на базе БМП C13. Хорошая подвижность, 90-мм пушка, слабая броня."
+  },
+  {
+    "id": "it_m47_105",
+    "name": "M47 (105/55)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 300000,
+    "exp_price": 105000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка OTO Melara 105/55",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [350, 347, 333, 317, 302, 287],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 70,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -10, "max_deg": 19 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 1000,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 5000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 750, "rpm": 2600, "model": "Continental AVDS-1790-2A", "layout": "12-цилиндровый дизельный", "weight_tonnes": 46.3 },
+    "hull": { "front": 101, "sides": 76, "rear": 25 },
+    "turret": { "front": 121, "sides": 63, "rear": 76 },
+    "notes": "Модернизированный M47 с 105-мм пушкой L7. Хорошая подвижность и мощное орудие."
+  },
+  {
+    "id": "it_zsu_57_2",
+    "name": "ZSU-57-2",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 7.0,
+    "rank": "V",
+    "silver_price": 240000,
+    "exp_price": 82000,
+    "premium": false,
+    "gun": {
+      "name": "2 x 57-мм пушка С-68",
+      "description": "Спаренные автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БС/ОФС",
+          "ammo_in_game_type": "AP/HE",
+          "penetration_mm": [151, 147, 130, 112, 96, 83],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 296,
+      "clip_size": 4,
+      "reload": { "seconds": 2.6, "aces": 2.0 },
+      "fire_rate": 120,
+      "elevation": { "min_deg": -5, "max_deg": 85 }
+    },
+    "crew": 6,
+    "engine": { "power_hp": 520, "rpm": 2000, "model": "V-54", "layout": "12-цилиндровый дизельный", "weight_tonnes": 28.0 },
+    "hull": { "front": 15, "sides": 15, "rear": 10 },
+    "turret": { "front": 15, "sides": 13, "rear": 13 },
+    "notes": "Венгерская ЗСУ-57-2. Мощные 57-мм пушки, эффективна против легкобронированной техники."
+  },
+  {
+    "id": "it_btr_80a_hungary",
+    "name": "BTR-80A",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 7.3,
+    "rank": "V",
+    "silver_price": 270000,
+    "exp_price": 95000,
+    "premium": false,
+    "gun": {
+      "name": "30-мм автоматическая пушка 2А72",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [82, 81, 79, 75, 72, 69],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БТ",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [65, 63, 53, 44, 36, 29],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 300,
+      "clip_size": 150,
+      "reload": { "seconds": 1.3, "aces": 1.0 },
+      "fire_rate": 330,
+      "elevation": { "min_deg": -5, "max_deg": 70 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ПКТ",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 700,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 260, "rpm": 2600, "model": "YaMZ-238", "layout": "8-цилиндровый дизельный", "weight_tonnes": 14.6 },
+    "hull": { "front": 12, "sides": 8, "rear": 6 },
+    "turret": { "front": 23, "sides": 23, "rear": 13 },
+    "notes": "Венгерский БТР-80А с 30-мм пушкой. Хорошая подвижность, слабая броня."
+  },
+  {
+    "id": "it_oto_r3_106sr",
+    "name": "R3 T106 FA",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 340000,
+    "exp_price": 120000,
+    "premium": false,
+    "gun": {
+      "name": "106-мм безоткатное орудие Cannone da 106 s.r.M40A1",
+      "description": "Безоткатное орудие",
+      "penetration": [
+        {
+          "ammo_type": "ПГ (Противотанковый гранатомётный выстрел)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [433, 433, 433, 433, 433, 433],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БФС (Бронебойно-фугасный снаряд)",
+          "ammo_in_game_type": "HESH",
+          "penetration_mm": [152, 152, 152, 152, 152, 152],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 10,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -7, "max_deg": 10 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M8C",
+        "mount": "coaxial",
+        "ammo": 240,
+        "clip_size": 10,
+        "fire_rate": 300,
+        "penetration": [7, 7, 6, 5, 0, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 95, "rpm": 4800, "model": "Fiat 126", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 3.4 },
+    "hull": { "front": 33, "sides": 15, "rear": 15 },
+    "notes": "Сверхбыстрая колёсная машина с двумя 106-мм безоткатными орудиями. Огромное пробитие."
+  },
+  {
+    "id": "it_of_40_mk_1",
+    "name": "OF-40 Mk.1",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 380000,
+    "exp_price": 135000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка OTO Melara 105/52",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [350, 347, 333, 317, 302, 287],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 61,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт FN MAG 60-40",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 200,
+        "fire_rate": 1000,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 830, "rpm": 2200, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 43.0 },
+    "hull": { "front": 70, "sides": 35, "rear": 25 },
+    "turret": { "front": 68, "sides": 47, "rear": 30 },
+    "notes": "Итальянский ОБТ на базе Leopard 1. Хорошая подвижность, мощная 105-мм пушка, лазерный дальномер."
+  },
+  {
+    "id": "it_leopard_1a2",
+    "name": "Leopard 1A2",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 450000,
+    "exp_price": 81000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L7A3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [350, 347, 333, 317, 302, 287],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 60,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт MG3A1",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 200,
+        "fire_rate": 1200,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 830, "rpm": 2200, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 41.0 },
+    "hull": { "front": 70, "sides": 35, "rear": 25 },
+    "turret": { "front": 100, "sides": 45, "rear": 45 },
+    "notes": "Итальянский Leopard 1A2 с усиленной башней. Хорошая подвижность, мощная пушка."
+  },
+  {
+    "id": "it_zsu_23_4",
+    "name": "ZSU-23-4V",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 380000,
+    "exp_price": 135000,
+    "premium": false,
+    "gun": {
+      "name": "4 x 23-мм пушка АЗП-23",
+      "description": "Счетверённые автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БЗТ/ОФЗ",
+          "ammo_in_game_type": "API/HEI",
+          "penetration_mm": [51, 48, 36, 26, 18, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 2000,
+      "clip_size": 500,
+      "fire_rate": 850,
+      "elevation": { "min_deg": -4, "max_deg": 85 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 280, "rpm": 2600, "model": "V-6R", "layout": "6-цилиндровый дизельный", "weight_tonnes": 20.7 },
+    "hull": { "front": 9, "sides": 9, "rear": 7 },
+    "turret": { "front": 8, "sides": 8, "rear": 8 },
+    "notes": "Венгерская ЗСУ-23-4 «Шилка». Отличная скорострельность, эффективна против авиации."
+  },
+  {
+    "id": "it_pzh_2000_hu",
+    "name": "PzH 2000HU",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "155-мм гаубица Rheinmetall L/52",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [61, 61, 61, 61, 61, 61],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 60,
+      "reload": { "seconds": 5.0, "aces": 5.0 },
+      "elevation": { "min_deg": -2, "max_deg": 65 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт MG3A1",
+        "mount": "roof pintle",
+        "ammo": 2000,
+        "belt_size": 200,
+        "fire_rate": 1200,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 1000, "rpm": 2700, "model": "MTU 881", "layout": "8-цилиндровый дизельный", "weight_tonnes": 55.3 },
+    "hull": { "front": 30, "sides": 10, "rear": 10 },
+    "turret": { "front": 30, "sides": 10, "rear": 10 },
+    "notes": "Венгерская премиумная САУ PzH 2000. Мощная 155-мм гаубица, быстрая перезарядка."
+  },
+  {
+    "id": "it_fiat_6614_firos",
+    "name": "FIROS 6",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "FIROS 6",
+      "description": "Реактивная система залпового огня",
+      "penetration": [
+        {
+          "ammo_type": "ПГ (Противотанковый гранатомётный выстрел)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [250, 250, 250, 250, 250, 250],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 144,
+      "clip_size": 48,
+      "reload": { "seconds": 39.0, "aces": 30.0 },
+      "fire_rate": 150,
+      "elevation": { "min_deg": -5, "max_deg": 45 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 160, "rpm": 3200, "model": "FIAT 806.24", "layout": "6-цилиндровый дизельный", "weight_tonnes": 8.7 },
+    "hull": { "front": 8, "sides": 8, "rear": 8 },
+    "notes": "Колёсная РСЗО на базе FIAT 6614. 48 ракет в залпе, слабая броня."
+  },
+  
+  {
+    "id": "it_vcc_80_hitfist_60",
+    "name": "VCC-80/60",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "60-мм пушка cannone da 60/70",
+      "description": "Высокоскоростная пушка HVMS",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [249, 248, 241, 233, 225, 216],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [17, 17, 15, 13, 11, 11],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФ-РВ (Осколочно-фугасный с радиовзрывателем)",
+          "ammo_in_game_type": "HE-VT",
+          "penetration_mm": [17, 17, 15, 13, 11, 11],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 32,
+      "reload": { "seconds": 2.0, "aces": 2.0 },
+      "elevation": { "min_deg": -6, "max_deg": 40 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 800,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 520, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 25.2 },
+    "hull": { "front": 72, "sides": 52, "rear": 38 },
+    "turret": { "front": 40, "sides": 40, "rear": 40 },
+    "notes": "Итальянская БМП с 60-мм высокоскоростной пушкой. Автомат заряжания, тепловизор, снаряды с радиовзрывателем."
+  },
+  {
+    "id": "it_of_40_mk_2a",
+    "name": "OF-40 Mk.2A",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.0,
+    "rank": "VI",
+    "silver_price": 520000,
+    "exp_price": 190000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка OTO Melara 105/52",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 61,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 400,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт FN MAG 60-40",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 200,
+        "fire_rate": 1000,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 830, "rpm": 2200, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 44.3 },
+    "hull": { "front": 70, "sides": 35, "rear": 25 },
+    "turret": { "front": 68, "sides": 47, "rear": 30 },
+    "notes": "Улучшенная версия OF-40 со стабилизатором, лазерным дальномером и ОБПС DM23."
+  },
+  {
+    "id": "it_otobreda_sidam_25",
+    "name": "SIDAM 25",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 8.0,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "4 x 25-мм пушка Oerlikon KBA",
+      "description": "Счетверённые автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [80, 78, 73, 66, 60, 55],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 660,
+      "clip_size": 150,
+      "reload": { "seconds": 1.3, "aces": 1.0 },
+      "fire_rate": 550,
+      "elevation": { "min_deg": -5, "max_deg": 87 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 212, "rpm": 2800, "model": "Detroit Diesel 6V-53T", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.3 },
+    "hull": { "front": 38, "sides": 44, "rear": 38 },
+    "turret": { "front": 38, "sides": 25, "rear": 25 },
+    "notes": "Итальянская ЗСУ на базе M113 с четырьмя 25-мм пушками. Высокая скорострельность, хорошая точность."
+  },
+  {
+    "id": "it_m113a1_tow",
+    "name": "M113A1 (TOW)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 8.3,
+    "rank": "VI",
+    "silver_price": 380000,
+    "exp_price": 135000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР BGM-71 TOW",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР (Противотанковая управляемая ракета)",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [430, 430, 430, 430, 430, 430],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ПТУР I-TOW",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [630, 630, 630, 630, 630, 630],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 10,
+      "elevation": { "min_deg": -20, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof pintle",
+        "ammo": 1000,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 215, "rpm": 2800, "model": "Detroit Diesel 6V-53T", "layout": "6-цилиндровый дизельный", "weight_tonnes": 11.2 },
+    "hull": { "front": 38, "sides": 44, "rear": 38 },
+    "notes": "Итальянский M113 с ПТРК TOW. Хорошая подвижность, ПТУР с пробитием до 630 мм."
+  },
+  {
+    "id": "it_t_72m1",
+    "name": "T-72M1",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "125-мм пушка 2A46",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [440, 430, 420, 410, 405, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [440, 440, 440, 440, 440, 440],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 44,
+      "reload": { "seconds": 7.0, "aces": 7.0 },
+      "elevation": { "min_deg": -6, "max_deg": 13 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт НСВТ",
+        "mount": "roof pintle",
+        "ammo": 300,
+        "clip_size": 60,
+        "fire_rate": 700,
+        "penetration": [34, 32, 24, 17, 12, 8]
+      },
+      {
+        "name": "7,62-мм пулемёт ПКТ",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 700,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 780, "rpm": 2000, "model": "V-46-6", "layout": "12-цилиндровый дизельный", "weight_tonnes": 41.5 },
+    "hull": { "front": 110, "sides": 80, "rear": 40 },
+    "turret": { "front": 125, "sides": 102, "rear": 65 },
+    "notes": "Венгерский T-72M1. Хорошая броня, мощная 125-мм пушка, автомат заряжания."
+  },
+  {
+    "id": "it_b1_centauro",
+    "name": "Centauro I 105",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 520000,
+    "exp_price": 190000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка OTO Melara 105/52",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 38,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -6, "max_deg": 16 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 520, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 24.7 },
+    "hull": { "front": 35, "sides": 25, "rear": 20 },
+    "turret": { "front": 25, "sides": 25, "rear": 15 },
+    "notes": "Колёсный истребитель танков Centauro. Огромная скорость до 110 км/ч, лазерный дальномер, тепловизор."
+  },
+  {
+    "id": "it_b1_centauro_romor",
+    "name": "Centauro I 105 R",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 9.7,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 110000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка OTO Melara 105/52",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [421, 419, 411, 401, 391, 381],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 38,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -6, "max_deg": 16 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 520, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 28.0 },
+    "hull": { "front": 35, "sides": 25, "rear": 20 },
+    "turret": { "front": 25, "sides": 25, "rear": 15 },
+    "notes": "Centauro с блоками динамической защиты ROMOR. Защита от кумулятивных снарядов."
+  },
+  {
+    "id": "it_leopard_1a5",
+    "name": "Leopard 1A5",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L7A3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [421, 419, 411, 401, 391, 381],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 55,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 830, "rpm": 2200, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 44.8 },
+    "hull": { "front": 70, "sides": 35, "rear": 25 },
+    "turret": { "front": 65, "sides": 45, "rear": 52 },
+    "notes": "Итальянский Leopard 1A5 с тепловизором и ОБПС DM33. Отличная подвижность."
+  },
+  {
+    "id": "it_otobreda_sidam_25_mistral",
+    "name": "SIDAM 25 (Mistral)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 9.7,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "Mistral SATCP",
+      "description": "ПЗРК Mistral",
+      "penetration": [],
+      "ammo_total": 6,
+      "fire_rate": 120
+    },
+    "machine_guns": [
+      {
+        "name": "4 x 25-мм пушка Oerlikon KBA",
+        "description": "Счетверённые автоматические пушки",
+        "penetration": [
+          {
+            "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+            "ammo_in_game_type": "APDS",
+            "penetration_mm": [80, 78, 73, 66, 60, 55],
+            "distance_m": [10, 100, 500, 1000, 1500, 2000]
+          }
+        ],
+        "ammo_total": 660,
+        "clip_size": 150,
+        "reload": { "seconds": 1.3, "aces": 1.0 },
+        "fire_rate": 550,
+        "elevation": { "min_deg": -5, "max_deg": 87 }
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 212, "rpm": 2800, "model": "Detroit Diesel 6V-53T", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.3 },
+    "hull": { "front": 38, "sides": 44, "rear": 38 },
+    "turret": { "front": 38, "sides": 25, "rear": 25 },
+    "notes": "SIDAM 25 с шестью ПЗРК Mistral для поражения воздушных целей на дальних дистанциях."
+  },
+  {
+    "id": "it_vbc_pt2",
+    "name": "VBC (PT2)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 9.7,
+    "rank": "VI",
+    "silver_price": 520000,
+    "exp_price": 190000,
+    "premium": false,
+    "gun": {
+      "name": "25-мм пушка Oerlikon KBA B02",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [92, 90, 84, 75, 67, 58],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [80, 79, 73, 67, 61, 55],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 400,
+      "clip_size": 100,
+      "reload": { "seconds": 10.4, "aces": 8.0 },
+      "fire_rate": 560,
+      "elevation": { "min_deg": -10, "max_deg": 60 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 26.0 },
+    "hull": { "front": 20, "sides": 15, "rear": 50 },
+    "turret": { "front": 40, "sides": 40, "rear": 40 },
+    "notes": "Колёсная БМП на базе Centauro. Высокая скорость, 25-мм пушка с ОБПС."
+  },
+
+  {
+    "id": "it_centauro_mgs_120",
+    "name": "Centauro I 120",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 11.7,
+    "rank": "VII",
+    "silver_price": 950000,
+    "exp_price": 350000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Melara 120/45",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [588, 586, 577, 565, 554, 541],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 33,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -6, "max_deg": 16 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof",
+        "ammo": 1200,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 520, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 25.1 },
+    "hull": { "front": 20, "sides": 15, "rear": 15 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Колёсный истребитель танков с 120-мм пушкой. Скорость до 120 км/ч, мощные ОБПС."
+  },
+  {
+    "id": "it_c1_ariete_preserie",
+    "name": "Ariete (P)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 10.7,
+    "rank": "VII",
+    "silver_price": 710000,
+    "exp_price": 260000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Breda 120/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [481, 480, 472, 462, 451, 441],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1300, "rpm": 2800, "model": "IVECO MTCA V-12", "layout": "12-цилиндровый дизельный", "weight_tonnes": 54.0 },
+    "hull": { "front": 110, "sides": 65, "rear": 20 },
+    "turret": { "front": 140, "sides": 60, "rear": 20 },
+    "notes": "Предсерийный вариант ОБТ Ariete. Хорошая подвижность, мощная 120-мм пушка."
+  },
+  {
+    "id": "it_9a33bm3",
+    "name": "Osa-AKM",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗРК",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 300000,
+    "premium": false,
+    "gun": {
+      "name": "ЗУР 9М33М3",
+      "description": "Зенитная управляемая ракета",
+      "penetration": [
+        {
+          "ammo_type": "ЗУР",
+          "ammo_in_game_type": "SAM",
+          "penetration_mm": [60, 60, 60, 60, 60, 60],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 6,
+      "fire_rate": 27
+    },
+    "crew": 5,
+    "engine": { "power_hp": 300, "rpm": 2600, "model": "YaMZ-238", "layout": "8-цилиндровый дизельный", "weight_tonnes": 18.7 },
+    "hull": { "front": 4, "sides": 4, "rear": 4 },
+    "notes": "Румынский ЗРК Оса-АКМ. 6 ракет, дальность до 10 км, колёсное шасси."
+  },
+  {
+    "id": "it_9a35_m",
+    "name": "Strela-10M",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗРК",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 950000,
+    "exp_price": 175000,
+    "premium": false,
+    "gun": {
+      "name": "ЗУР 9М37М",
+      "description": "Зенитная управляемая ракета с ИК ГСН",
+      "penetration": [],
+      "ammo_total": 8,
+      "clip_size": 4,
+      "reload": { "seconds": 19.5, "aces": 15.0 },
+      "fire_rate": 60,
+      "elevation": { "min_deg": -5, "max_deg": 80 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ПКМБ",
+        "mount": "roof",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 700,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 240, "rpm": 2600, "model": "YaMZ-238", "layout": "8-цилиндровый дизельный", "weight_tonnes": 12.3 },
+    "hull": { "front": 4, "sides": 4, "rear": 4 },
+    "notes": "Венгерский ЗРК Стрела-10М на базе МТ-ЛБ. 8 ракет с ИК ГСН."
+  },
+  {
+    "id": "it_dardo_vcc",
+    "name": "Dardo",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 10.0,
+    "rank": "VII",
+    "silver_price": 710000,
+    "exp_price": 260000,
+    "premium": false,
+    "gun": {
+      "name": "25-мм пушка Oerlikon KBA B02",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [92, 90, 84, 75, 67, 58],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [80, 79, 73, 67, 61, 55],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ФЗТ",
+          "ammo_in_game_type": "HEI",
+          "penetration_mm": [7, 6, 4, 3, 3, 3],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 400,
+      "clip_size": 100,
+      "reload": { "seconds": 10.4, "aces": 8.0 },
+      "fire_rate": 560,
+      "elevation": { "min_deg": -10, "max_deg": 60 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 1200,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 520, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 23.5 },
+    "hull": { "front": 72, "sides": 52, "rear": 38 },
+    "turret": { "front": 40, "sides": 40, "rear": 40 },
+    "notes": "Итальянская БМП Dardo. 25-мм пушка, ПТУР TOW-2B, хорошая подвижность."
+  },
+  {
+    "id": "it_vcc_80_hitfist_30",
+    "name": "VCC-80/30",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 10.0,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 150000,
+    "premium": false,
+    "gun": {
+      "name": "30-мм пушка Bushmaster 2 Mk.44",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [114, 113, 108, 103, 97, 91],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [87, 86, 81, 75, 70, 65],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ФЗТ",
+          "ammo_in_game_type": "HEI",
+          "penetration_mm": [9, 8, 6, 5, 3, 3],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 360,
+      "clip_size": 90,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "fire_rate": 200,
+      "elevation": { "min_deg": -10, "max_deg": 60 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 1200,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 520, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 23.5 },
+    "hull": { "front": 72, "sides": 52, "rear": 38 },
+    "turret": { "front": 40, "sides": 40, "rear": 40 },
+    "notes": "Предсерийная БМП с 30-мм пушкой Bushmaster II и ПТУР TOW-2."
+  },
+  {
+    "id": "it_leopard_2a4",
+    "name": "Leopard 2A4",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 10.7,
+    "rank": "VII",
+    "silver_price": 710000,
+    "exp_price": 260000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка Rh120 L/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [408, 407, 400, 393, 385, 377],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт MG3A1",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 1200,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      },
+      {
+        "name": "7,62-мм пулемёт FN MAG 60-40",
+        "mount": "roof",
+        "ammo": 2000,
+        "belt_size": 200,
+        "fire_rate": 1000,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12-цилиндровый дизельный", "weight_tonnes": 58.1 },
+    "hull": { "front": 80, "sides": 65, "rear": 25 },
+    "turret": { "front": 80, "sides": 80, "rear": 25 },
+    "notes": "Венгерский Leopard 2A4. Отличная подвижность, мощная пушка, хорошая броня."
+  },
+  {
+    "id": "it_c1_ariete_pso",
+    "name": "Ariete PSO",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 11.7,
+    "rank": "VII",
+    "silver_price": 950000,
+    "exp_price": 350000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Breda 120/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [623, 621, 611, 599, 587, 574],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1300, "rpm": 2800, "model": "IVECO MTCA V-12", "layout": "12-цилиндровый дизельный", "weight_tonnes": 59.0 },
+    "hull": { "front": 110, "sides": 65, "rear": 20 },
+    "turret": { "front": 140, "sides": 60, "rear": 20 },
+    "notes": "Модернизация Ariete для городских боёв. Дополнительная броня, ОБПС CL3143."
+  },
+  {
+    "id": "it_c1_ariete",
+    "name": "Ariete",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 11.7,
+    "rank": "VII",
+    "silver_price": 950000,
+    "exp_price": 175000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Breda 120/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [623, 621, 611, 599, 587, 574],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1300, "rpm": 2800, "model": "IVECO MTCA V-12", "layout": "12-цилиндровый дизельный", "weight_tonnes": 59.5 },
+    "hull": { "front": 110, "sides": 65, "rear": 20 },
+    "turret": { "front": 140, "sides": 60, "rear": 20 },
+    "notes": "Итальянский ОБТ Ariete. Мощные ОБПС CL3143, тепловизор 2-го поколения."
+  },
+  {
+    "id": "it_otomatic",
+    "name": "OTOMATIC",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 11.3,
+    "rank": "VII",
+    "silver_price": 950000,
+    "exp_price": 350000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка OTO Breda Cannone da 76/62",
+      "description": "Автоматическая зенитная пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [313, 311, 304, 295, 286, 277],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФ-РВ",
+          "ammo_in_game_type": "HE-VT",
+          "penetration_mm": [19, 19, 18, 17, 15, 15],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 90,
+      "reload": { "seconds": 0.5, "aces": 0.5 },
+      "elevation": { "min_deg": -5, "max_deg": 60 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 1100, "rpm": 2400, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 46.0 },
+    "hull": { "front": 70, "sides": 30, "rear": 25 },
+    "turret": { "front": 25, "sides": 25, "rear": 25 },
+    "notes": "ЗСУ с 76-мм автоматической пушкой. ОБПС против танков, снаряды с радиовзрывателем."
+  },
+  {
+    "id": "it_freccia",
+    "name": "Freccia",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 10.7,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 300000,
+    "premium": false,
+    "gun": {
+      "name": "25-мм пушка Oerlikon KBA B02",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [92, 90, 84, 75, 67, 58],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [80, 79, 73, 67, 61, 55],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 400,
+      "clip_size": 100,
+      "reload": { "seconds": 10.4, "aces": 8.0 },
+      "fire_rate": 560,
+      "elevation": { "min_deg": -10, "max_deg": 60 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 1200,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 26.0 },
+    "hull": { "front": 30, "sides": 20, "rear": 15 },
+    "turret": { "front": 40, "sides": 40, "rear": 40 },
+    "notes": "Колёсная БМП Freccia. 25-мм пушка, ПТУР TOW-2, высокая скорость."
+  },
+  {
+    "id": "it_kf_41",
+    "name": "KF-41",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 11.3,
+    "rank": "VII",
+    "silver_price": 890000,
+    "exp_price": 370000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР Spike-LR",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР (тандем)",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [900, 900, 900, 900, 900, 900],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 6
+    },
+    "machine_guns": [
+      {
+        "name": "30-мм пушка MK30-2/ABM",
+        "description": "Автоматическая пушка",
+        "penetration": [
+          {
+            "ammo_type": "ОБПС",
+            "ammo_in_game_type": "APFSDS",
+            "penetration_mm": [100, 99, 95, 89, 83, 78],
+            "distance_m": [10, 100, 500, 1000, 1500, 2000]
+          },
+          {
+            "ammo_type": "ОФ-РВ",
+            "ammo_in_game_type": "HE-VT",
+            "penetration_mm": [10, 10, 9, 8, 7, 7],
+            "distance_m": [10, 100, 500, 1000, 1500, 2000]
+          }
+        ],
+        "ammo_total": 300,
+        "clip_size": 75,
+        "reload": { "seconds": 12.0, "aces": 9.0 },
+        "fire_rate": 200,
+        "elevation": { "min_deg": -10, "max_deg": 45 }
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 850, "rpm": 2300, "model": "MTU", "layout": "8-цилиндровый дизельный", "weight_tonnes": 32.0 },
+    "hull": { "front": 45, "sides": 30, "rear": 20 },
+    "turret": { "front": 50, "sides": 30, "rear": 20 },
+    "notes": "Венгерская БМП KF-41 на базе боксёра. ПТУР Spike-LR, 30-мм пушка."
+  },
+  {
+    "id": "it_centauro_rgo_120",
+    "name": "Centauro RGO 120",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Italia",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 11.3,
+    "rank": "VII",
+    "silver_price": 910000,
+    "exp_price": 390000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Melara 120/45",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [542, 540, 532, 521, 510, 498],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 30,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -6, "max_deg": 16 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof",
+        "ammo": 1000,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 26.5 },
+    "hull": { "front": 25, "sides": 20, "rear": 15 },
+    "turret": { "front": 25, "sides": 20, "rear": 20 },
+    "notes": "Модернизированный Centauro с усиленной броней (RGO). 120-мм пушка."
+  },
+  {
+    "id": "it_freccia_hitfist_ows",
+    "name": "Freccia HITFIST OWS",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 780000,
+    "exp_price": 280000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР Spike-LR",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР (тандем)",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [900, 900, 900, 900, 900, 900],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 8
+    },
+    "machine_guns": [
+      {
+        "name": "30-мм пушка Bushmaster 2 Mk.44",
+        "description": "Автоматическая пушка",
+        "penetration": [
+          {
+            "ammo_type": "ОБПС",
+            "ammo_in_game_type": "APFSDS",
+            "penetration_mm": [114, 113, 108, 103, 97, 91],
+            "distance_m": [10, 100, 500, 1000, 1500, 2000]
+          },
+          {
+            "ammo_type": "БПС",
+            "ammo_in_game_type": "APDS",
+            "penetration_mm": [87, 86, 81, 75, 70, 65],
+            "distance_m": [10, 100, 500, 1000, 1500, 2000]
+          }
+        ],
+        "ammo_total": 360,
+        "clip_size": 90,
+        "reload": { "seconds": 13.0, "aces": 10.0 },
+        "fire_rate": 200,
+        "elevation": { "min_deg": -10, "max_deg": 60 }
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 26.0 },
+    "notes": "Freccia с дистанционно управляемой башней HITFIST OWS. ПТУР Spike-LR."
+  },
+  {
+    "id": "it_c1_ariete_certezza",
+    "name": "Ariete (Certezza)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 11.0,
+    "rank": "VII",
+    "silver_price": 890000,
+    "exp_price": 370000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Breda 120/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [561, 559, 550, 540, 529, 518],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1300, "rpm": 2800, "model": "IVECO MTCA V-12", "layout": "12-цилиндровый дизельный", "weight_tonnes": 59.0 },
+    "hull": { "front": 110, "sides": 65, "rear": 20 },
+    "turret": { "front": 140, "sides": 60, "rear": 20 },
+    "notes": "Модернизированный Ariete с улучшенной бронёй и СУО. Вариант Certezza."
+  },
+ 
+  {
+    "id": "it_centauro_2",
+    "name": "Centauro II (P)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 12.3,
+    "rank": "VIII",
+    "silver_price": 1080000,
+    "exp_price": 400000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO LEONARDO 120/45",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [588, 586, 577, 565, 554, 541],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОБПС (ОПБС) улучшенный",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [623, 621, 611, 599, 587, 574],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 32,
+      "reload": { "seconds": 5.0, "aces": 5.0 },
+      "elevation": { "min_deg": -7, "max_deg": 16 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof",
+        "ammo": 400,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 720, "rpm": 2300, "model": "Iveco MTCA", "layout": "6-цилиндровый дизельный", "weight_tonnes": 30.0 },
+    "hull": { "front": 20, "sides": 15, "rear": 15 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Глубокая модернизация Centauro с 120-мм пушкой и автоматом заряжания. Скорость до 120 км/ч, мощные ОБПС."
+  },
+  {
+    "id": "it_ariete_amv_pt1",
+    "name": "Ariete AMV",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 12.3,
+    "rank": "VIII",
+    "silver_price": 1080000,
+    "exp_price": 400000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка OTO Breda 120/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [588, 586, 577, 565, 554, 541],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОБПС (ОПБС) улучшенный",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [623, 621, 611, 599, 587, 574],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт Beretta MG42/59",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 800,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1500, "rpm": 2800, "model": "IVECO MTCA V-12", "layout": "12-цилиндровый дизельный", "weight_tonnes": 54.0 },
+    "hull": { "front": 110, "sides": 65, "rear": 20 },
+    "turret": { "front": 140, "sides": 60, "rear": 20 },
+    "notes": "Модернизированный Ariete с двигателем 1500 л.с. и снарядом DM53. Без дополнительной брони."
+  },
+  {
+    "id": "it_samp_t_fcs",
+    "name": "FSAF SAMP/T (СОЦ)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "РЛС",
+    "br": 12.7,
+    "rank": "VIII",
+    "silver_price": 1100000,
+    "exp_price": 410000,
+    "premium": false,
+    "gun": {
+      "name": "Без вооружения",
+      "description": "РЛС обнаружения и наведения"
+    },
+    "crew": 4,
+    "engine": { "power_hp": 440, "rpm": 2200, "model": "Iveco", "layout": "дизельный", "weight_tonnes": 27.5 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "notes": "Радиолокационная станция комплекса SAMP/T. РЛС ARABEL, обнаружение до 80 км, сопровождение до 10 целей."
+  },
+  {
+    "id": "it_samp_t_launcher",
+    "name": "FSAF SAMP/T (СОУ)",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "aa_vehicle",
+    "type_label": "ЗРК",
+    "br": 12.7,
+    "rank": "VIII",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "ЗУР Aster-30",
+      "description": "Зенитная управляемая ракета",
+      "penetration": [],
+      "ammo_total": 8,
+      "fire_rate": 120
+    },
+    "crew": 2,
+    "engine": { "power_hp": 440, "rpm": 2200, "model": "Iveco", "layout": "дизельный", "weight_tonnes": 27.5 },
+    "hull": { "front": 0, "sides": 0, "rear": 0 },
+    "notes": "Самоходная пусковая установка комплекса SAMP/T. 8 ракет Aster-30, работает в паре с СОЦ."
+  },
+  {
+    "id": "it_leopard_2a7_hungary",
+    "name": "Leopard 2A7HU",
+    "nation": "italy",
+    "nation_label": "🇮🇹 Италия",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 12.7,
+    "rank": "VIII",
+    "silver_price": 1120000,
+    "exp_price": 420000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка Rh120 L/55 A1",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [653, 650, 641, 629, 617, 605],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОБПС (ОПБС) стандартный",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [496, 495, 487, 477, 467, 457],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФ-ДВ (Осколочно-фугасный с дистанционным взрывателем)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [37, 37, 37, 37, 37, 37],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 37,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof",
+        "ammo": 800,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт MG3A1",
+        "mount": "coaxial",
+        "ammo": 4400,
+        "belt_size": 200,
+        "fire_rate": 1200,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12-цилиндровый дизельный", "weight_tonnes": 67.5 },
+    "hull": { "front": 80, "sides": 35, "rear": 20 },
+    "turret": { "front": 80, "sides": 80, "rear": 25 },
+    "notes": "Венгерский Leopard 2A7HU. Улучшенная броня, ОБПС DM53, тепловизоры высокого разрешения."
+  }
+ 
+
+
+]

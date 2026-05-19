@@ -1,0 +1,3686 @@
+[
+  {
+    "id": "sw_strv_m31",
+    "name": "Strv m/31",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 127,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "6,5-мм пулемёт ksp m/14-29",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 498,
+        "penetration": [5, 4, 2, 1, 0, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 150, "rpm": 2800, "model": "Bussing-Nag", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 11.5 },
+    "hull": { "front": 24, "sides": 24, "rear": 20 },
+    "turret": { "front": 24, "sides": 24, "rear": 24 },
+    "notes": "Шведский лёгкий танк Strv m/31. Отличный подкалиберный снаряд, хорошая подвижность."
+  },
+  {
+    "id": "sw_strv_m38",
+    "name": "Strv m/38",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 2250,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 142, "rpm": 2800, "model": "Bussing-Nag", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 8.8 },
+    "hull": { "front": 13, "sides": 13, "rear": 13 },
+    "turret": { "front": 15, "sides": 13, "rear": 13 },
+    "notes": "Шведский лёгкий танк Strv m/38. Подкалиберный снаряд, хорошая подвижность."
+  },
+  {
+    "id": "sw_pvlvv_fm42",
+    "name": "Pvlvv fm/42",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 2100,
+    "exp_price": 4000,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка lvakan m/40B",
+      "description": "Автоматическая зенитная пушка",
+      "penetration": [
+        {
+          "ammo_type": "БТ/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [42, 40, 30, 22, 16, 11],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БТ",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [42, 40, 30, 21, 15, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 108,
+      "clip_size": 36,
+      "reload": { "seconds": 1.3, "aces": 1.0 },
+      "fire_rate": 360,
+      "elevation": { "min_deg": -10, "max_deg": 45 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 85, "rpm": 2800, "model": "Chevrolet", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 6.0 },
+    "hull": { "front": 8, "sides": 8, "rear": 8 },
+    "notes": "Шведская ЗСУ Pvlvv fm/42. Хорошая подвижность, 20-мм пушка."
+  },
+  {
+    "id": "sw_ikv_72",
+    "name": "Ikv 72",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 700,
+    "exp_price": 2900,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка kan m/41",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [85, 83, 74, 64, 55, 48],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -20, "max_deg": 20 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 145, "rpm": 2800, "model": "Scania-Vabis", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 8.0 },
+    "hull": { "front": 12, "sides": 6, "rear": 12 },
+    "notes": "Шведская САУ Ikv 72. Хорошие УВН, неплохая 75-мм пушка."
+  },
+  {
+    "id": "sw_vickers_mk_e_37",
+    "name": "Vickers Mk.E",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 700,
+    "exp_price": 2900,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка Psv.K/36",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [62, 58, 42, 29, 20, 14],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 50,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 92, "rpm": 2800, "model": "Armstrong-Siddeley", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 8.6 },
+    "hull": { "front": 14, "sides": 14, "rear": 14 },
+    "turret": { "front": 10, "sides": 14, "rear": 10 },
+    "notes": "Финский Vickers Mk.E. Неплохое орудие, но слабая броня."
+  },
+  {
+    "id": "sw_bt_42",
+    "name": "BT-42",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 2100,
+    "exp_price": 4000,
+    "premium": false,
+    "gun": {
+      "name": "114-мм гаубица Psv.H/18",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [115, 115, 115, 115, 115, 115],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [25, 25, 25, 25, 25, 25],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 22,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -5, "max_deg": 25 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 400, "rpm": 2200, "model": "M-17T", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 15.0 },
+    "hull": { "front": 20, "sides": 15, "rear": 13 },
+    "turret": { "front": 16, "sides": 16, "rear": 16 },
+    "notes": "Финская САУ BT-42 на базе БТ-7. Мощная 114-мм гаубица, хорошая подвижность."
+  },
+  {
+    "id": "sw_strv_m40l",
+    "name": "Strv m/40L",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 2.0,
+    "rank": "I",
+    "silver_price": 6300,
+    "exp_price": 5900,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -14, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 142, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 9.4 },
+    "hull": { "front": 43, "sides": 13, "rear": 13 },
+    "turret": { "front": 50, "sides": 13, "rear": 13 },
+    "notes": "Шведский лёгкий танк Strv m/40L. Усиленная лобовая броня, подкалиберный снаряд."
+  },
+  {
+    "id": "sw_sav_m43_1944",
+    "name": "Sav m/43 (1944)",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 2100,
+    "exp_price": 4000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка kan m/02",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [69, 67, 60, 52, 45, 39],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 80,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 160, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 11.7 },
+    "hull": { "front": 50, "sides": 15, "rear": 15 },
+    "notes": "Шведская САУ Sav m/43. Хорошая лобовая броня, неплохая 75-мм пушка."
+  },
+  {
+    "id": "sw_t_28",
+    "name": "Т-28",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 1.7,
+    "rank": "I",
+    "silver_price": 2100,
+    "exp_price": 4000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка Л-10",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [67, 66, 60, 54, 48, 43],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ШС (Шрапнельный снаряд)",
+          "ammo_in_game_type": "Shrapnel",
+          "penetration_mm": [31, 30, 26, 22, 19, 16],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 69,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -5, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ДТ",
+        "mount": "coaxial",
+        "ammo": 2646,
+        "clip_size": 63,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 6,
+    "engine": { "power_hp": 500, "rpm": 1800, "model": "M-17L", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 25.4 },
+    "hull": { "front": 30, "sides": 20, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 30 },
+    "notes": "Финский трофейный Т-28. Трёхбашенный танк, мощное 76-мм орудие."
+  },
+  {
+    "id": "sw_strv_m39",
+    "name": "Strv m/39",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 250,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -14, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 142, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 8.9 },
+    "hull": { "front": 13, "sides": 13, "rear": 13 },
+    "turret": { "front": 50, "sides": 13, "rear": 13 },
+    "notes": "Премиумный шведский лёгкий танк Strv m/39. Усиленная башня, подкалиберный снаряд."
+  },
+
+  {
+    "id": "sw_strv_m39",
+    "name": "Strv m/39",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 250,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -14, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 142, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 8.9 },
+    "hull": { "front": 13, "sides": 13, "rear": 13 },
+    "turret": { "front": 50, "sides": 13, "rear": 13 },
+    "notes": "Премиумный шведский лёгкий танк Strv m/39. Усиленная башня, подкалиберный снаряд."
+  },
+  {
+    "id": "sw_vickers_mk_e_45",
+    "name": "T-26E",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 1.0,
+    "rank": "I",
+    "silver_price": 400,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "45-мм пушка 20-К",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [70, 67, 58, 47, 39, 32],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [73, 70, 60, 50, 41, 34],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 50,
+      "reload": { "seconds": 3.8, "aces": 2.9 },
+      "elevation": { "min_deg": -6, "max_deg": 22 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ДТ",
+        "mount": "coaxial",
+        "ammo": 1890,
+        "clip_size": 63,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 92, "rpm": 2800, "model": "Armstrong-Siddeley", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 8.8 },
+    "hull": { "front": 17, "sides": 10, "rear": 17 },
+    "turret": { "front": 15, "sides": 13, "rear": 10 },
+    "notes": "Финский премиумный T-26E. Модернизация Vickers Mk.E с 45-мм пушкой."
+  },
+  {
+    "id": "sw_pbil_m40",
+    "name": "Pbil m/40",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 2.0,
+    "rank": "I",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "20-мм пушка Pvlvkan m/40",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БТ/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [42, 40, 30, 22, 16, 11],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БТ",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [42, 40, 30, 21, 15, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 252,
+      "clip_size": 36,
+      "reload": { "seconds": 1.3, "aces": 1.0 },
+      "fire_rate": 360,
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 6,
+    "engine": { "power_hp": 135, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 8.1 },
+    "hull": { "front": 12, "sides": 10, "rear": 12 },
+    "turret": { "front": 12, "sides": 9, "rear": 7 },
+    "notes": "Премиумный шведский бронеавтомобиль Pbil m/40. 20-мм автоматическая пушка."
+  },
+
+  {
+    "id": "sw_strv_m41_s2",
+    "name": "Strv m/41 S-II",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 9200,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -14, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 165, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 10.5 },
+    "hull": { "front": 50, "sides": 20, "rear": 15 },
+    "turret": { "front": 50, "sides": 20, "rear": 35 },
+    "notes": "Шведский лёгкий танк Strv m/41 S-II. Усиленная броня, подкалиберный снаряд."
+  },
+  {
+    "id": "sw_lago_1",
+    "name": "Lago I",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 2.3,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 9200,
+    "premium": false,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 2250,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 285, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 17.8 },
+    "hull": { "front": 34, "sides": 34, "rear": 24 },
+    "turret": { "front": 34, "sides": 28, "rear": 20 },
+    "notes": "Шведский средний танк Lago I. Хорошее бронирование, подкалиберный снаряд."
+  },
+  {
+    "id": "sw_pbv_301",
+    "name": "Pbv 301",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 2.3,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "20-мм автоматическая пушка Akan m/45B",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БТ/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [42, 40, 30, 22, 16, 11],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БТ",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [42, 40, 30, 21, 15, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 480,
+      "clip_size": 80,
+      "reload": { "seconds": 10.4, "aces": 8.0 },
+      "fire_rate": 725,
+      "elevation": { "min_deg": -15, "max_deg": 48 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 150, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 11.5 },
+    "hull": { "front": 15, "sides": 8, "rear": 8 },
+    "notes": "Шведская БМП Pbv 301 с 20-мм пушкой. Хорошая скорострельность."
+  },
+  {
+    "id": "sw_stormpjas_fm43_44",
+    "name": "Spj fm/43-44",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 1.7,
+    "rank": "II",
+    "silver_price": 10000,
+    "exp_price": 7900,
+    "premium": false,
+    "gun": {
+      "name": "150-мм безоткатное орудие fsthaub m/02",
+      "description": "Безоткатное орудие",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [48, 48, 48, 48, 48, 48],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 10,
+      "reload": { "seconds": 19.5, "aces": 15.0 },
+      "elevation": { "min_deg": -4, "max_deg": 10 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 160, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 10.0 },
+    "hull": { "front": 50, "sides": 15, "rear": 15 },
+    "notes": "Шведская САУ Spj fm/43-44. Мощная 150-мм гаубица, долгая перезарядка."
+  },
+  {
+    "id": "sw_pvkv_iii",
+    "name": "Pvkv III",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.3,
+    "rank": "II",
+    "silver_price": 32000,
+    "exp_price": 14000,
+    "premium": false,
+    "gun": {
+      "name": "57-мм пушка Pvkan m/43",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [101, 97, 81, 65, 52, 42],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [88, 86, 78, 69, 61, 53],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 32,
+      "reload": { "seconds": 5.2, "aces": 4.0 },
+      "elevation": { "min_deg": -12, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "roof",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 165, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 11.0 },
+    "hull": { "front": 50, "sides": 20, "rear": 15 },
+    "notes": "Шведская ПТ-САУ Pvkv III. Хорошая 57-мм пушка, слабая броня."
+  },
+  {
+    "id": "sw_strv_m42_eh",
+    "name": "Strv m/42 EH",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 22000,
+    "exp_price": 11000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка kan m/41",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [85, 83, 74, 64, 55, 48],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [63, 61, 53, 44, 37, 31],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 59,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -15, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 410, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 22.5 },
+    "hull": { "front": 55, "sides": 30, "rear": 20 },
+    "turret": { "front": 55, "sides": 25, "rear": 25 },
+    "notes": "Шведский средний танк Strv m/42 EH. Хорошая подвижность, 75-мм пушка."
+  },
+  {
+    "id": "sw_tgdgb_m40_lv",
+    "name": "Lvtdgb m/40",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 16000,
+    "exp_price": 9200,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка lvakan m/36",
+      "description": "Автоматическая зенитная пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [79, 75, 60, 46, 35, 26],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 144,
+      "clip_size": 8,
+      "reload": { "seconds": 0.6, "aces": 0.5 },
+      "fire_rate": 120,
+      "elevation": { "min_deg": -6, "max_deg": 85 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 140, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 9.0 },
+    "hull": { "front": 15, "sides": 10, "rear": 15 },
+    "notes": "Шведская ЗСУ Lvtdgb m/40 на базе грузовика. 40-мм пушка Bofors."
+  },
+  {
+    "id": "sw_sav_m43_1946",
+    "name": "Sav m/43 (1946)",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.0,
+    "rank": "II",
+    "silver_price": 22000,
+    "exp_price": 11000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка kan m/44",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [240, 240, 240, 240, 240, 240],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [67, 65, 57, 49, 42, 36],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 41,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "elevation": { "min_deg": -14, "max_deg": 20 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 160, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 12.0 },
+    "hull": { "front": 50, "sides": 15, "rear": 15 },
+    "notes": "Шведская САУ Sav m/43 (1946) с 105-мм пушкой. Кумулятивные снаряды."
+  },
+  {
+    "id": "sw_strv_m41_s1",
+    "name": "Strv m/41 S-I",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 2.7,
+    "rank": "II",
+    "silver_price": 850,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "37-мм пушка kan m/38",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [115, 111, 95, 78, 64, 52],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [59, 55, 41, 28, 19, 13],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 100,
+      "reload": { "seconds": 4.1, "aces": 3.1 },
+      "elevation": { "min_deg": -14, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 146, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 10.5 },
+    "hull": { "front": 50, "sides": 15, "rear": 15 },
+    "turret": { "front": 50, "sides": 20, "rear": 35 },
+    "notes": "Премиумный шведский лёгкий танк Strv m/41 S-I. Подкалиберный снаряд."
+  },
+  {
+    "id": "sw_t_50_fin",
+    "name": "T-50",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 3.0,
+    "rank": "II",
+    "silver_price": 1000,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "45-мм пушка 20-К",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [94, 87, 64, 43, 29, 20],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [70, 67, 58, 47, 39, 32],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 150,
+      "reload": { "seconds": 3.8, "aces": 2.9 },
+      "elevation": { "min_deg": -7, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ДТ",
+        "mount": "coaxial",
+        "ammo": 3780,
+        "clip_size": 63,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 300, "rpm": 2800, "model": "В-4", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.0 },
+    "hull": { "front": 50, "sides": 15, "rear": 15 },
+    "turret": { "front": 50, "sides": 20, "rear": 35 },
+    "notes": "Финский премиумный T-50. Хорошая подвижность, дополнительная 15-мм броня."
+  },
+  {
+    "id": "sw_ikv_73",
+    "name": "Ikv 73",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 3.7,
+    "rank": "II",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка kan m/41",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [85, 83, 74, 64, 55, 48],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -20, "max_deg": 20 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 145, "rpm": 2800, "model": "Scania-Vabis", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 8.0 },
+    "hull": { "front": 12, "sides": 6, "rear": 12 },
+    "notes": "Шведская САУ Ikv 73. Улучшенная версия Ikv 72 с усиленной броней."
+  },
+
+  {
+    "id": "sw_m24_chaffee_dk",
+    "name": "M24DK",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка M6",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 88, 78, 67, 57, 49],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [104, 102, 93, 84, 75, 68],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 8.4, "aces": 6.5 },
+      "elevation": { "min_deg": -10, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "roof",
+        "ammo": 400,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      },
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 3750,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 296, "rpm": 2800, "model": "Cummins HXD", "layout": "8-цилиндровый дизельный", "weight_tonnes": 18.4 },
+    "hull": { "front": 25, "sides": 25, "rear": 19 },
+    "turret": { "front": 25, "sides": 25, "rear": 25 },
+    "notes": "Датский M24 Chaffee. Хорошая подвижность, стабилизатор, слабая броня."
+  },
+  {
+    "id": "sw_pvkv_iv",
+    "name": "Pvkv IV",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 3.0,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "57-мм пушка Pvkan m/43",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [179, 175, 158, 140, 124, 109],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [101, 97, 81, 65, 52, 42],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 5.2, "aces": 4.0 },
+      "elevation": { "min_deg": -14, "max_deg": 19 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 39 C",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 142, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 9.6 },
+    "hull": { "front": 35, "sides": 13, "rear": 13 },
+    "turret": { "front": 20, "sides": 13, "rear": 13 },
+    "notes": "Шведская ПТ-САУ Pvkv IV. Мощная 57-мм пушка, очень слабая броня."
+  },
+  {
+    "id": "sw_l_62_anti_ii",
+    "name": "L-62 ANTI II",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 3.3,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка lvakan m/36",
+      "description": "Автоматическая зенитная пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [79, 75, 60, 46, 35, 26],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 144,
+      "clip_size": 8,
+      "reload": { "seconds": 0.6, "aces": 0.5 },
+      "fire_rate": 120,
+      "elevation": { "min_deg": -5, "max_deg": 85 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 144, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 10.6 },
+    "hull": { "front": 12, "sides": 13, "rear": 12 },
+    "notes": "Финская ЗСУ L-62 ANTI II. 40-мм пушка, хорошая подвижность."
+  },
+  {
+    "id": "sw_pvkv_m43_1946",
+    "name": "Pvkv m/43 (1946)",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 76000,
+    "exp_price": 26000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка Pvkan m/43",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [149, 146, 132, 116, 102, 89],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) стандартный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [139, 136, 121, 104, 90, 78],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 43,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -15, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "roof",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 410, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 22.9 },
+    "hull": { "front": 70, "sides": 30, "rear": 20 },
+    "notes": "Шведская ПТ-САУ Pvkv m/43 (1946). Хорошая 75-мм пушка, открытая рубка."
+  },
+  {
+    "id": "sw_ikv_103",
+    "name": "Ikv 103",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 105000,
+    "exp_price": 17000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка kan Ikv 103",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд) стандартный",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [240, 240, 240, 240, 240, 240],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 24,
+      "reload": { "seconds": 10.4, "aces": 8.0 },
+      "elevation": { "min_deg": -16, "max_deg": 20 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 150, "rpm": 2800, "model": "Scania-Vabis", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 8.8 },
+    "hull": { "front": 12, "sides": 6, "rear": 12 },
+    "notes": "Шведская САУ Ikv 103. 105-мм пушка с мощными кумулятивными снарядами."
+  },
+  {
+    "id": "sw_t_34_1941",
+    "name": "T-34",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 47000,
+    "exp_price": 18000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка Ф-34",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [99, 96, 87, 76, 66, 58],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) стандартный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [87, 85, 77, 69, 62, 55],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 77,
+      "reload": { "seconds": 9.0, "aces": 6.9 },
+      "elevation": { "min_deg": -5, "max_deg": 30 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ДТ",
+        "mount": "coaxial",
+        "ammo": 2898,
+        "clip_size": 63,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 500, "rpm": 1800, "model": "В-2-34", "layout": "12-цилиндровый дизельный", "weight_tonnes": 28.3 },
+    "hull": { "front": 45, "sides": 45, "rear": 40 },
+    "turret": { "front": 45, "sides": 45, "rear": 45 },
+    "notes": "Финский трофейный Т-34. Хорошая подвижность, неплохая броня."
+  },
+  {
+    "id": "sw_pzkpfw_iv_ausf_j",
+    "name": "Pz.IV",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 76000,
+    "exp_price": 13000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка KwK40 L48",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [182, 177, 159, 140, 122, 107],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [145, 143, 130, 116, 104, 93],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 87,
+      "reload": { "seconds": 7.6, "aces": 5.9 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,92-мм пулемёт MG34",
+        "mount": "coaxial",
+        "ammo": 3150,
+        "belt_size": 150,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 300, "rpm": 3000, "model": "Maybach HL 120 TRM", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 25.0 },
+    "hull": { "front": 80, "sides": 30, "rear": 20 },
+    "turret": { "front": 50, "sides": 30, "rear": 30 },
+    "notes": "Финский Pz.IV J. Мощная пушка, медленный поворот башни."
+  },
+  {
+    "id": "sw_pvkv_ii",
+    "name": "Pvkv II",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.3,
+    "rank": "III",
+    "silver_price": 76000,
+    "exp_price": 26000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка lvkan m/37 A",
+      "description": "Зенитная/противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [158, 154, 139, 122, 107, 94],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 32,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -11, "max_deg": 17 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "roof",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 165, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 12.0 },
+    "hull": { "front": 50, "sides": 20, "rear": 15 },
+    "notes": "Шведская ПТ-САУ Pvkv II. Хорошая 75-мм пушка, большие размеры."
+  },
+  {
+    "id": "sw_strv_m42_delat_torn",
+    "name": "Strv m/42 DT",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 5.0,
+    "rank": "III",
+    "silver_price": 105000,
+    "exp_price": 33000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка Pvkan m/43",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [149, 146, 132, 116, 102, 89],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 3.9, "aces": 3.0 },
+      "elevation": { "min_deg": -10, "max_deg": 12 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 410, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 23.5 },
+    "hull": { "front": 55, "sides": 30, "rear": 20 },
+    "turret": { "front": 60, "sides": 30, "rear": 30 },
+    "notes": "Шведский средний танк Strv m/42 DT. Автомат заряжания, отличная скорострельность."
+  },
+  {
+    "id": "sw_lvkv_42",
+    "name": "Lvkv 42",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 4.7,
+    "rank": "III",
+    "silver_price": 105000,
+    "exp_price": 33000,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка lvakan m/48",
+      "description": "Автоматическая зенитная пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС/ОФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [95, 90, 72, 55, 42, 32],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 104,
+      "clip_size": 8,
+      "reload": { "seconds": 0.6, "aces": 0.5 },
+      "fire_rate": 240,
+      "elevation": { "min_deg": -5, "max_deg": 90 }
+    },
+    "crew": 5,
+    "engine": { "power_hp": 200, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 13.5 },
+    "hull": { "front": 10, "sides": 10, "rear": 10 },
+    "notes": "Шведская ЗСУ Lvkv 42. Скорострельная 40-мм пушка, открытая рубка."
+  },
+
+  {
+    "id": "sw_pvkv_m43_1946",
+    "name": "Pvkv m/43 (1946)",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 76000,
+    "exp_price": 26000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка Pvkan m/43",
+      "description": "Противотанковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [149, 146, 132, 116, 102, 89],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [139, 136, 121, 104, 90, 78],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [18, 17, 16, 14, 13, 12],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 43,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -15, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "roof",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 410, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 22.9 },
+    "hull": { "front": 70, "sides": 30, "rear": 20 },
+    "notes": "Шведская ПТ-САУ Pvkv m/43 (1946). Хорошая 75-мм пушка, открытая рубка."
+  },
+  {
+    "id": "sw_pt_76b",
+    "name": "PT-76",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 5.3,
+    "rank": "III",
+    "silver_price": 105000,
+    "exp_price": 33000,
+    "premium": false,
+    "gun": {
+      "name": "76-мм пушка Д-56ТС",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [200, 200, 200, 200, 200, 200],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [152, 148, 129, 109, 92, 78],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [99, 97, 89, 80, 72, 65],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -4, "max_deg": 30 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт СГМТ",
+        "mount": "coaxial",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 240, "rpm": 2800, "model": "В-6Б", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.0 },
+    "hull": { "front": 13, "sides": 13, "rear": 6 },
+    "turret": { "front": 15, "sides": 15, "rear": 15 },
+    "notes": "Финский PT-76. Плавающий танк, стабилизатор, кумулятивные снаряды."
+  },
+  {
+    "id": "sw_a_34_comet",
+    "name": "Comet I",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 5.3,
+    "rank": "III",
+    "silver_price": 135000,
+    "exp_price": 20000,
+    "premium": false,
+    "gun": {
+      "name": "77-мм пушка Ordnance QF Mk.II",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [217, 213, 199, 182, 167, 153],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [161, 158, 145, 131, 118, 106],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [145, 142, 131, 118, 106, 96],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 61,
+      "reload": { "seconds": 9.6, "aces": 7.4 },
+      "elevation": { "min_deg": -12, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,92-мм пулемёт BESA",
+        "mount": "coaxial",
+        "ammo": 5175,
+        "belt_size": 225,
+        "fire_rate": 600,
+        "penetration": [9, 8, 6, 3, 0, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 600, "rpm": 2500, "model": "Rolls-Royce Meteor", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 33.5 },
+    "hull": { "front": 76, "sides": 43, "rear": 32 },
+    "turret": { "front": 102, "sides": 64, "rear": 57 },
+    "notes": "Финский Comet I. Хорошая подвижность, мощная 77-мм пушка."
+  },
+  {
+    "id": "sw_sav_fm48",
+    "name": "SAV 20.12.48",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 4.0,
+    "rank": "III",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "120-мм пушка automatkanon",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [95, 94, 89, 84, 79, 75],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [28, 28, 28, 28, 28, 28],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 62,
+      "reload": { "seconds": 1.2, "aces": 1.2 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 400, "rpm": 2500, "model": "Bofors", "layout": "бензиновый", "weight_tonnes": 20.0 },
+    "hull": { "front": 30, "sides": 15, "rear": 15 },
+    "notes": "Премиумная шведская САУ SAV 20.12.48. Автомат заряжания, скорострельность 50 выстрелов/мин."
+  },
+  {
+    "id": "sw_kv_1_1942_fin",
+    "name": "KV-1 m1942",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "heavy",
+    "type_label": "Тяжёлый танк",
+    "br": 4.7,
+    "rank": "III",
+    "silver_price": 2980,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "76-мм пушка ЗИС-5",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [125, 117, 87, 60, 41, 28],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [99, 96, 87, 76, 66, 58],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [87, 85, 77, 69, 62, 55],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 98,
+      "reload": { "seconds": 9.0, "aces": 6.9 },
+      "elevation": { "min_deg": -6, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ДТ",
+        "mount": "coaxial",
+        "ammo": 3024,
+        "clip_size": 63,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 600, "rpm": 1800, "model": "В-2К", "layout": "12-цилиндровый дизельный", "weight_tonnes": 49.0 },
+    "hull": { "front": 106, "sides": 77, "rear": 75 },
+    "turret": { "front": 90, "sides": 100, "rear": 97 },
+    "notes": "Финский премиумный KV-1 m1942. Отличная броня для своего ранга."
+  },
+  {
+    "id": "sw_sherman_3_4",
+    "name": "Sherman III/IV",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 3.7,
+    "rank": "III",
+    "silver_price": 1300,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "75-мм пушка M3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [104, 102, 93, 84, 75, 68],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [91, 88, 78, 67, 57, 49],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [10, 10, 10, 10, 10, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 66,
+      "reload": { "seconds": 6.5, "aces": 5.0 },
+      "elevation": { "min_deg": -10, "max_deg": 25 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт M1919A4",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 500, "rpm": 2800, "model": "Ford GAA", "layout": "8-цилиндровый бензиновый", "weight_tonnes": 32.5 },
+    "hull": { "front": 63, "sides": 38, "rear": 38 },
+    "turret": { "front": 76, "sides": 51, "rear": 51 },
+    "notes": "Шведский премиумный Sherman III/IV. Хорошее орудие, стабилизатор."
+  },
+
+  {
+    "id": "sw_pbv_501",
+    "name": "Pbv 501",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 6.7,
+    "rank": "IV",
+    "silver_price": 210000,
+    "exp_price": 71000,
+    "premium": false,
+    "gun": {
+      "name": "73-мм пушка 2A28",
+      "description": "Гладкоствольная пушка-пусковая установка",
+      "penetration": [
+        {
+          "ammo_type": "ПГ (Противотанковый гранатомётный выстрел)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [300, 300, 300, 300, 300, 300],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОГ (Осколочный выстрел)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [11, 11, 11, 11, 11, 11],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 6.0, "aces": 6.0 },
+      "elevation": { "min_deg": -4, "max_deg": 30 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ПКТ",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 1000,
+        "fire_rate": 700,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 300, "rpm": 2600, "model": "UTD-20", "layout": "6-цилиндровый дизельный", "weight_tonnes": 11.9 },
+    "hull": { "front": 19, "sides": 18, "rear": 16 },
+    "turret": { "front": 23, "sides": 19, "rear": 13 },
+    "notes": "Шведская БМП Pbv 501 (бывшая БМП-1). Хорошая подвижность, 73-мм пушка, без ПТУР."
+  },
+  {
+    "id": "sw_strv_74",
+    "name": "Strv 74",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 5.7,
+    "rank": "IV",
+    "silver_price": 200000,
+    "exp_price": 63000,
+    "premium": false,
+    "gun": {
+      "name": "75-мм пушка kan Strv 74",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [247, 243, 227, 208, 191, 176],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [158, 154, 139, 122, 107, 94],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -15, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "8-мм пулемёт ksp m/36",
+        "mount": "coaxial",
+        "ammo": 4000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 340, "rpm": 2800, "model": "Scania-Vabis", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 26.0 },
+    "hull": { "front": 55, "sides": 30, "rear": 20 },
+    "turret": { "front": 30, "sides": 20, "rear": 20 },
+    "notes": "Шведский лёгкий танк Strv 74. Хорошая пушка, отличные УВН, слабая броня."
+  },
+  {
+    "id": "sw_landsverk_ush_204_gk",
+    "name": "U-SH 204 GK",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 5.3,
+    "rank": "IV",
+    "silver_price": 185000,
+    "exp_price": 54000,
+    "premium": false,
+    "gun": {
+      "name": "20-мм пушка Oerlikon 204 GK",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПТ/ФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [57, 52, 37, 24, 15, 10],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 400,
+      "clip_size": 200,
+      "reload": { "seconds": 9.1, "aces": 7.0 },
+      "fire_rate": 996,
+      "elevation": { "min_deg": -10, "max_deg": 75 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 90, "rpm": 2800, "model": "Daimler-Benz", "layout": "4-цилиндровый дизельный", "weight_tonnes": 4.8 },
+    "hull": { "front": 10, "sides": 8, "rear": 8 },
+    "notes": "Шведская ЗСУ U-SH 204 GK. Очень высокая скорость, 20-мм пушка."
+  },
+  {
+    "id": "sw_bkan_1c",
+    "name": "Bkan 1C",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 6.7,
+    "rank": "IV",
+    "silver_price": 210000,
+    "exp_price": 71000,
+    "premium": false,
+    "gun": {
+      "name": "155-мм пушка kan m/60",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [58, 58, 58, 58, 58, 58],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 14,
+      "reload": { "seconds": 3.2, "aces": 3.2 },
+      "elevation": { "min_deg": -3, "max_deg": 40 }
+    },
+    "crew": 5,
+    "engine": { "power_hp": 600, "rpm": 2500, "model": "Rolls-Royce K60", "layout": "6-цилиндровый дизельный", "weight_tonnes": 53.0 },
+    "hull": { "front": 15, "sides": 15, "rear": 15 },
+    "notes": "Шведская САУ Bkan 1C. Очень высокая скорострельность (3.2 секунды перезарядка)."
+  },
+  {
+    "id": "sw_t_34_85_zis_53",
+    "name": "T-34-85",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 5.7,
+    "rank": "IV",
+    "silver_price": 200000,
+    "exp_price": 63000,
+    "premium": false,
+    "gun": {
+      "name": "85-мм пушка ЗИС-С-53",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [148, 143, 126, 106, 90, 77],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [195, 187, 154, 122, 96, 76],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 60,
+      "reload": { "seconds": 9.6, "aces": 7.4 },
+      "elevation": { "min_deg": -5, "max_deg": 22 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ДТ",
+        "mount": "coaxial",
+        "ammo": 1890,
+        "clip_size": 63,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 500, "rpm": 1800, "model": "В-2-34", "layout": "12-цилиндровый дизельный", "weight_tonnes": 32.2 },
+    "hull": { "front": 45, "sides": 45, "rear": 45 },
+    "turret": { "front": 90, "sides": 75, "rear": 52 },
+    "notes": "Финский трофейный Т-34-85. Хорошая подвижность, мощное 85-мм орудие."
+  },
+  {
+    "id": "sw_charioteer_mk_7",
+    "name": "Charioteer Mk.VII",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 6.3,
+    "rank": "IV",
+    "silver_price": 210000,
+    "exp_price": 71000,
+    "premium": false,
+    "gun": {
+      "name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [385, 381, 364, 344, 325, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [239, 236, 222, 206, 192, 178],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 25,
+      "reload": { "seconds": 8.1, "aces": 6.3 },
+      "elevation": { "min_deg": -5, "max_deg": 10 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт L3A1",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 500,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 600, "rpm": 2500, "model": "Rolls-Royce Meteor", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 30.0 },
+    "hull": { "front": 64, "sides": 46, "rear": 32 },
+    "turret": { "front": 30, "sides": 20, "rear": 30 },
+    "notes": "Финский Charioteer Mk.VII. Мощная 20-фунтовая пушка, слабая броня."
+  },
+  {
+    "id": "sw_kungstiger",
+    "name": "Kungstiger",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "heavy",
+    "type_label": "Тяжёлый танк",
+    "br": 6.7,
+    "rank": "IV",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "88-мм пушка KwK43",
+      "description": "Тяжёлая танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APCR",
+          "penetration_mm": [279, 273, 252, 227, 205, 185],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [237, 234, 222, 207, 193, 180],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 70,
+      "reload": { "seconds": 9.7, "aces": 7.5 },
+      "elevation": { "min_deg": -8, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,92-мм пулемёт MG34",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 150,
+        "fire_rate": 900,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 600, "rpm": 2500, "model": "Maybach HL 230 P30", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 68.0 },
+    "hull": { "front": 150, "sides": 80, "rear": 80 },
+    "turret": { "front": 100, "sides": 80, "rear": 80 },
+    "notes": "Шведский премиумный Королевский Тигр. Отличная броня, мощная 88-мм пушка."
+  },
+
+  {
+    "id": "sw_ikv_91",
+    "name": "Ikv 91",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 270000,
+    "exp_price": 95000,
+    "premium": false,
+    "gun": {
+      "name": "90-мм пушка kan Ikv 91",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [24, 24, 24, 24, 24, 24],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 59,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -10, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 2250,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 330, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый дизельный", "weight_tonnes": 16.3 },
+    "hull": { "front": 12, "sides": 12, "rear": 8 },
+    "turret": { "front": 8, "sides": 12, "rear": 12 },
+    "notes": "Шведский лёгкий танк Ikv 91. Лазерный дальномер, кумулятивные снаряды, плавающий."
+  },
+  {
+    "id": "sw_strv_81",
+    "name": "Strv 81",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 270000,
+    "exp_price": 95000,
+    "premium": false,
+    "gun": {
+      "name": "84-мм пушка kan Strv 81",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [385, 381, 364, 344, 325, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [239, 236, 222, 206, 192, 178],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 65,
+      "reload": { "seconds": 8.1, "aces": 6.3 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 3750,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 650, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 50.8 },
+    "hull": { "front": 76, "sides": 51, "rear": 38 },
+    "turret": { "front": 152, "sides": 89, "rear": 89 },
+    "notes": "Шведский Centurion Strv 81. Хорошая броня, стабилизатор, ОБПС."
+  },
+  {
+    "id": "sw_zsu_57_2",
+    "name": "ZSU-57-2",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 7.0,
+    "rank": "V",
+    "silver_price": 240000,
+    "exp_price": 82000,
+    "premium": false,
+    "gun": {
+      "name": "2 x 57-мм пушка С-68",
+      "description": "Спаренные автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БС/ОФС",
+          "ammo_in_game_type": "AP/HE",
+          "penetration_mm": [151, 147, 130, 112, 96, 83],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 296,
+      "clip_size": 4,
+      "reload": { "seconds": 2.6, "aces": 2.0 },
+      "fire_rate": 120,
+      "elevation": { "min_deg": -5, "max_deg": 85 }
+    },
+    "crew": 6,
+    "engine": { "power_hp": 520, "rpm": 2000, "model": "V-54", "layout": "12-цилиндровый дизельный", "weight_tonnes": 28.0 },
+    "hull": { "front": 15, "sides": 15, "rear": 10 },
+    "turret": { "front": 15, "sides": 13, "rear": 13 },
+    "notes": "Финская ZSU-57-2. Мощные 57-мм пушки, эффективна против легкобронированной техники."
+  },
+  {
+    "id": "sw_pvrbv_551",
+    "name": "Pvrbv 551",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 300000,
+    "exp_price": 105000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР Rbs 55",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [800, 800, 800, 800, 800, 800],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 8,
+      "clip_size": 1,
+      "reload": { "seconds": 13.0, "aces": 10.0 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 136, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый бензиновый", "weight_tonnes": 9.7 },
+    "hull": { "front": 25, "sides": 10, "rear": 5 },
+    "notes": "Шведская ПТ-САУ Pvrbv 551 с ПТУР TOW. 8 ракет, слабая броня."
+  },
+  {
+    "id": "sw_t_54_1951",
+    "name": "T-54",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 340000,
+    "exp_price": 120000,
+    "premium": false,
+    "gun": {
+      "name": "100-мм пушка Д-10Т",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БС (Бронебойный снаряд) улучшенный",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [239, 236, 220, 202, 185, 170],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БС (Бронебойный снаряд)",
+          "ammo_in_game_type": "AP",
+          "penetration_mm": [218, 212, 189, 164, 142, 123],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [380, 380, 380, 380, 380, 380],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 34,
+      "reload": { "seconds": 9.7, "aces": 7.5 },
+      "elevation": { "min_deg": -4, "max_deg": 17 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт ДШК",
+        "mount": "roof",
+        "ammo": 250,
+        "clip_size": 50,
+        "fire_rate": 600,
+        "penetration": [34, 32, 24, 17, 12, 8]
+      },
+      {
+        "name": "7,62-мм пулемёт СГМТ",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 520, "rpm": 2000, "model": "В-54", "layout": "12-цилиндровый дизельный", "weight_tonnes": 35.5 },
+    "hull": { "front": 100, "sides": 80, "rear": 45 },
+    "turret": { "front": 200, "sides": 160, "rear": 65 },
+    "notes": "Финский T-54. Хорошая броня, мощная 100-мм пушка."
+  },
+  {
+    "id": "sw_landsverk_ush_405",
+    "name": "U-SH 405",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 300000,
+    "exp_price": 105000,
+    "premium": false,
+    "gun": {
+      "name": "81-мм пусковая установка Oerlikon Typ 3Z 8Dla",
+      "description": "Ракетная установка",
+      "penetration": [
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [330, 330, 330, 330, 330, 330],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 18,
+      "fire_rate": 150,
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "crew": 2,
+    "engine": { "power_hp": 90, "rpm": 2800, "model": "Daimler-Benz", "layout": "4-цилиндровый дизельный", "weight_tonnes": 5.7 },
+    "hull": { "front": 10, "sides": 8, "rear": 8 },
+    "notes": "Шведская РСЗО U-SH 405. 18 ракет в залпе, очень высокая скорость."
+  },
+  {
+    "id": "sw_strv_101",
+    "name": "Strv 101",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 300000,
+    "exp_price": 105000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка kan Strv 101",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [350, 347, 333, 317, 302, 287],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 70,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -10, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 3000,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 650, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 51.8 },
+    "hull": { "front": 76, "sides": 51, "rear": 32 },
+    "turret": { "front": 152, "sides": 89, "rear": 89 },
+    "notes": "Шведский Centurion Strv 101 с 105-мм пушкой L7. Стабилизатор, ОБПС."
+  },
+  {
+    "id": "sw_strv_103a",
+    "name": "Strv 103A",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.0,
+    "rank": "V",
+    "silver_price": 340000,
+    "exp_price": 61000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L74",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [358, 355, 341, 324, 308, 293],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 50,
+      "reload": { "seconds": 4.0, "aces": 4.0 },
+      "elevation": { "min_deg": -10, "max_deg": 12 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "coaxial",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 540, "rpm": 3800, "model": "Rolls-Royce K60 + Boeing", "layout": "2-двигательная установка", "weight_tonnes": 36.9 },
+    "hull": { "front": 40, "sides": 30, "rear": 30 },
+    "notes": "Шведский безбашенный ОБТ Strv 103A. Автомат заряжания, наклонная броня."
+  },
+  {
+    "id": "sw_veak_40",
+    "name": "VEAK 40",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 270000,
+    "exp_price": 95000,
+    "premium": false,
+    "gun": {
+      "name": "2 x 40-мм пушка lvakan m/48",
+      "description": "Спаренные автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БС/БС/БС/ОФЗТ",
+          "ammo_in_game_type": "AP/AP/AP/HEI",
+          "penetration_mm": [95, 90, 72, 55, 42, 32],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 420,
+      "clip_size": 10,
+      "reload": { "seconds": 0.6, "aces": 0.5 },
+      "fire_rate": 300,
+      "elevation": { "min_deg": -5, "max_deg": 85 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "roof",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 540, "rpm": 3800, "model": "Rolls-Royce K60", "layout": "6-цилиндровый дизельный", "weight_tonnes": 29.0 },
+    "hull": { "front": 15, "sides": 15, "rear": 15 },
+    "notes": "Шведская ЗСУ VEAK 40. Две 40-мм пушки, радар, высокая скорострельность."
+  },
+  {
+    "id": "sw_strv_81_rb52",
+    "name": "Strv 81 (RB 52)",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 8020,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "ПТУР Robot 52 (SS.11)",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [600, 600, 600, 600, 600, 600],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 3
+    },
+    "machine_guns": [
+      {
+        "name": "84-мм пушка kan Strv 81",
+        "description": "Танковая пушка",
+        "penetration": [
+          {
+            "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+            "ammo_in_game_type": "APDS",
+            "penetration_mm": [385, 381, 364, 344, 325, 307],
+            "distance_m": [10, 100, 500, 1000, 1500, 2000]
+          }
+        ],
+        "ammo_total": 65,
+        "reload": { "seconds": 8.1, "aces": 6.3 },
+        "elevation": { "min_deg": -10, "max_deg": 20 }
+      },
+      {
+        "name": "7,92-мм пулемёт BESA",
+        "mount": "coaxial",
+        "ammo": 3600,
+        "belt_size": 225,
+        "fire_rate": 600,
+        "penetration": [9, 8, 6, 3, 0, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 650, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12-цилиндровый бензиновый", "weight_tonnes": 50.8 },
+    "hull": { "front": 76, "sides": 51, "rear": 38 },
+    "turret": { "front": 152, "sides": 89, "rear": 89 },
+    "notes": "Премиумный Strv 81 с тремя ПТУР SS.11. Хорошая броня, стабилизатор."
+  },
+  {
+    "id": "sw_k9_vidar",
+    "name": "K9 VIDAR",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "САУ",
+    "br": 7.7,
+    "rank": "V",
+    "silver_price": 250000,
+    "exp_price": 80000,
+    "premium": false,
+    "gun": {
+      "name": "155-мм пушка",
+      "description": "Тяжёлая гаубица",
+      "penetration": [
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [56, 56, 56, 56, 56, 56],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 24,
+      "reload": { "seconds": 6.0, "aces": 5.0 },
+      "elevation": { "min_deg": -2, "max_deg": 60 }
+    },
+    "crew": 5,
+    "engine": { "power_hp": 750, "rpm": 2400, "model": "MTU", "layout": "8-цилиндровый дизельный", "weight_tonnes": 47.0 },
+    "hull": { "front": 15, "sides": 15, "rear": 15 },
+    "notes": "Норвежская САУ K9 VIDAR. 155-мм гаубица, хорошая подвижность."
+  },
+  {
+    "id": "sw_strv_103_0",
+    "name": "Strv 103-0",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.3,
+    "rank": "V",
+    "silver_price": 300000,
+    "exp_price": 110000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L74",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [345, 342, 328, 312, 296, 282],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 50,
+      "reload": { "seconds": 4.0, "aces": 4.0 },
+      "elevation": { "min_deg": -10, "max_deg": 12 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 490, "rpm": 3800, "model": "Rolls-Royce K60", "layout": "6-цилиндровый дизельный", "weight_tonnes": 37.0 },
+    "hull": { "front": 40, "sides": 30, "rear": 30 },
+    "notes": "Предсерийный Strv 103-0. Прототип без ребристой брони."
+  },
+
+  {
+    "id": "sw_cv_90105",
+    "name": "CV 90105 TML",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 8.7,
+    "rank": "VI",
+    "silver_price": 380000,
+    "exp_price": 135000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка CN105 G2",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [400, 400, 400, 400, 400, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -10, "max_deg": 42 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "coaxial",
+        "ammo": 1500,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 670, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 21.9 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 35, "sides": 20, "rear": 20 },
+    "notes": "Шведский лёгкий танк CV 90105 TML. Хорошая подвижность, тепловизор, лазерный дальномер."
+  },
+  {
+    "id": "sw_strv_104",
+    "name": "Strv 104",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 8.7,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка kan Strv 101",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [258, 256, 245, 233, 222, 211],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -10, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 39 C",
+        "mount": "coaxial",
+        "ammo": 2250,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 750, "rpm": 2600, "model": "Continental AVDS-1790-2A", "layout": "12-цилиндровый дизельный", "weight_tonnes": 54.0 },
+    "hull": { "front": 76, "sides": 51, "rear": 32 },
+    "turret": { "front": 152, "sides": 89, "rear": 89 },
+    "notes": "Шведский Centurion Strv 104 с динамической защитой. Улучшенная подвижность, ОБПС."
+  },
+  {
+    "id": "sw_strv_103c",
+    "name": "Strv 103C",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.0,
+    "rank": "VI",
+    "silver_price": 520000,
+    "exp_price": 94000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L74",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [272, 269, 258, 246, 233, 222],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 50,
+      "reload": { "seconds": 4.0, "aces": 4.0 },
+      "elevation": { "min_deg": -10, "max_deg": 12 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "coaxial",
+        "ammo": 1000,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 780, "rpm": 3800, "model": "Rolls-Royce K60 + Boeing", "layout": "2-двигательная установка", "weight_tonnes": 42.5 },
+    "hull": { "front": 40, "sides": 30, "rear": 30 },
+    "notes": "Шведский безбашенный ОБТ Strv 103C. Улучшенная броня, ОБПС, автомат заряжания."
+  },
+  {
+    "id": "sw_itpsv_90",
+    "name": "ItPsV Leopard",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 8.7,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "2 x 35-мм пушка Oerlikon KDA",
+      "description": "Спаренные автоматические пушки",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [127, 125, 118, 110, 102, 95],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БЗТ/ФЗТ",
+          "ammo_in_game_type": "AP/HEI",
+          "penetration_mm": [68, 66, 57, 47, 39, 32],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 500,
+      "clip_size": 230,
+      "reload": { "seconds": 1.3, "aces": 1.0 },
+      "fire_rate": 550,
+      "elevation": { "min_deg": -10, "max_deg": 85 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12-цилиндровый дизельный", "weight_tonnes": 49.2 },
+    "hull": { "front": 40, "sides": 35, "rear": 20 },
+    "turret": { "front": 25, "sides": 20, "rear": 20 },
+    "notes": "Финская ЗСУ ItPsV Leopard на базе Leopard 2A4. 35-мм пушки, радар."
+  },
+  {
+    "id": "sw_udes_33",
+    "name": "UDES 33",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 8.3,
+    "rank": "VI",
+    "silver_price": 380000,
+    "exp_price": 135000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР Rbs 55",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [800, 800, 800, 800, 800, 800],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 10,
+      "clip_size": 1,
+      "reload": { "seconds": 13.0, "aces": 10.0 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 150, "rpm": 2800, "model": "Volvo", "layout": "4-цилиндровый бензиновый", "weight_tonnes": 8.6 },
+    "hull": { "front": 12, "sides": 6, "rear": 12 },
+    "notes": "Шведская ПТ-САУ UDES 33. Отличные УВН, ПТУР TOW."
+  },
+  {
+    "id": "sw_pbv_302_bill",
+    "name": "Pbv 302 (BILL)",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "tank_destroyer",
+    "type_label": "ПТ-САУ",
+    "br": 8.7,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 81000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР Rbs 56",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [510, 510, 510, 510, 510, 510],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 7,
+      "clip_size": 1,
+      "reload": { "seconds": 13.0, "aces": 10.0 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 270, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.0 },
+    "hull": { "front": 25, "sides": 10, "rear": 5 },
+    "notes": "Шведская ПТ-САУ Pbv 302 (BILL). ПТУР с подрывом над танком, 20-мм пушка."
+  },
+  {
+    "id": "sw_t_55m",
+    "name": "T-55M",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.0,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "100-мм пушка Д-10Т2С",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [344, 342, 336, 329, 321, 313],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [390, 390, 390, 390, 390, 390],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 43,
+      "reload": { "seconds": 9.7, "aces": 7.5 },
+      "elevation": { "min_deg": -5, "max_deg": 18 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт НСВТ",
+        "mount": "roof",
+        "ammo": 360,
+        "clip_size": 60,
+        "fire_rate": 700,
+        "penetration": [34, 32, 24, 17, 12, 8]
+      },
+      {
+        "name": "7,62-мм пулемёт СГМТ",
+        "mount": "coaxial",
+        "ammo": 3500,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 580, "rpm": 2000, "model": "В-55", "layout": "12-цилиндровый дизельный", "weight_tonnes": 36.0 },
+    "hull": { "front": 100, "sides": 80, "rear": 45 },
+    "turret": { "front": 200, "sides": 160, "rear": 66 },
+    "notes": "Финский модернизированный T-55M. Лазерный дальномер, стабилизатор, ОБПС."
+  },
+  {
+    "id": "sw_t_72m1",
+    "name": "T-72M1",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "125-мм пушка 2A46",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [440, 430, 420, 410, 405, 400],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [440, 440, 440, 440, 440, 440],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 44,
+      "reload": { "seconds": 7.0, "aces": 7.0 },
+      "elevation": { "min_deg": -6, "max_deg": 13 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт НСВТ",
+        "mount": "roof",
+        "ammo": 300,
+        "clip_size": 60,
+        "fire_rate": 700,
+        "penetration": [34, 32, 24, 17, 12, 8]
+      },
+      {
+        "name": "7,62-мм пулемёт ПКТ",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 700,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 780, "rpm": 2000, "model": "В-46-6", "layout": "12-цилиндровый дизельный", "weight_tonnes": 41.5 },
+    "hull": { "front": 110, "sides": 80, "rear": 40 },
+    "turret": { "front": 125, "sides": 102, "rear": 65 },
+    "notes": "Финский T-72M1. Хорошая броня, мощная 125-мм пушка, автомат заряжания."
+  },
+  {
+    "id": "sw_ikv_91_105",
+    "name": "Ikv 91-105",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 9.0,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка kan Bofors",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [258, 256, 245, 233, 222, 211],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -8, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp m/39B",
+        "mount": "coaxial",
+        "ammo": 2250,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 360, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый дизельный", "weight_tonnes": 18.7 },
+    "hull": { "front": 12, "sides": 12, "rear": 8 },
+    "turret": { "front": 8, "sides": 12, "rear": 12 },
+    "notes": "Шведский лёгкий танк Ikv 91-105. 105-мм пушка, лазерный дальномер, плавающий."
+  },
+  {
+    "id": "sw_strv_105",
+    "name": "Strv 105",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка kan Strv 101",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС) улучшенный",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [430, 428, 420, 411, 401, 391],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [338, 336, 330, 323, 315, 307],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 48,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -10, "max_deg": 15 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 39 C",
+        "mount": "coaxial",
+        "ammo": 2250,
+        "belt_size": 250,
+        "fire_rate": 648,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 900, "rpm": 2600, "model": "Continental AVDS-1790-2A", "layout": "12-цилиндровый дизельный", "weight_tonnes": 56.0 },
+    "hull": { "front": 76, "sides": 50, "rear": 32 },
+    "turret": { "front": 152, "sides": 89, "rear": 89 },
+    "notes": "Шведский экспериментальный Strv 105. Тепловизор, ОБПС DM33."
+  },
+  {
+    "id": "sw_lvrbv_701",
+    "name": "Lvrbv 701",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗРК",
+    "br": 8.0,
+    "rank": "VI",
+    "silver_price": 380000,
+    "exp_price": 140000,
+    "premium": false,
+    "gun": {
+      "name": "ПЗРК RBS 70",
+      "description": "Зенитный ракетный комплекс",
+      "penetration": [],
+      "ammo_total": 8,
+      "clip_size": 1,
+      "reload": { "seconds": 13.0, "aces": 10.0 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 270, "rpm": 2800, "model": "Volvo", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.0 },
+    "hull": { "front": 25, "sides": 10, "rear": 5 },
+    "notes": "Шведский ЗРК Lvrbv 701. 8 ракет RBS 70, хорошая подвижность."
+  },
+  {
+    "id": "sw_cv_9030_fin",
+    "name": "CV 9030 FIN",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 8.3,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "30-мм пушка Bushmaster 2 Mk.44",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [114, 113, 108, 103, 97, 91],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 360,
+      "clip_size": 90,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "fire_rate": 200,
+      "elevation": { "min_deg": -10, "max_deg": 60 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 605, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 23.0 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Финская БМП CV 9030 FIN. 30-мм пушка, хорошая подвижность."
+  },
+  {
+    "id": "sw_strf_90b",
+    "name": "Strf 90B",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 8.7,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка Bofors L/70",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [130, 128, 122, 114, 106, 99],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 240,
+      "clip_size": 24,
+      "reload": { "seconds": 0.5, "aces": 0.5 },
+      "fire_rate": 300,
+      "elevation": { "min_deg": -8, "max_deg": 35 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 605, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 23.0 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Шведская БМП Strf 90B. 40-мм пушка Bofors, высокая скорострельность."
+  },
+  {
+    "id": "sw_leopard_1a5no",
+    "name": "Leopard 1A5NO",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L7A3",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [361, 359, 352, 342, 332, 323],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 55,
+      "reload": { "seconds": 8.7, "aces": 6.7 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 830, "rpm": 2200, "model": "MTU MB 838 Ca M500", "layout": "10-цилиндровый многотопливный", "weight_tonnes": 42.0 },
+    "hull": { "front": 70, "sides": 35, "rear": 25 },
+    "turret": { "front": 65, "sides": 45, "rear": 52 },
+    "notes": "Норвежский Leopard 1A5NO. Тепловизор, ОБПС, хорошая подвижность."
+  },
+  {
+    "id": "sw_bmp_2md",
+    "name": "BMP-2MD",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 8.7,
+    "rank": "VI",
+    "silver_price": 450000,
+    "exp_price": 160000,
+    "premium": false,
+    "gun": {
+      "name": "30-мм пушка 2А42",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [82, 81, 79, 75, 72, 69],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 500,
+      "fire_rate": 550,
+      "elevation": { "min_deg": -5, "max_deg": 74 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 300, "rpm": 2600, "model": "UTD-20", "layout": "6-цилиндровый дизельный", "weight_tonnes": 14.0 },
+    "hull": { "front": 19, "sides": 18, "rear": 16 },
+    "notes": "Финская БМП BMP-2MD. 30-мм пушка, ПТУР Konkurs."
+  },
+  {
+    "id": "sw_cv_9035_dk",
+    "name": "CV 9035 DK",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 9.3,
+    "rank": "VI",
+    "silver_price": 620000,
+    "exp_price": 220000,
+    "premium": false,
+    "gun": {
+      "name": "35-мм пушка Bushmaster 3",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [131, 130, 125, 118, 111, 104],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "БПС (Бронебойно-подкалиберный снаряд)",
+          "ammo_in_game_type": "APDS",
+          "penetration_mm": [127, 125, 118, 110, 102, 95],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 210,
+      "clip_size": 35,
+      "reload": { "seconds": 10.0, "aces": 10.0 },
+      "fire_rate": 200,
+      "elevation": { "min_deg": -8, "max_deg": 37 }
+    },
+    "crew": 3,
+    "engine": { "power_hp": 815, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 32.0 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Датская БМП CV 9035 DK. 35-мм пушка, хорошая подвижность."
+  },
+
+  {
+    "id": "sw_strf_90c",
+    "name": "Strf 9040C",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 300000,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка Akan m/70Bc",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [170, 169, 163, 155, 147, 139],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФ-РВ (Осколочно-фугасный с радиовзрывателем)",
+          "ammo_in_game_type": "HE-VT",
+          "penetration_mm": [11, 11, 9, 8, 7, 6],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 120,
+      "reload": { "seconds": 0.2, "aces": 0.2 },
+      "elevation": { "min_deg": -8, "max_deg": 27 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 28.5 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Шведская БМП Strf 9040C. Дополнительная броня, 40-мм пушка, ОБПС."
+  },
+  {
+    "id": "sw_lvkv_90c",
+    "name": "Lvkv 9040C",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗСУ",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 300000,
+    "premium": false,
+    "gun": {
+      "name": "40-мм пушка Akan m/70Bc",
+      "description": "Автоматическая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [143, 142, 137, 129, 122, 115],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФ-РВ (Осколочно-фугасный с радиовзрывателем)",
+          "ammo_in_game_type": "HE-VT",
+          "penetration_mm": [11, 11, 9, 8, 7, 6],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 234,
+      "reload": { "seconds": 0.2, "aces": 0.2 },
+      "elevation": { "min_deg": -8, "max_deg": 50 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "coaxial",
+        "ammo": 2000,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 5,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 28.5 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Шведская ЗСУ Lvkv 9040C. РЛС, 40-мм пушка, снаряды с радиовзрывателем."
+  },
+  {
+    "id": "sw_asrad_r",
+    "name": "ASRAD-R",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "aa_vehicle",
+    "type_label": "ЗРК",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 950000,
+    "exp_price": 175000,
+    "premium": false,
+    "gun": {
+      "name": "ЗУР Rbs 70",
+      "description": "Зенитная управляемая ракета",
+      "penetration": [
+        {
+          "ammo_type": "ЗУР",
+          "ammo_in_game_type": "SAM",
+          "penetration_mm": [200, 200, 200, 200, 200, 200],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 8,
+      "clip_size": 4,
+      "reload": { "seconds": 19.5, "aces": 15.0 },
+      "fire_rate": 60,
+      "elevation": { "min_deg": -10, "max_deg": 70 }
+    },
+    "crew": 4,
+    "engine": { "power_hp": 215, "rpm": 2800, "model": "Detroit Diesel 6V-53T", "layout": "6-цилиндровый дизельный", "weight_tonnes": 11.2 },
+    "hull": { "front": 38, "sides": 44, "rear": 38 },
+    "notes": "Шведский ЗРК ASRAD-R. 8 ракет RBS 70, РЛС АФАР."
+  },
+  {
+    "id": "sw_strf_9056",
+    "name": "Strf 9040 BILL",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "БМП",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 300000,
+    "premium": false,
+    "gun": {
+      "name": "ПТУР Rbs 56",
+      "description": "Противотанковый ракетный комплекс",
+      "penetration": [
+        {
+          "ammo_type": "ПТУР",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [510, 510, 510, 510, 510, 510],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 8,
+      "clip_size": 2,
+      "reload": { "seconds": 13.0, "aces": 10.0 },
+      "fire_rate": 144
+    },
+    "crew": 4,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 23.7 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Шведская БМП Strf 9040 BILL. ПТУР с подрывом над танком, 40-мм пушка."
+  },
+  {
+    "id": "sw_leopard_2a4_fin",
+    "name": "Leopard 2A4",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 10.7,
+    "rank": "VII",
+    "silver_price": 830000,
+    "exp_price": 300000,
+    "premium": false,
+    "gun": {
+      "name": "120-мм пушка Rh120 L/44",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [408, 407, 400, 393, 385, 377],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "КС (Кумулятивный снаряд)",
+          "ammo_in_game_type": "HEAT",
+          "penetration_mm": [480, 480, 480, 480, 480, 480],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт MG3A1",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 1200,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12-цилиндровый дизельный", "weight_tonnes": 55.2 },
+    "hull": { "front": 35, "sides": 25, "rear": 20 },
+    "turret": { "front": 25, "sides": 25, "rear": 15 },
+    "notes": "Финский Leopard 2A4. Отличная подвижность, мощная пушка, хорошая броня."
+  },
+  {
+    "id": "sw_cv_90105_tml",
+    "name": "CV 90105",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 10.3,
+    "rank": "VII",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "105-мм пушка L/50",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [421, 419, 411, 401, 391, 381],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ПТУР (тандем)",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [550, 550, 550, 550, 550, 550],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 40,
+      "reload": { "seconds": 5.0, "aces": 5.0 },
+      "elevation": { "min_deg": -10, "max_deg": 42 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт ksp 58",
+        "mount": "coaxial",
+        "ammo": 1500,
+        "belt_size": 250,
+        "fire_rate": 600,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 670, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 25.0 },
+    "hull": { "front": 20, "sides": 16, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Премиумный CV 90105. Отличная подвижность, 105-мм пушка, ПТУР Falarick."
+  },
+  {
+    "id": "sw_patria_amv_ctcv_105",
+    "name": "CT-CV 105HP",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "light",
+    "type_label": "Лёгкий танк",
+    "br": 10.0,
+    "rank": "VII",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": false,
+    "gun": {
+      "name": "105-мм пушка L/50",
+      "description": "Танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [421, 419, 411, 401, 391, 381],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ПТУР (тандем)",
+          "ammo_in_game_type": "ATGM",
+          "penetration_mm": [550, 550, 550, 550, 550, 550],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 5.0, "aces": 5.0 },
+      "elevation": { "min_deg": -10, "max_deg": 42 }
+    },
+    "machine_guns": [
+      {
+        "name": "12,7-мм пулемёт M2HB",
+        "mount": "coaxial",
+        "ammo": 600,
+        "belt_size": 100,
+        "fire_rate": 575,
+        "penetration": [31, 29, 21, 14, 9, 6]
+      }
+    ],
+    "crew": 3,
+    "engine": { "power_hp": 550, "rpm": 2300, "model": "Scania DSI 14", "layout": "6-цилиндровый дизельный", "weight_tonnes": 26.0 },
+    "hull": { "front": 20, "sides": 20, "rear": 20 },
+    "turret": { "front": 20, "sides": 20, "rear": 20 },
+    "notes": "Финский колёсный истребитель танков CT-CV 105HP. 105-мм пушка, ПТУР."
+  },
+  {
+    "id": "sw_strv121b_christian2",
+    "name": "Christian II",
+    "nation": "sweden",
+    "nation_label": "🇸🇪 Швеция",
+    "type": "medium",
+    "type_label": "Средний танк",
+    "br": 10.7,
+    "rank": "VII",
+    "silver_price": 0,
+    "exp_price": 0,
+    "premium": true,
+    "gun": {
+      "name": "120-мм пушка kan Strv 121",
+      "description": "Гладкоствольная танковая пушка",
+      "penetration": [
+        {
+          "ammo_type": "ОБПС (ОПБС)",
+          "ammo_in_game_type": "APFSDS",
+          "penetration_mm": [408, 407, 400, 393, 385, 377],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        },
+        {
+          "ammo_type": "ОФС (Осколочно-фугасный снаряд)",
+          "ammo_in_game_type": "HE",
+          "penetration_mm": [36, 36, 36, 36, 36, 36],
+          "distance_m": [10, 100, 500, 1000, 1500, 2000]
+        }
+      ],
+      "ammo_total": 42,
+      "reload": { "seconds": 7.8, "aces": 6.0 },
+      "elevation": { "min_deg": -9, "max_deg": 20 }
+    },
+    "machine_guns": [
+      {
+        "name": "7,62-мм пулемёт MG3A1",
+        "mount": "coaxial",
+        "ammo": 4600,
+        "belt_size": 200,
+        "fire_rate": 1200,
+        "penetration": [13, 12, 7, 3, 2, 0]
+      }
+    ],
+    "crew": 4,
+    "engine": { "power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12-цилиндровый дизельный", "weight_tonnes": 55.2 },
+    "hull": { "front": 35, "sides": 25, "rear": 20 },
+    "turret": { "front": 25, "sides": 25, "rear": 15 },
+    "notes": "Премиумный шведский Leopard 2A4 Christian II. Отличный танк."
+  }
+
+
+
+
+
+
+
+
+
+
+]

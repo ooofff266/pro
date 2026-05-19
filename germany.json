@@ -1,0 +1,3639 @@
+[
+{
+"id": "germ_garford_putilov",
+"name": "Garford-Beute",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "76,2-мм пушка образца 1910",
+"penetration": [
+{
+"ammo_type": "ОФС",
+"ammo_in_game_type": "HE",
+"penetration_mm": [24, 24, 21, 18, 16, 14],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Осколочно-фугасный снаряд"
+},
+{
+"ammo_type": "ШС",
+"ammo_in_game_type": "Shrapnel",
+"penetration_mm": [18, 17, 16, 14, 12, 10],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Шрапнельный снаряд"
+}
+],
+"ammo_total": 44,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -5, "max_deg": 15},
+"horizontal_traverse": {"min_deg": -125, "max_deg": 140}
+},
+"crew": 6,
+"engine": {"power_hp": 30, "weight_tonnes": 8.6},
+"hull": {"front": 6, "sides": 6, "rear": 6},
+"notes": "Трофейный российский бронеавтомобиль на шасси Garford. Вооружён 76-мм орудием с кормовым расположением. Очень большой экипаж (6 человек). Недостатки: отсутствие брони, кормовое расположение пушки."
+},
+{
+"id": "germ_beutepanzer_mk_iv",
+"name": "Beutepanzer IV",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "2 x 57-мм пушка Максим-Норденфельт",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [40, 38, 32, 26, 21, 17],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный снаряд"
+},
+{
+"ammo_type": "ОФС",
+"ammo_in_game_type": "HE",
+"penetration_mm": [6, 6, 5, 5, 5, 5],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Осколочно-фугасный снаряд"
+}
+],
+"ammo_total": 282,
+"reload": {"seconds": 5.2, "aces": 4.0}
+},
+"crew": 7,
+"engine": {"power_hp": 125, "weight_tonnes": 28.0},
+"hull": {"front": 16, "sides": 12, "rear": 12},
+"notes": "Трофейный британский танк Mark IV. Имеет два 57-мм орудия по бортам. Экипаж 7 человек. Недостатки: очень низкая скорость (6 км/ч), задний ход только 1 км/ч."
+},
+{
+"id": "germ_a7v",
+"name": "A7V",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "57-мм пушка Максим-Норденфельт",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [40, 38, 32, 26, 21, 17],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный снаряд"
+}
+],
+"ammo_total": 180,
+"reload": {"seconds": 5.2, "aces": 4.0}
+},
+"crew": 18,
+"engine": {"power_hp": 200, "weight_tonnes": 30.0},
+"hull": {"front": 30, "sides": 20, "rear": 15},
+"notes": "Первый немецкий танк. Огромный экипаж из 18 человек и 6 пулемётов MG08. Недостатки: очень медленный (12 км/ч), большие размеры."
+},
+{
+"id": "germ_flakpanzer_i_ausf_a",
+"name": "Flakpanzer I",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 1.3,
+"rank": "I",
+"silver_price": 700,
+"exp_price": 2900,
+"premium": false,
+"gun": {
+"name": "20-мм пушка FlaK38",
+"penetration": [
+{
+"ammo_type": "БЗТ",
+"ammo_in_game_type": "AP",
+"penetration_mm": [37, 34, 23, 14, 9, 5],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойно-зажигательный трассирующий"
+},
+{
+"ammo_type": "БПТ",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [48, 45, 31, 20, 13, 8],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный подкалиберный трассирующий"
+}
+],
+"ammo_total": 320,
+"magazine_size": 20,
+"reload": {"seconds": 3.9, "aces": 3.0},
+"rate_of_fire_rpm": 480,
+"elevation": {"min_deg": -20, "max_deg": 90}
+},
+"crew": 2,
+"engine": {"power_hp": 57, "weight_tonnes": 5.5},
+"hull": {"front": 13, "sides": 13, "rear": 13},
+"notes": "ЗСУ на базе Pz.I с 20-мм пушкой FlaK38. Хорошее бронепробитие (подкалибер 48 мм). Недостатки: экипаж 2 человека, очень низкая живучесть."
+},
+{
+"id": "germ_flakpanzer_38t_gepard",
+"name": "Flakpanzer 38",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 1.7,
+"rank": "I",
+"silver_price": 2100,
+"exp_price": 2000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка FlaK38",
+"penetration": [
+{
+"ammo_type": "БЗТ",
+"ammo_in_game_type": "AP",
+"penetration_mm": [37, 34, 23, 14, 9, 5],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойно-зажигательный трассирующий"
+},
+{
+"ammo_type": "БПТ",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [48, 45, 31, 20, 13, 8],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный подкалиберный трассирующий"
+}
+],
+"ammo_total": 1080,
+"magazine_size": 20,
+"reload": {"seconds": 3.9, "aces": 3.0},
+"rate_of_fire_rpm": 480,
+"elevation": {"min_deg": -20, "max_deg": 90}
+},
+"crew": 2,
+"engine": {"power_hp": 150, "weight_tonnes": 9.8},
+"hull": {"front": 20, "sides": 15, "rear": 10},
+"notes": "ЗСУ на базе чешского Pz.38(t). Боекомплект 1080 снарядов. Недостатки: экипаж 2 человека, открытая рубка."
+},
+{
+"id": "germ_sturmpanzer_ii",
+"name": "15cm sIG 33 B Sfl",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 1.0,
+"rank": "I",
+"silver_price": 700,
+"exp_price": 2900,
+"premium": false,
+"gun": {
+"name": "150-мм тяжёлое пехотное орудие s.I.G.33",
+"penetration": [
+{
+"ammo_type": "ОФС",
+"ammo_in_game_type": "HE",
+"penetration_mm": [61, 61, 61, 61, 61, 61],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Осколочно-фугасный снаряд"
+},
+{
+"ammo_type": "КС",
+"ammo_in_game_type": "HEAT",
+"penetration_mm": [185, 185, 185, 185, 185, 185],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Кумулятивный снаряд"
+}
+],
+"ammo_total": 18,
+"reload": {"seconds": 14.4, "aces": 11.1},
+"elevation": {"min_deg": -4, "max_deg": 40},
+"horizontal_traverse": {"min_deg": -1, "max_deg": 6}
+},
+"crew": 4,
+"engine": {"power_hp": 155, "weight_tonnes": 15.9},
+"hull": {"front": 20, "sides": 14, "rear": 15},
+"notes": "САУ на базе Pz.II с 150-мм гаубицей. Кумулятивный снаряд пробивает 185 мм. Недостатки: очень маленькие углы горизонтальной наводки, открытая рубка."
+},
+{
+"id": "germ_sdkfz_221_s_pz_b_41",
+"name": "Sd.Kfz.221 (s.Pz.B.41)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 2100,
+"exp_price": 2000,
+"premium": false,
+"gun": {
+"name": "28/20-мм пушка s.Pz.B.41",
+"penetration": [
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [90, 84, 63, 44, 31, 21],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный подкалиберный снаряд"
+}
+],
+"ammo_total": 60,
+"reload": {"seconds": 3.9, "aces": 3.0},
+"elevation": {"min_deg": -10, "max_deg": 20},
+"horizontal_traverse": {"min_deg": -20, "max_deg": 2}
+},
+"crew": 2,
+"engine": {"power_hp": 75, "weight_tonnes": 4.0},
+"hull": {"front": 8, "sides": 8, "rear": 8},
+"notes": "Лёгкий бронеавтомобиль с коническим 28-мм орудием (высокое пробитие 90 мм). Недостатки: экипаж 2 человека, полное отсутствие брони."
+},
+{
+"id": "germ_sdkfz_234_3",
+"name": "Sd.Kfz.234/3",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 2.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка K51 L/24",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [52, 51, 45, 39, 34, 30],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный снаряд"
+},
+{
+"ammo_type": "КС",
+"ammo_in_game_type": "HEAT",
+"penetration_mm": [115, 115, 115, 115, 115, 115],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Кумулятивный снаряд"
+}
+],
+"ammo_total": 50,
+"reload": {"seconds": 4.3, "aces": 3.3},
+"elevation": {"min_deg": -10, "max_deg": 16},
+"horizontal_traverse": {"min_deg": -14, "max_deg": 14}
+},
+"crew": 4,
+"engine": {"power_hp": 210, "weight_tonnes": 11.5},
+"hull": {"front": 30, "sides": 8, "rear": 10},
+"notes": "Премиумный колёсный бронеавтомобиль с 75-мм короткоствольной пушкой. Отличная подвижность (98 км/ч), кумулятив 115 мм. Недостатки: слабая броня, открытая рубка."
+},
+{
+"id": "germ_pzkpfw_38t_ausf_f",
+"name": "Pz.38(t) F",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.3,
+"rank": "I",
+"silver_price": 2100,
+"exp_price": 4000,
+"premium": false,
+"gun": {
+"name": "37-мм пушка KwK38(t)",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [62, 59, 45, 32, 23, 17],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный снаряд"
+},
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [86, 77, 47, 26, 14, 8],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный подкалиберный снаряд"
+}
+],
+"ammo_total": 90,
+"reload": {"seconds": 4.3, "aces": 3.3},
+"elevation": {"min_deg": -10, "max_deg": 25}
+},
+"crew": 4,
+"engine": {"power_hp": 125, "weight_tonnes": 10.1},
+"hull": {"front": 50, "sides": 30, "rear": 30},
+"turret": {"front": 50, "sides": 30, "rear": 30},
+"notes": "Чешский лёгкий танк с усиленной бронёй (лоб 50 мм). Подкалиберные снаряды (86 мм). Недостатки: плотная компоновка, устаревшее 37-мм орудие."
+},
+{
+"id": "germ_sdkfz_234_1",
+"name": "Sd.Kfz.234/1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 2600,
+"exp_price": 6400,
+"premium": false,
+"gun": {
+"name": "20-мм пушка KwK38",
+"penetration": [
+{
+"ammo_type": "БЗТ",
+"ammo_in_game_type": "AP",
+"penetration_mm": [37, 34, 23, 14, 9, 5],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойно-зажигательный трассирующий"
+},
+{
+"ammo_type": "БПТ",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [49, 46, 32, 21, 14, 9],
+"distance_m": [10, 100, 500, 1000, 1500, 2000],
+"description": "Бронебойный подкалиберный трассирующий"
+}
+],
+"ammo_total": 280,
+"magazine_size": 10,
+"reload": {"seconds": 3.0, "aces": 2.3},
+"rate_of_fire_rpm": 480,
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 4,
+"engine": {"power_hp": 210, "weight_tonnes": 11.7},
+"hull": {"front": 30, "sides": 8, "rear": 10},
+"notes": "Колёсный бронеавтомобиль с открытой башней. Вооружён 20-мм пушкой KwK38. Недостатки: очень слабая броня (лоб 30 мм)."
+},
+{
+"id": "germ_sdkfz_234_1",
+"name": "Sd.Kfz.234/1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 4000,
+"exp_price": 3000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка KwK38",
+"penetration": [
+{
+"ammo_type": "БПТ",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [49, 46, 32, 21, 14, 9]
+}
+],
+"ammo_total": 280,
+"magazine_size": 10,
+"reload": {"seconds": 3.0, "aces": 2.3},
+"rate_of_fire_rpm": 480,
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 4,
+"engine": {"power_hp": 210, "weight_tonnes": 11.7},
+"hull": {"front": 30, "sides": 8, "rear": 10},
+"notes": "Колёсный бронеавтомобиль с 20-мм пушкой. Высокая подвижность (90 км/ч). Недостатки: очень слабая броня."
+},
+{
+"id": "germ_pzkpfw_38t_ausf_a",
+"name": "Pz.Kpfw. 38(t) Ausf. A",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 2000,
+"exp_price": 550,
+"premium": false,
+"gun": {
+"name": "37-мм пушка KwK38(t)",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [52, 49, 37, 26, 19, 14]
+},
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [79, 70, 43, 24, 13, 8]
+}
+],
+"ammo_total": 90,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 4,
+"engine": {"power_hp": 125, "weight_tonnes": 9.5},
+"hull": {"front": 25, "sides": 15, "rear": 15},
+"turret": {"front": 25, "sides": 15, "rear": 15},
+"notes": "Чешский лёгкий танк на службе Германии. Хорошая подвижность, подкалиберные снаряды (79 мм). Недостатки: слабая броня."
+},
+{
+"id": "germ_pzkpfw_iii_ausf_f",
+"name": "Pz.Kpfw. III Ausf. F",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 1.7,
+"rank": "I",
+"silver_price": 2000,
+"exp_price": 1200,
+"premium": false,
+"gun": {
+"name": "37-мм пушка KwK36",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [53, 49, 39, 29, 21, 15]
+}
+],
+"ammo_total": 131,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 19.5},
+"hull": {"front": 30, "sides": 30, "rear": 21},
+"turret": {"front": 30, "sides": 30, "rear": 30},
+"notes": "Ранний Pz.III с 37-мм пушкой. Хорошая броня (лоб 30 мм). Недостатки: слабое орудие для своего БР, низкая подвижность."
+},
+{
+"id": "germ_pzkpfw_ii_ausf_f",
+"name": "Pz.Kpfw. II Ausf. F",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 2000,
+"exp_price": 600,
+"premium": false,
+"gun": {
+"name": "20-мм пушка KwK38",
+"penetration": [
+{
+"ammo_type": "БПТ",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [49, 46, 32, 21, 14, 9]
+}
+],
+"ammo_total": 180,
+"magazine_size": 10,
+"reload": {"seconds": 3.0, "aces": 2.3},
+"rate_of_fire_rpm": 480
+},
+"crew": 3,
+"engine": {"power_hp": 140, "weight_tonnes": 10.0},
+"hull": {"front": 35, "sides": 15, "rear": 15},
+"turret": {"front": 30, "sides": 15, "rear": 15},
+"notes": "Модернизированный Pz.II с усиленной лобовой бронёй (35 мм). Недостатки: всё ещё слабая броня бортов."
+},
+{
+"id": "germ_sdkfz_6_2_flak36",
+"name": "Sd.Kfz. 6/2 (Flak 36)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 2.0,
+"rank": "I",
+"silver_price": 14000,
+"exp_price": 4000,
+"premium": false,
+"gun": {
+"name": "37-мм пушка FlaK 36",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [78, 75, 62, 51, 41, 34]
+},
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [91, 88, 73, 58, 47, 38]
+}
+],
+"ammo_total": 120,
+"magazine_size": 8,
+"reload": {"seconds": 0.5, "aces": 0.4},
+"rate_of_fire_rpm": 160
+},
+"crew": 5,
+"engine": {"power_hp": 115, "weight_tonnes": 9.5},
+"hull": {"front": 10, "sides": 8, "rear": 8},
+"notes": "ЗСУ на полугусеничном шасси с 37-мм пушкой. Хорошее бронепробитие (91 мм подкалибер). Недостатки: открытая установка, слабая броня."
+},
+{
+"id": "germ_pzkpfw_38t_marder_iii",
+"name": "Pz.Kpfw. 38(t) Marder III",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 1.7,
+"rank": "I",
+"silver_price": 3900,
+"exp_price": 1250,
+"premium": false,
+"gun": {
+"name": "76,2-мм пушка PaK 36(r)",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [119, 115, 99, 82, 68, 56]
+},
+{
+"ammo_type": "КС",
+"ammo_in_game_type": "HEAT",
+"penetration_mm": [100, 100, 100, 100, 100, 100]
+}
+],
+"ammo_total": 38,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 4,
+"engine": {"power_hp": 125, "weight_tonnes": 10.2},
+"hull": {"front": 50, "sides": 15, "rear": 15},
+"notes": "ПТ-САУ на базе Pz.38(t) с трофейной советской 76-мм пушкой PaK 36(r). Отличное бронепробитие (119 мм). Недостатки: слабая броня, открытая рубка."
+},
+{
+"id": "germ_stug_iii_ausf_a",
+"name": "StuG III Ausf. A",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 2.0,
+"rank": "I",
+"silver_price": 17000,
+"exp_price": 3850,
+"premium": false,
+"gun": {
+"name": "75-мм пушка StuK 37 L/24",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [52, 51, 45, 39, 34, 30]
+},
+{
+"ammo_type": "КС",
+"ammo_in_game_type": "HEAT",
+"penetration_mm": [115, 115, 115, 115, 115, 115]
+}
+],
+"ammo_total": 44,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 4,
+"engine": {"power_hp": 300, "weight_tonnes": 19.6},
+"hull": {"front": 50, "sides": 30, "rear": 30},
+"notes": "Первая серийная Штурмовое орудие. Хорошая броня (лоб 50 мм), кумулятивные снаряды (115 мм). Недостатки: малые углы горизонтальной наводки."
+},
+{
+"id": "germ_nbfz_vi",
+"name": "Nb.Fz. VI",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка KwK 37 L/24 + 37-мм пушка KwK 36 L/45",
+"description": "Спаренная установка орудий",
+"penetration": [
+{
+"ammo_type": "КС",
+"ammo_in_game_type": "HEAT",
+"penetration_mm": [80, 80, 80, 80, 80, 80]
+}
+],
+"ammo_total": 60,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 23.4},
+"hull": {"front": 20, "sides": 15, "rear": 15},
+"notes": "Премиумный немецкий средний танк с двумя орудиями (75-мм и 37-мм). Недостатки: очень слабая броня."
+},
+{
+"id": "germ_sdkfz_221_s_pz_b_41",
+"name": "Sd.Kfz.221 (s.Pz.B.41)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 2100,
+"exp_price": 2000,
+"premium": false,
+"gun": {
+"name": "28/20-мм пушка s.Pz.B.41",
+"penetration": [
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [90, 84, 63, 44, 31, 21]
+}
+],
+"ammo_total": 60,
+"reload": {"seconds": 3.9, "aces": 3.0}
+},
+"crew": 2,
+"engine": {"power_hp": 75, "weight_tonnes": 4.0},
+"notes": "Лёгкий бронеавтомобиль с коническим 28-мм орудием. Отличное пробитие (90 мм). Недостатки: экипаж 2 человека, очень слабая броня."
+},
+{
+"id": "germ_pzkpfw_38t_ausf_f",
+"name": "Pz.Kpfw. 38(t) Ausf. F",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.3,
+"rank": "I",
+"silver_price": 4200,
+"exp_price": 4050,
+"premium": false,
+"gun": {
+"name": "37-мм пушка KwK38(t)",
+"penetration": [
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [86, 77, 47, 26, 14, 8]
+}
+],
+"ammo_total": 90,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 4,
+"engine": {"power_hp": 125, "weight_tonnes": 10.1},
+"hull": {"front": 50, "sides": 30, "rear": 30},
+"turret": {"front": 50, "sides": 30, "rear": 30},
+"notes": "Усиленная броня (лоб 50 мм). Подкалиберные снаряды (86 мм). Недостатки: плотная компоновка."
+},
+{
+"id": "germ_pzkpfw_38t_na",
+"name": "Pz.Kpfw. 38(t) n.A.",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 4000,
+"exp_price": 1800,
+"premium": false,
+"gun": {
+"name": "37-мм пушка KwK38(t)",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [52, 49, 37, 26, 19, 14]
+}
+],
+"ammo_total": 90,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 4,
+"engine": {"power_hp": 150, "weight_tonnes": 11.3},
+"hull": {"front": 50, "sides": 30, "rear": 30},
+"notes": "Разведывательная версия Pz.38(t) с более мощным двигателем. Недостатки: 37-мм орудие слабо для своего БР."
+},
+{
+"id": "germ_pzkpfw_iii_ausf_j_l42",
+"name": "Pz.Kpfw. III Ausf. J (L/42)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 12000,
+"exp_price": 4000,
+"premium": false,
+"gun": {
+"name": "50-мм пушка KwK38 L/42",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [86, 83, 70, 58, 48, 40]
+},
+{
+"ammo_type": "БПС",
+"ammo_in_game_type": "APCR",
+"penetration_mm": [113, 107, 85, 64, 48, 36]
+}
+],
+"ammo_total": 99,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 21.5},
+"hull": {"front": 50, "sides": 30, "rear": 20},
+"turret": {"front": 50, "sides": 30, "rear": 30},
+"notes": "Pz.III Ausf.J с 50-мм пушкой L/42. Хорошее бронирование (лоб 50 мм). Недостатки: подвижность хуже чем у Pz.III Ausf.E/F."
+},
+{
+"id": "germ_pzkpfw_38t_aufklarungspanzer",
+"name": "Pz.Kpfw. 38(t) Aufklärungspanzer",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 14000,
+"exp_price": 4100,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK37 L/24",
+"penetration": [
+{
+"ammo_type": "КС",
+"ammo_in_game_type": "HEAT",
+"penetration_mm": [115, 115, 115, 115, 115, 115]
+}
+],
+"ammo_total": 50,
+"reload": {"seconds": 4.1, "aces": 3.2}
+},
+"crew": 3,
+"engine": {"power_hp": 125, "weight_tonnes": 11.5},
+"hull": {"front": 50, "sides": 30, "rear": 30},
+"notes": "Разведывательный танк на базе Pz.38(t) с 75-мм короткоствольной пушкой. Недостатки: экипаж 3 человека."
+},
+{
+"id": "germ_amd_35_kwk",
+"name": "AMD 35 (Kwk)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.7,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "37-мм пушка KwK36",
+"penetration": [
+{
+"ammo_type": "БС",
+"ammo_in_game_type": "AP",
+"penetration_mm": [53, 49, 39, 29, 21, 15]
+}
+],
+"ammo_total": 100,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 3,
+"engine": {"power_hp": 78, "weight_tonnes": 8.5},
+"hull": {"front": 15, "sides": 10, "rear": 10},
+"notes": "Премиумный трофейный французский бронеавтомобиль AMD 35 (Panhard 178) с 37-мм пушкой. Недостатки: слабое бронепробитие."
+},
+{
+"id": "germ_amd_35_kwk39",
+"name": "Pz.Sp.Wg.P204(f) KwK 39/1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "50-мм пушка KwK.39/1",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [106, 101, 83, 65, 50, 39]},
+{"ammo_type": "БПС", "penetration_mm": [137, 126, 88, 56, 36, 23]}
+],
+"ammo_total": 18,
+"reload": {"seconds": 4.8, "aces": 3.7}
+},
+"crew": 4,
+"engine": {"power_hp": 105, "weight_tonnes": 8.5},
+"hull": {"front": 20, "sides": 15},
+"notes": "Трофейный французский бронеавтомобиль AMD.35 с 50-мм пушкой KwK 39/1. Отличная подвижность (80 км/ч), высокое бронепробитие (137 мм). Недостатки: слабая броня, мало снарядов (18)."
+},
+{
+"id": "germ_pzkpfw_iii_ausf_j",
+"name": "Pz.III J1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "50-мм пушка KwK39",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [106, 101, 83, 65, 50, 39]},
+{"ammo_type": "БПС", "penetration_mm": [137, 126, 88, 56, 36, 23]}
+],
+"ammo_total": 84,
+"reload": {"seconds": 4.8, "aces": 3.7}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 21.8},
+"hull": {"front": 53, "sides": 30},
+"turret": {"front": 50},
+"notes": "Немецкий средний танк с 50-мм длинноствольной пушкой. Хорошее бронирование (лоб 53 мм). Недостатки: медленный поворот башни."
+},
+{
+"id": "germ_pzkpfw_iv_ausf_f2",
+"name": "Pz.IV F2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.3,
+"rank": "II",
+"silver_price": 16000,
+"exp_price": 9200,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK40 L43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [137, 135, 123, 110, 98, 87]},
+{"ammo_type": "БПС", "penetration_mm": [163, 159, 143, 126, 110, 96]}
+],
+"ammo_total": 87,
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 22.7},
+"hull": {"front": 50, "sides": 30},
+"notes": "Первый немецкий средний танк с длинноствольной 75-мм пушкой. Отличное бронепробитие (163 мм). Недостатки: слабая броня."
+},
+{
+"id": "germ_pzkpfw_iv_ausf_g",
+"name": "Pz.IV G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 22000,
+"exp_price": 5600,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK40 L43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [137, 135, 123, 110, 98, 87]},
+{"ammo_type": "БПС", "penetration_mm": [163, 159, 143, 126, 110, 96]}
+],
+"ammo_total": 87,
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 23.7},
+"hull": {"front": 80, "sides": 30},
+"notes": "Модификация Pz.IV с дополнительной 30-мм броней (лоб 80 мм). Хорошее орудие. Недостатки: сниженная подвижность."
+},
+{
+"id": "germ_sdkfz_251_21",
+"name": "Sd.Kfz.251/21",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 3.3,
+"rank": "II",
+"silver_price": 32000,
+"exp_price": 14000,
+"premium": false,
+"gun": {
+"name": "3 x 15-мм пулемёт MG151",
+"penetration": [
+{"ammo_type": "БП", "penetration_mm": [51, 46, 30, 18, 11, 6]}
+],
+"ammo_total": 3000,
+"reload": {"seconds": 18.2, "aces": 14.0}
+},
+"crew": 4,
+"engine": {"power_hp": 100, "weight_tonnes": 8.0},
+"hull": {"front": 14},
+"notes": "ЗСУ на базе бронетранспортёра с тремя 15-мм пулемётами MG151. Высокая плотность огня. Недостатки: слабая броня, долгая перезарядка."
+},
+{
+"id": "germ_pzkpfw_38t_marder_iii_ausf_h",
+"name": "Marder III H",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 3.0,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "75-мм пушка PaK40/3 L46",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [151, 148, 135, 121, 108, 96]},
+{"ammo_type": "БПС", "penetration_mm": [182, 177, 159, 140, 122, 107]}
+],
+"ammo_total": 38,
+"reload": {"seconds": 6.5, "aces": 5.0}
+},
+"crew": 4,
+"engine": {"power_hp": 150, "weight_tonnes": 11.0},
+"hull": {"front": 50},
+"notes": "ПТ-САУ на базе Pz.38(t) с 75-мм пушкой PaK40. Отличное бронепробитие (182 мм). Недостатки: открытая рубка, слабая броня."
+},
+{
+"id": "germ_stuh_iii_ausf_g",
+"name": "StuH 42 G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 3.0,
+"rank": "II",
+"silver_price": 16000,
+"exp_price": 4600,
+"premium": false,
+"gun": {
+"name": "105-мм гаубица StuH42",
+"penetration": [
+{"ammo_type": "ОФС", "penetration_mm": [22, 22, 22, 22, 22, 22]},
+{"ammo_type": "КС", "penetration_mm": [115, 115, 115, 115, 115, 115]}
+],
+"ammo_total": 36,
+"reload": {"seconds": 13.0, "aces": 10.0}
+},
+"crew": 4,
+"engine": {"power_hp": 300, "weight_tonnes": 24.4},
+"hull": {"front": 80},
+"notes": "Штурмовое орудие на базе StuG III с 105-мм гаубицей. Хорошая лобовая броня (80 мм), кумулятив (115 мм). Недостатки: низкая скорость снарядов."
+},
+{
+"id": "germ_stug_iii_ausf_g",
+"name": "StuG III Ausf. G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.0,
+"rank": "III",
+"silver_price": 36000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка StuK40 L48",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [147, 144, 132, 119, 107, 96]},
+{"ammo_type": "БПС", "penetration_mm": [176, 172, 155, 137, 120, 106]}
+],
+"ammo_total": 54,
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 4,
+"engine": {"power_hp": 300, "weight_tonnes": 23.9},
+"hull": {"front": 80},
+"notes": "Немецкая штурмовая САУ с 75-мм пушкой L48. Хорошая броня (лоб 80 мм), неплохая подвижность. Недостатки: отсутствие башни."
+},
+{
+"id": "germ_panzerwerfer_42",
+"name": "Panzerwerfer 42",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 3.0,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "150-мм реактивная установка",
+"description": "Реактивная система залпового огня",
+"rocket": true,
+"ammo_total": 20
+},
+"crew": 4,
+"engine": {"power_hp": 100, "weight_tonnes": 8.0},
+"notes": "Премиумная немецкая РСЗО на полугусеничном шасси. Недостатки: отсутствие брони, сложное прицеливание."
+},
+{
+"id": "germ_pzkpfw_iii_ausf_l",
+"name": "Pz.III L",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.0,
+"rank": "II",
+"silver_price": 19000,
+"exp_price": 8600,
+"premium": false,
+"gun": {
+"name": "50-мм пушка KwK39 L/60",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [137, 126, 88, 56, 36, 23]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 22.0},
+"hull": {"front": 70},
+"turret": {"front": 57},
+"notes": "Поздний Pz.III с усиленной лобовой бронёй (корпус 70 мм, башня 57 мм). Недостатки: 50-мм пушка уже слабовата для 3.0."
+},
+{
+"id": "germ_pzkpfw_iv_ausf_h",
+"name": "Pz.IV H",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.0,
+"rank": "III",
+"silver_price": 40000,
+"exp_price": 22000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK40 L48",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [147, 144, 132, 119, 107, 96]},
+{"ammo_type": "БПС", "penetration_mm": [176, 172, 155, 137, 120, 106]}
+],
+"ammo_total": 87,
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 25.0},
+"hull": {"front": 80},
+"notes": "Поздний Pz.IV с дополнительной броней (лоб 80 мм) и 75-мм пушкой L48. Хорошее орудие. Недостатки: борта все ещё слабые."
+},
+{
+"id": "germ_stug_iii_ausf_g",
+"name": "StuG III Ausf. G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.0,
+"rank": "III",
+"silver_price": 36000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка StuK40 L48",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [176, 172, 155, 137, 120, 106]}
+],
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 4,
+"engine": {"power_hp": 300, "weight_tonnes": 23.9},
+"hull": {"front": 80},
+"notes": "Наиболее массовая версия StuG III с 75-мм пушкой L48. Хорошее бронепробитие, низкий силуэт. Недостатки: нет башни."
+},
+{
+"id": "germ_sturmpanzer_ii",
+"name": "15 cm sIG 33 B Sfl",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 1.0,
+"rank": "I",
+"silver_price": 700,
+"exp_price": 2900,
+"premium": false,
+"gun": {
+"name": "150-мм тяжёлое пехотное орудие s.I.G.33",
+"penetration": [
+{"ammo_type": "КС", "penetration_mm": [185, 185, 185, 185, 185, 185]}
+],
+"ammo_total": 18,
+"reload": {"seconds": 14.4, "aces": 11.1}
+},
+"crew": 4,
+"engine": {"power_hp": 155, "weight_tonnes": 15.9},
+"hull": {"front": 20},
+"notes": "САУ на базе Pz.II со 150-мм гаубицей. Кумулятивный снаряд пробивает 185 мм. Недостатки: долгая перезарядка, открытая рубка."
+},
+{
+"id": "germ_pzsfl_iva_dickermax",
+"name": "Dicker Max",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "105-мм пушка K18 L/52",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [181, 180, 164, 149, 136, 124]}
+],
+"ammo_total": 26,
+"reload": {"seconds": 13.0, "aces": 10.0}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 22.0},
+"notes": "Премиумная ПТ-САУ с 105-мм пушкой. Отличное бронепробитие (181 мм). Недостатки: открытая рубка, слабая броня."
+},
+{
+"id": "germ_pzsflk40_sturer_emil",
+"name": "Sturer Emil",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.7,
+"rank": "III",
+"silver_price": 37000,
+"exp_price": 19000,
+"premium": false,
+"gun": {
+"name": "128-мм пушка K40 L/61",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [223, 220, 205, 187, 170, 155]},
+{"ammo_type": "БПС", "penetration_mm": [273, 269, 249, 226, 205, 186]}
+],
+"ammo_total": 18,
+"reload": {"seconds": 20.0, "aces": 15.4}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 32.0},
+"notes": "ПТ-САУ с 128-мм пушкой. Огромное бронепробитие (273 мм). Недостатки: очень долгая перезарядка (20 сек), длинные габариты."
+},
+{
+"id": "germ_pzkpfw_iii_ausf_n",
+"name": "Pz.III N",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 26000,
+"exp_price": 12000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK37 L/24",
+"penetration": [
+{"ammo_type": "КС", "penetration_mm": [115, 115, 115, 115, 115, 115]}
+],
+"ammo_total": 64,
+"reload": {"seconds": 4.3, "aces": 3.3}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 22.0},
+"hull": {"front": 70},
+"notes": "Pz.III с 75-мм короткоствольной пушкой (кумулятив 115 мм). Хорошее бронирование. Недостатки: низкая бронепробиваемость против средне-тяжёлых танков."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_e_tiger",
+"name": "Tiger I",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 6.0,
+"rank": "III",
+"silver_price": 135000,
+"exp_price": 40000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка KwK36",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [165, 162, 151, 139, 127, 117]},
+{"ammo_type": "БПС", "penetration_mm": [211, 207, 191, 172, 155, 140]}
+],
+"ammo_total": 92,
+"reload": {"seconds": 9.6, "aces": 7.4}
+},
+"crew": 5,
+"engine": {"power_hp": 700, "weight_tonnes": 57.3},
+"hull": {"front": 100, "sides": 80},
+"turret": {"front": 100},
+"notes": "Знаменитый немецкий тяжёлый танк. Хорошая броня при ромбовидной постановке, мощное 88-мм орудие. Недостатки: низкая подвижность, уязвимые щёки башни."
+},
+{
+"id": "germ_pzkpfw_v_ausf_d_panther",
+"name": "Panther D",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 5.3,
+"rank": "III",
+"silver_price": 105000,
+"exp_price": 33000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK42",
+"penetration": [{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]}],
+"ammo_total": 79,
+"reload": {"seconds": 9.6, "aces": 7.4}
+},
+"crew": 5,
+"engine": {"power_hp": 650, "weight_tonnes": 45.3},
+"hull": {"front": 80},
+"turret": {"front": 100},
+"notes": "Первый серийный «Пантера». Отличная лобовая броня и мощное 75-мм орудие. Недостатки: очень медленный поворот башни (4.2°/с), низкий задний ход (4 км/ч)."
+},{
+"id": "germ_pzkpfw_vi_ausf_b_tiger_ii",
+"name": "Tiger II",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 145000,
+"exp_price": 52000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка KwK43 L/71",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 700, "weight_tonnes": 68.0},
+"hull": {"front": 150},
+"turret": {"front": 100},
+"notes": "Немецкий тяжёлый танк «Королевский тигр» с 88-мм длинноствольной пушкой. Очень хорошая лобовая броня. Недостатки: большие габариты, слабая башня (100 мм)."
+},
+{
+"id": "germ_flakpanzer_iv_ostwind_2",
+"name": "Flakpanzer 341 «Coelian»",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 63000,
+"exp_price": 54000,
+"premium": false,
+"gun": {
+"name": "2 x 37-мм пушка FlaK 44",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [91, 88, 73, 58, 47, 38]}]
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 25.0},
+"hull": {"front": 80},
+"notes": "ЗСУ на базе Pz.IV с двумя 37-мм пушками в закрытой башне. Хорошая защита экипажа."
+},
+{
+"id": "germ_kv_2_754r",
+"name": "KW II 754 (r)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 3.7,
+"rank": "III",
+"silver_price": 1750,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "152-мм гаубица М-10Т",
+"penetration": [
+{"ammo_type": "ПБ", "ammo_in_game_type": "APHE", "penetration_mm": [86, 85, 81, 77, 73, 70]},
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [48, 48, 48, 48, 48, 48]}
+],
+"ammo_total": 36,
+"reload": {"seconds": 31.2, "aces": 24.0},
+"elevation": {"min_deg": -5, "max_deg": 12}
+},
+"crew": 6,
+"engine": {"power_hp": 600, "weight_tonnes": 52.4},
+"hull": {"front": 75, "sides": 75, "rear": 70},
+"turret": {"front": 75, "sides": 75, "rear": 75},
+"notes": "Трофейный советский КВ-2 с добавленной немецкой командирской башенкой. Мощная 152-мм гаубица, хорошая броня. Недостатки: очень долгая перезарядка (31 сек), поворот башни 4.2°/с, огромная башня."
+},
+{
+"id": "us_m4a2_1944_germ",
+"name": "M4 748 (a)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка М3",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [104, 102, 93, 84, 75, 68]},
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [139, 135, 121, 105, 91, 79]}
+],
+"ammo_total": 97,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -10, "max_deg": 25}
+},
+"crew": 5,
+"engine": {"power_hp": 410, "weight_tonnes": 32.2},
+"hull": {"front": 63, "sides": 38},
+"turret": {"front": 76, "sides": 51},
+"notes": "Трофейный американский M4A2 Sherman. Полный аналог американской версии. Хороший стабилизатор, 75-мм пушка. Недостатки: броня уже слаба для БР 4.0."
+},
+{
+"id": "germ_panzerbefelhswagen_iv_ausf_j",
+"name": "Pz.Bef.Wg.IV J",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.0,
+"rank": "III",
+"silver_price": 1750,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка KwK40 L48",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [145, 143, 130, 116, 104, 93]},
+{"ammo_type": "БПС", "penetration_mm": [182, 177, 159, 140, 122, 107]}
+],
+"ammo_total": 87,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 25.7},
+"hull": {"front": 80, "sides": 30},
+"notes": "Командирская версия Pz.IV J. Имеет дополнительные бронеэкраны. Недостатки: очень низкая скорость поворота башни (7°/с)."
+},
+{
+"id": "germ_kv_1b_finland",
+"name": "KV-1B",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.3,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ф-32",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [87, 85, 76, 67, 58, 51]}
+],
+"ammo_total": 111,
+"reload": {"seconds": 8.1, "aces": 6.3}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 49.0},
+"hull": {"front": 100, "sides": 75},
+"turret": {"front": 75, "sides": 100},
+"notes": "Финский трофейный КВ-1. Отличная броня (корпус 100 мм, башня 75-100 мм). Недостатки: 76-мм пушка Ф-32 имеет слабое бронепробитие (87 мм)."
+},
+{
+"id": "germ_infanterie_kampfpanzer_churchill",
+"name": "Pz.Kpfw. Churchill",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.0,
+"rank": "III",
+"silver_price": 1750,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.V",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [132, 127, 110, 91, 75, 63]}
+],
+"ammo_total": 85,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 355, "weight_tonnes": 39.0},
+"hull": {"front": 89, "sides": 76},
+"turret": {"front": 89, "sides": 89},
+"notes": "Трофейный британский Churchill III. Хорошая круговая броня (89 мм), быстрая перезарядка. Недостатки: очень медленный (28 км/ч), задний ход 3 км/ч."
+},
+{
+"id": "germ_sdkfz_234_4",
+"name": "Sd.Kfz.234/4",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка PaK40/3 L46",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [151, 148, 135, 121, 108, 96]},
+{"ammo_type": "БПС", "penetration_mm": [182, 177, 159, 140, 122, 107]}
+],
+"ammo_total": 36,
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 4,
+"engine": {"power_hp": 210, "weight_tonnes": 11.7},
+"hull": {"front": 30, "sides": 8},
+"notes": "Колёсный бронеавтомобиль с 75-мм длинноствольной пушкой. Отличная подвижность (98 км/вперёд и назад). Недостатки: очень слабая броня, открытая рубка."
+},
+{
+"id": "germ_t_34_747",
+"name": "T-34 747 (r)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.3,
+"rank": "III",
+"silver_price": 2460,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ф-34",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [99, 96, 87, 76, 66, 58]},
+{"ammo_type": "БПС", "penetration_mm": [125, 117, 87, 60, 41, 28]}
+],
+"ammo_total": 100,
+"reload": {"seconds": 8.4, "aces": 6.5},
+"elevation": {"min_deg": -5, "max_deg": 30}
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 29.5},
+"hull": {"front": 60, "sides": 45},
+"turret": {"front": 53, "sides": 53},
+"notes": "Трофейный советский Т-34 (аналог Т-34Э СТЗ). Хорошая подвижность (54 км/ч), броня лба корпуса 60 мм. Недостатки: плотная компоновка, плохие УВН (-5°)."
+},
+{
+"id": "germ_pzkpfw_vi_tiger_p",
+"name": "Tiger (P)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка KwK36",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [165, 162, 151, 139, 127, 117]}
+],
+"ammo_total": 75,
+"reload": {"seconds": 9.6, "aces": 7.4}
+},
+"crew": 5,
+"engine": {"power_hp": 650, "weight_tonnes": 64.0},
+"hull": {"front": 200, "sides": 80},
+"notes": "Прототип Tiger от Porsche. Очень толстая лобовая броня (200 мм). Недостатки: огромные размеры, низкая подвижность, уязвимые борта."
+},
+{
+"id": "germ_sturmpanzer_iv_brummbar",
+"name": "Sturmpanzer IV «Brummbär»",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "150-мм пушка StuH 43 L/12",
+"penetration": [{"ammo_type": "КС", "penetration_mm": [115, 115, 115, 115, 115, 115]}],
+"ammo_total": 38,
+"reload": {"seconds": 27.0, "aces": 20.8}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 28.2},
+"hull": {"front": 100, "sides": 30},
+"notes": "Штурмовое орудие на базе Pz.IV с 150-мм гаубицей. Хорошая лобовая броня (100 мм). Недостатки: очень долгая перезарядка (27 сек)."
+},
+{
+"id": "germ_vsw_flak_41",
+"name": "VFW Flak 41",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка FlaK 41",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [237, 233, 214, 190, 169, 151]}],
+"ammo_total": 50,
+"reload": {"seconds": 3.0, "aces": 2.3}
+},
+"crew": 4,
+"engine": {"power_hp": 140, "weight_tonnes": 14.0},
+"notes": "Премиумная ПТ-САУ на полугусеничном шасси с 88-мм зенитной пушкой. Очень быстрая перезарядка (3 сек), высокое пробитие (237 мм). Недостатки: открытая установка, слабая броня."
+},
+{
+"id": "germ_pz_iv_l70_a",
+"name": "Panzer IV/70(A)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.3,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка PaK42",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]},
+{"ammo_type": "БПС", "penetration_mm": [228, 224, 204, 182, 162, 145]}
+],
+"ammo_total": 60,
+"reload": {"seconds": 9.6, "aces": 7.4}
+},
+"crew": 4,
+"engine": {"power_hp": 300, "weight_tonnes": 28.5},
+"hull": {"front": 80, "sides": 30},
+"notes": "ПТ-САУ на базе Pz.IV с 75-мм длинноствольной пушкой L70. Отличное бронепробитие (228 мм). Недостатки: высокий силуэт, медленный поворот корпуса."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_h1_tiger_east",
+"name": "Tiger Ost",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка KwK36",
+"penetration": [{"ammo_type": "БС", "penetration_mm": [165, 162, 151, 139, 127, 117]}],
+"ammo_total": 92,
+"reload": {"seconds": 9.6, "aces": 7.4}
+},
+"crew": 5,
+"engine": {"power_hp": 650, "weight_tonnes": 57.3},
+"hull": {"front": 100, "sides": 80},
+"notes": "Tiger H1 модификации для Восточного фронта (с траками на корпусе). Недостатки: броня без рациональных углов, уязвимая командирская башенка."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_h1_tiger_west",
+"name": "Tiger West",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка KwK36",
+"penetration": [{"ammo_type": "БС", "penetration_mm": [165, 162, 151, 139, 127, 117]}]
+},
+"crew": 5,
+"engine": {"power_hp": 650, "weight_tonnes": 57.3},
+"notes": "Tiger H1 модификации для Западного фронта (камуфляж и оборудование). Характеристики как у Tiger H1."
+},
+{
+"id": "germ_flakpanzer_iv_ostwind_2_net",
+"name": "Flakpanzer IV Ostwind 2 (сетчатый)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 5.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "2 x 37-мм пушка FlaK 44",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [91, 88, 73, 58, 47, 38]}]
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 25.0},
+"notes": "ЗСУ на базе Pz.IV с двумя 37-мм пушками. Отличается сетчатыми экранами. Недостатки: отсутствие крыши, слабая броня."
+},
+{
+"id": "germ_kv_1_kwk_40",
+"name": "KW I C 756 (r)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка KwK40 L48",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [145, 143, 130, 116, 104, 93]},
+{"ammo_type": "БПС", "penetration_mm": [182, 177, 159, 140, 122, 107]}
+],
+"ammo_total": 85,
+"reload": {"seconds": 7.6, "aces": 5.9}
+},
+"crew": 5,
+"engine": {"power_hp": 500, "weight_tonnes": 49.0},
+"hull": {"front": 100, "sides": 75},
+"notes": "Трофейный КВ-1 с немецкой 75-мм пушкой KwK40 L48. Отличное бронепробитие (182 мм). Недостатки: броня корпуса уже слаба для БР 5.0."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_h1_tiger_animal_version",
+"name": "Tiger H1 (животный камуфляж)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка KwK36",
+"penetration": [{"ammo_type": "БС", "penetration_mm": [165, 162, 151, 139, 127, 117]}]
+},
+"crew": 5,
+"engine": {"power_hp": 650, "weight_tonnes": 57.3},
+"notes": "Tiger H1 с уникальным «животным» камуфляжем. Характеристики как у обычного Tiger H1."
+},
+{
+"id": "germ_m109g",
+"name": "M109G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "155-мм пушка М126Е1",
+"penetration": [
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [61, 61, 61, 61, 61, 61]},
+{"ammo_type": "ОФ-РВ", "ammo_in_game_type": "HE-VT", "penetration_mm": [61, 61, 61, 61, 61, 61]}
+],
+"ammo_total": 28,
+"reload": {"seconds": 17.3, "aces": 13.3},
+"elevation": {"min_deg": -3, "max_deg": 70}
+},
+"crew": 6,
+"engine": {"power_hp": 405, "weight_tonnes": 24.5},
+"hull": {"front": 32, "sides": 32, "rear": 32},
+"notes": "Немецкая модификация американской САУ M109. 155-мм гаубица с фугасными снарядами и снарядами с радиовзрывателем. Хорошая подвижность. Недостатки: слабая броня, долгая перезарядка."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_b_tiger_iip",
+"name": "Tiger II (Nr.1-50)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка KwK43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+],
+"ammo_total": 70,
+"reload": {"seconds": 9.7, "aces": 7.5},
+"elevation": {"min_deg": -8, "max_deg": 15}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 68.5},
+"hull": {"front": 150, "sides": 80},
+"turret": {"front": 100, "sides": 80},
+"notes": "Ранний Tiger II с башней от Porsche. Очень толстая лобовая броня корпуса (150 мм). Недостатки: броня башни (100 мм), низкая подвижность."
+},
+{
+"id": "germ_pzkpfw_v_ausf_a_panther",
+"name": "Panther A",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK42",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]},
+{"ammo_type": "БПС", "penetration_mm": [228, 224, 204, 182, 162, 145]}
+],
+"ammo_total": 79,
+"reload": {"seconds": 9.6, "aces": 7.4},
+"elevation": {"min_deg": -8, "max_deg": 18}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 45.3},
+"hull": {"front": 80, "sides": 40},
+"turret": {"front": 100, "sides": 45},
+"notes": "Модификация Panther с улучшенной скоростью поворота башни (14°/с). Недостатки: слабые борта, низкий задний ход (4 км/ч)."
+},
+{
+"id": "germ_pzkpfw_v_ausf_g_panther",
+"name": "Panther G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 185000,
+"exp_price": 27000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK42",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]},
+{"ammo_type": "БПС", "penetration_mm": [228, 224, 204, 182, 162, 145]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 44.8},
+"hull": {"front": 80, "sides": 50},
+"turret": {"front": 110, "sides": 45},
+"notes": "Модификация Panther с усиленной маской орудия (110 мм) и бортами (50 мм). Недостатки: всё те же слабые щёки башни."
+},
+{
+"id": "germ_pzkpfw_v_ausf_f_panther",
+"name": "Panther F",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 31000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка KwK44",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]},
+{"ammo_type": "БПС", "penetration_mm": [228, 224, 204, 182, 162, 145]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 45.5},
+"hull": {"front": 80, "sides": 50},
+"turret": {"front": 120, "sides": 60},
+"notes": "Panther с узкой башней Schmalturm (лоб 120 мм, борта 60 мм). Улучшенное бронирование башни. Недостатки: всё ещё слабые борта корпуса."
+},
+{
+"id": "germ_flakpanzer_zerstorer_45",
+"name": "Zerstörer 45",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "4 x 30-мм пушка MK103/38",
+"penetration": [
+{"ammo_type": "БПТ", "penetration_mm": [77, 74, 61, 47, 37, 29]}
+],
+"ammo_total": 840,
+"magazine_size": 30,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"rate_of_fire_rpm": 450,
+"elevation": {"min_deg": -7, "max_deg": 80}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 25.0},
+"hull": {"front": 50, "sides": 30},
+"notes": "Экспериментальная ЗСУ на базе Pz.IV с 4×30-мм пушками MK103. Высокая скорострельность. Недостатки: открытая рубка, отсутствие бронещитков."
+},
+{
+"id": "germ_pz_iv_l70_a",
+"name": "Panzer IV/70(A)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 5.3,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка PaK42",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]},
+{"ammo_type": "БПС", "penetration_mm": [228, 224, 204, 182, 162, 145]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 300, "weight_tonnes": 28.5},
+"hull": {"front": 80, "sides": 30},
+"notes": "ПТ-САУ на базе Pz.IV с длинноствольной 75-мм пушкой. Отличная подвижность. Недостатки: высокий силуэт."
+},
+{
+"id": "germ_spz_12_3",
+"name": "SPz 12-3 LGS",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.0,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "106-мм безоткатное орудие M40A1",
+"penetration": [{"ammo_type": "ПГ", "penetration_mm": [433, 433, 433, 433, 433, 433]}],
+"secondary_gun": {
+"name": "20-мм пушка MK20-1",
+"penetration_mm": 57
+}
+},
+"crew": 5,
+"engine": {"power_hp": 240, "weight_tonnes": 16.0},
+"hull": {"front": 30, "sides": 15},
+"notes": "Премиумный БТР на базе HS.30 с 106-мм безоткатным орудием M40A1 (кумулятив 433 мм). Недостатки: слабая броня, плохая баллистика безоткатки."
+},
+{
+"id": "germ_panzerjager_tiger_p_elefant",
+"name": "Elefant",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка PaK43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+],
+"ammo_total": 38,
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 6,
+"engine": {"power_hp": 625, "weight_tonnes": 65.0},
+"hull": {"front": 200, "sides": 80},
+"notes": "Модернизированный Ferdinand с курсовым пулемётом и дополнительными траками. Отличная лобовая броня (200 мм). Недостатки: слабые борта, низкая подвижность."
+},
+{
+"id": "germ_panzerjager_panther",
+"name": "Jagdpanther G1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка PaK43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+],
+"ammo_total": 40,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -8, "max_deg": 14},
+"horizontal_traverse": {"min_deg": -14, "max_deg": 14}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 45.5},
+"hull": {"front": 80, "sides": 40},
+"turret": {"front": 80, "sides": 40},
+"notes": "ПТ-САУ на базе Panther с 88-мм пушкой PaK43. Наклонная лобовая броня (80 мм под 55°). Недостатки: слабые борта, вязкость местности."
+},
+{
+"id": "germ_kanonenjagdpanzer",
+"name": "Kanonenjagdpanzer",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "90-мм пушка BK90",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [144, 142, 133, 124, 115, 107]},
+{"ammo_type": "БПС", "penetration_mm": [300, 294, 264, 230, 200, 174]}
+],
+"ammo_total": 51,
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 27.5},
+"hull": {"front": 50, "sides": 30},
+"notes": "Послевоенная немецкая ПТ-САУ на базе HS.30. Низкий силуэт, хорошая подвижность. Недостатки: слабая броня."
+},
+{
+"id": "germ_panzerbefelhswagen_vi_p",
+"name": "Panzerbefehlswagen VI P",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка KwK36",
+"penetration": [{"ammo_type": "БС", "penetration_mm": [165, 162, 151, 139, 127, 117]}],
+"ammo_total": 75
+},
+"crew": 5,
+"engine": {"power_hp": 650, "weight_tonnes": 64.0},
+"hull": {"front": 200, "sides": 80},
+"notes": "Командирская версия Tiger (P). Очень толстая лобовая броня (200 мм). Недостатки: огромные размеры, слабые борта."
+},
+{
+"id": "germ_pzkpfw_v_ersatz_m10",
+"name": "Pz.Kpfw. V Ersatz M10",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка KwK42",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [192, 188, 173, 156, 140, 126]},
+{"ammo_type": "БПС", "penetration_mm": [228, 224, 204, 182, 162, 145]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 45.0},
+"notes": "Премиумная Panther A, замаскированная под M10 Wolverine (операция «Грайф»). Недостатки: как у Panther A."
+},
+{
+"id": "germ_le_kpz_m41",
+"name": "LeKPz M41",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 185000,
+"exp_price": 49000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка M32",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [149, 146, 131, 114, 100, 87]},
+{"ammo_type": "БПС", "penetration_mm": [225, 217, 182, 142, 110, 86]}
+],
+"ammo_total": 65,
+"reload": {"seconds": 6.5, "aces": 5.0}
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 23.0},
+"hull": {"front": 25, "sides": 25},
+"notes": "Немецкая версия американского лёгкого танка M41 Walker Bulldog. Отличная подвижность. Недостатки: слабая броня."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_b_tiger_iih",
+"name": "Tiger II (H)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка KwK43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 68.0},
+"hull": {"front": 150, "sides": 80},
+"turret": {"front": 180, "sides": 80},
+"notes": "Tiger II с башней от Henschel (лоб 180 мм). Лучшая броня башни. Недостатки: низкая подвижность."
+},
+{
+"id": "germ_flakpanzer_iv_kugelblitz",
+"name": "Flakpanzer IV Kugelblitz",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "2 x 30-мм пушка MK103",
+"penetration": [{"ammo_type": "БПТ", "penetration_mm": [77, 74, 61, 47, 37, 29]}],
+"ammo_total": 1200,
+"magazine_size": 30,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"rate_of_fire_rpm": 450,
+"elevation": {"min_deg": -7, "max_deg": 85}
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 25.0},
+"hull": {"front": 50, "sides": 30},
+"notes": "ЗСУ с двумя 30-мм пушками MK103 в закрытой башне. Хорошая защита экипажа. Недостатки: низкая скорость наведения."
+},
+{
+"id": "germ_panzerjager_tiger_p_ferdinand",
+"name": "Ferdinand",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка PaK43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+]
+},
+"crew": 6,
+"engine": {"power_hp": 625, "weight_tonnes": 65.0},
+"hull": {"front": 200, "sides": 80},
+"notes": "Тяжёлая ПТ-САУ на базе Tiger (P). Отличная лобовая броня (200 мм). Недостатки: слабые борта, отсутствие курсового пулемёта."
+},
+{
+"id": "germ_sturmmorser_sturmtiger",
+"name": "Sturmtiger",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "380-мм ракетная пушка RW61",
+"penetration": [{"ammo_type": "Ракета", "penetration_mm": [220, 220, 220, 220, 220, 220]}],
+"ammo_total": 14,
+"reload": {"seconds": 120.0, "aces": 92.3}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 68.0},
+"hull": {"front": 150, "sides": 80},
+"notes": "Штурмовое орудие на базе Tiger I с 380-мм ракетной пушкой. Огромный фугасный урон. Недостатки: перезарядка 2 минуты."
+},
+{
+"id": "germ_flakpanzer_v_coelian",
+"name": "Flakpanzer V Coelian",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "2 x 37-мм пушка FlaK 44",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [91, 88, 73, 58, 47, 38]}],
+"ammo_total": 1200,
+"magazine_size": 20,
+"reload": {"seconds": 3.0, "aces": 2.3}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 45.0},
+"notes": "ЗСУ на базе Panther с двумя 37-мм пушками в закрытой башне. Хорошая подвижность. Недостатки: открытая рубка."
+},
+{
+"id": "germ_panzerbefelhswagen_jagdpanther",
+"name": "Panzerbefehlswagen Jagdpanther",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "88-мм пушка PaK43",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}]
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 45.5},
+"notes": "Командирская версия Jagdpanther. Недостатки: как у Jagdpanther."
+},
+{
+"id": "germ_ru251",
+"name": "Ru 251",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "90-мм пушка BK90",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [144, 142, 133, 124, 115, 107]},
+{"ammo_type": "БПС", "penetration_mm": [300, 294, 264, 230, 200, 174]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 25.8},
+"hull": {"front": 30, "sides": 20},
+"notes": "Премиумный послевоенный лёгкий танк. Отличная подвижность (80 км/ч). Недостатки: слабая броня."
+},
+{
+"id": "germ_panther_ii",
+"name": "Panther II",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.0,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "88-мм пушка KwK43",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [237, 234, 222, 207, 193, 180]},
+{"ammo_type": "БПС", "penetration_mm": [279, 273, 252, 227, 205, 185]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 700, "weight_tonnes": 47.0},
+"hull": {"front": 100, "sides": 60},
+"turret": {"front": 120, "sides": 60},
+"notes": "Экспериментальный Panther с 88-мм пушкой и усиленным бронированием. Недостатки: перегрузка ходовой."
+},
+{
+"id": "germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46",
+"name": "Tiger II (105)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 7.0,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка KwK46",
+"penetration": [
+{"ammo_type": "БС", "penetration_mm": [215, 212, 195, 175, 158, 142]},
+{"ammo_type": "БПС", "penetration_mm": [252, 246, 220, 188, 161, 138]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 68.0},
+"hull": {"front": 150, "sides": 80},
+"turret": {"front": 180, "sides": 80},
+"notes": "Tiger II с 105-мм пушкой. Усиленное бронирование башни. Недостатки: низкая подвижность."
+},
+{
+"id": "germ_marder_1a1",
+"name": "Marder A1-",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 270000,
+"exp_price": 95000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка Rh202",
+"penetration": [{"ammo_type": "БПТ", "penetration_mm": [57, 52, 37, 24, 15, 10]}],
+"atgm": {
+"name": "4 x ПТУР MILAN",
+"penetration_mm": 530
+}
+},
+"crew": 3,
+"engine": {"power_hp": 600, "weight_tonnes": 29.2},
+"hull": {"front": 32, "sides": 15},
+"notes": "Немецкая БМП с 20-мм пушкой и ПТУР MILAN (4 шт). Хорошая подвижность (83 км/ч). Недостатки: слабая броня, открытая установка ПТУР."
+},
+{
+"id": "germ_bmp_1_ddr",
+"name": "SPz BMP-1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 53000,
+"premium": false,
+"gun": {
+"name": "73-мм пушка 2A28",
+"penetration": [{"ammo_type": "ПГ", "penetration_mm": [300, 300, 300, 300, 300, 300]}],
+"atgm": {
+"name": "4 x ПТУР 9М113 «Конкурс»",
+"penetration_mm": 500
+}
+},
+"crew": 3,
+"engine": {"power_hp": 300, "weight_tonnes": 13.4},
+"hull": {"front": 19},
+"notes": "Восточногерманская версия советского БМП-1. ПТУР 9М113 (500 мм). Недостатки: слабая броня, неудобное расположение ПТУР."
+},
+{
+"id": "germ_mkpz_m48a2c",
+"name": "M48A2 C",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 270000,
+"exp_price": 95000,
+"premium": false,
+"gun": {
+"name": "90-мм пушка M41",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [321, 316, 292, 265, 240, 218]},
+{"ammo_type": "КС", "penetration_mm": [320, 320, 320, 320, 320, 320]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 825, "weight_tonnes": 47.8},
+"hull": {"front": 110, "sides": 76},
+"notes": "Немецкий M48 Patton с улучшенным двигателем. Хорошая подвижность. Недостатки: большая силуэт."
+},
+{
+"id": "germ_leopard_i",
+"name": "Leopard I",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 340000,
+"exp_price": 120000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [350, 347, 333, 317, 302, 287]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 830, "weight_tonnes": 40.0},
+"hull": {"front": 70},
+"notes": "Основной боевой танк ФРГ. Отличная подвижность (65 км/ч), мощное 105-мм орудие. Недостатки: очень слабая броня."
+},
+{
+"id": "germ_wiesel_1_mk20",
+"name": "Wiesel 1A4",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 7.3,
+"rank": "V",
+"silver_price": 240000,
+"exp_price": 82000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка Rh202",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [66, 64, 58, 50, 44, 38]}]
+},
+"crew": 2,
+"engine": {"power_hp": 87, "weight_tonnes": 2.9},
+"hull": {"front": 8},
+"notes": "Сверхлёгкий десантный бронетранспортёр с 20-мм пушкой. Очень маленькие размеры, хорошая подвижность (87 км/ч). Недостатки: экипаж 2 человека, отсутствие брони."
+},
+{
+"id": "germ_pzh_2000",
+"name": "PzH 2000",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 7.7,
+"rank": "V",
+"silver_price": 270000,
+"exp_price": 95000,
+"premium": false,
+"gun": {
+"name": "155-мм гаубица Rheinmetall L/52",
+"penetration": [{"ammo_type": "ОФС", "penetration_mm": [61, 61, 61, 61, 61, 61]}],
+"reload": {"seconds": 5.0}
+},
+"crew": 5,
+"engine": {"power_hp": 1000, "weight_tonnes": 57.7},
+"hull": {"front": 30, "sides": 10},
+"notes": "Современная 155-мм САУ. Очень быстрая перезарядка (5 сек), снаряды с радиовзрывателем. Недостатки: огромные размеры, слабая броня."
+},
+{
+"id": "germ_sppz2_luchs_a2",
+"name": "Luchs A2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.3,
+"rank": "V",
+"silver_price": 270000,
+"exp_price": 95000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка Rh202",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [66, 64, 58, 50, 44, 38]}]
+},
+"crew": 4,
+"engine": {"power_hp": 390, "weight_tonnes": 19.9},
+"hull": {"front": 23, "sides": 18},
+"notes": "Колёсный разведывательный бронеавтомобиль. Отличная подвижность (100 км/ч вперёд и назад), два водителя. Недостатки: слабая броня."
+},
+{
+"id": "germ_spz_oerlikon_raketenautomat",
+"name": "Raketenautomat",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 8.0,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 105000,
+"premium": false,
+"gun": {
+"name": "81-мм пусковая установка Oerlikon",
+"penetration": [{"ammo_type": "КС", "penetration_mm": [330, 330, 330, 330, 330, 330]}],
+"reload": {"seconds": 0.5}
+},
+"crew": 3,
+"engine": {"power_hp": 240, "weight_tonnes": 16.0},
+"notes": "Экспериментальная РСЗО на базе HS.30. Высокая скорострельность. Недостатки: мало ракет (18), слабая броня."
+},
+{
+"id": "germ_raketenjagdpanzer_2",
+"name": "RakJPz 2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 8.0,
+"rank": "V",
+"silver_price": 340000,
+"exp_price": 61000,
+"premium": false,
+"gun": {
+"name": "2 x ПТУР SS.11",
+"penetration": [{"ammo_type": "ПТУР", "penetration_mm": [600, 600, 600, 600, 600, 600]}]
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 23.0},
+"hull": {"front": 30},
+"notes": "Истребитель танков с ПТУР SS.11 (600 мм). Очень низкий силуэт. Недостатки: слабая броня."
+},
+{
+"id": "germ_mkpz_m47",
+"name": "mKPz M47 G",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.3,
+"rank": "V",
+"silver_price": 8200,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "90-мм пушка M36",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [321, 316, 292, 265, 240, 218]},
+{"ammo_type": "КС", "penetration_mm": [320, 320, 320, 320, 320, 320]}
+]
+},
+"crew": 5,
+"engine": {"power_hp": 810, "weight_tonnes": 46.2},
+"hull": {"front": 101},
+"notes": "Премиумный немецкий M47 Patton. Хорошее орудие, неплохая подвижность. Недостатки: высокий силуэт, плотная компоновка."
+},
+{
+"id": "germ_pzkpfw_e_100",
+"name": "E-100",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "128-мм пушка KwK44 L/55",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [278, 276, 265, 251, 239, 227]}]
+},
+"crew": 5,
+"engine": {"power_hp": 1200, "weight_tonnes": 140.0},
+"hull": {"front": 200, "sides": 120},
+"notes": "Премиумный сверхтяжёлый танк. Очень толстая броня (лоб 200 мм). Недостатки: огромные размеры, крайне низкая подвижность."
+},
+{
+"id": "germ_marder_clovis",
+"name": "Marder Clovis",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "20-мм пушка Rh202",
+"atgm": {
+"name": "ПТУР HOT",
+"penetration_mm": 800
+}
+},
+"crew": 3,
+"engine": {"power_hp": 600, "weight_tonnes": 29.0},
+"notes": "Премиумная БМП Marder с ПТУР HOT (пробитие 800 мм). Недостатки: слабая броня."
+},
+{
+"id": "germ_pzkpfw_maus",
+"name": "Maus",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 400000,
+"exp_price": 120000,
+"premium": false,
+"gun": {
+"name": "128-мм пушка KwK44 L/55 + 75-мм пушка KwK44 L/36.5",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [278, 276, 265, 251, 239, 227]}]
+},
+"crew": 6,
+"engine": {"power_hp": 1200, "weight_tonnes": 188.0},
+"hull": {"front": 200, "sides": 180},
+"notes": "Самый тяжёлый серийный танк в истории. Огромная броня (лоб 200-240 мм). Недостатки: очень медленный (20 км/ч), огромные габариты."
+},
+{
+"id": "germ_erprobungstrager_3_achs_turm",
+"name": "Erprobungsträger 3-achs Turm",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.0,
+"rank": "V",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "90-мм пушка M41",
+"penetration": [{"ammo_type": "БПС", "penetration_mm": [321, 316, 292, 265, 240, 218]}]
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 25.0},
+"notes": "Премиумный экспериментальный лёгкий танк с 90-мм пушкой. Недостатки: слабая броня."
+},
+{
+"id": "germ_marder_1a3",
+"name": "Marder 1A3",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 105000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка Rh202",
+"penetration": [
+{"ammo_type": "БПТ", "ammo_in_game_type": "AP", "penetration_mm": [57, 52, 37, 24, 15, 10]},
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [66, 64, 58, 50, 44, 38]}
+],
+"ammo_total": 1200,
+"magazine_size": 200,
+"reload": {"seconds": 10.4, "aces": 8.0},
+"rate_of_fire_rpm": 1030,
+"elevation": {"min_deg": -17, "max_deg": 65},
+"atgm": {
+"name": "4 x ПТУР MILAN",
+"ammo_total": 4,
+"penetration_mm": 530,
+"reload": {"seconds": 13.0, "aces": 10.0}
+}
+},
+"crew": 3,
+"engine": {
+"power_hp": 600,
+"model": "MTU MB 833 Ea-500",
+"weight_tonnes": 33.5
+},
+"hull": {"front": 32, "sides": 15, "rear": 11},
+"turret": {"front": 25, "sides": 15, "rear": 15},
+"notes": "Модернизированная БМП Marder с усиленной бронёй (защита от 30-мм снарядов). Имеет тепловизор, улучшенные подкалиберные снаряды (66 мм) и ПТУР MILAN (530 мм). Недостатки: всё ещё слабая броня для БР 8.0."
+},
+{
+"id": "germ_marder_df_105",
+"name": "DF105",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 340000,
+"exp_price": 61000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка CN105-57",
+"penetration": [
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [400, 400, 400, 400, 400, 400]},
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [25, 25, 25, 25, 25, 25]}
+],
+"ammo_total": 38,
+"reload": {"seconds": 5.0, "aces": 5.0},
+"elevation": {"min_deg": -6, "max_deg": 13}
+},
+"crew": 3,
+"engine": {
+"power_hp": 720,
+"model": "MTU MB 833 Ka-500",
+"weight_tonnes": 30.0
+},
+"hull": {"front": 32, "sides": 15, "rear": 11},
+"turret": {"front": 30, "sides": 25, "rear": 15},
+"notes": "Экспериментальный истребитель танков на базе БМП Marder с французской башней FL-15. 105-мм пушка с автоматом заряжания (перезарядка 5 сек), кумулятивные снаряды (400 мм). Отличная подвижность (83 км/ч). Недостатки: очень слабая броня, отсутствие ПТУР."
+},
+{
+"id": "germ_thyssen_henschel_tam",
+"name": "TAM",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка FMK.4 Modelo 1L",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [350, 347, 333, 317, 302, 287]},
+{"ammo_type": "ОБПС", "penetration_mm": [338, 336, 330, 323, 315, 307]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 4,
+"engine": {"power_hp": 720, "weight_tonnes": 30.0},
+"hull": {"front": 32, "sides": 15},
+"notes": "Аргентинский лёгкий танк на базе БМП Marder. Отличная подвижность (83 км/ч). Недостатки: очень слабая броня, компоновка с башней сзади (двигатель спереди)."
+},
+{
+"id": "germ_sk105_a2",
+"name": "JaPz.K A2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.7,
+"rank": "VI",
+"silver_price": 520000,
+"exp_price": 94000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка PzK M57",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [346, 344, 335, 324, 314, 302]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 4.0, "aces": 4.0}
+},
+"crew": 3,
+"engine": {"power_hp": 320, "weight_tonnes": 17.7},
+"hull": {"front": 20, "sides": 14},
+"notes": "Австрийский лёгкий танк с французской башней. Автомат заряжания (перезарядка 4 сек). Недостатки: очень слабая броня, экипаж 3 человека."
+},
+{
+"id": "germ_mkpz_m48a2ga2",
+"name": "M48A2 G A2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [350, 347, 333, 317, 302, 287]},
+{"ammo_type": "ОБПС", "penetration_mm": [338, 336, 330, 323, 315, 307]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 825, "weight_tonnes": 47.8},
+"hull": {"front": 110, "sides": 76},
+"notes": "Немецкая модернизация M48 с 105-мм пушкой L7A3. Хорошая лобовая броня (110 мм). Недостатки: отсутствует стабилизатор, низкая подвижность."
+},
+{
+"id": "germ_begleitpanzer_57",
+"name": "Begleitpanzer 57",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.7,
+"rank": "VI",
+"silver_price": 520000,
+"exp_price": 190000,
+"premium": false,
+"gun": {
+"name": "57-мм пушка Bofors L/70 Mk.1",
+"penetration": [{"ammo_type": "БС", "penetration_mm": [137, 133, 119, 103, 89, 77]}],
+"atgm": {
+"name": "ПТУР BGM-71 TOW",
+"penetration_mm": 630
+}
+},
+"crew": 3,
+"engine": {"power_hp": 600, "weight_tonnes": 28.5},
+"hull": {"front": 32, "sides": 15},
+"notes": "Экспериментальная БМП на базе Marder. 57-мм автоматическая пушка, ПТУР TOW (630 мм), тепловизор. Недостатки: экипаж 3 человека, слабая броня."
+},
+{
+"id": "germ_kpz_70",
+"name": "KPz-70",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.3,
+"rank": "VI",
+"silver_price": 520000,
+"exp_price": 190000,
+"premium": false,
+"gun": {
+"name": "152-мм пушка-пусковая установка XM150E5",
+"penetration": [
+{"ammo_type": "КС", "penetration_mm": [380, 380, 380, 380, 380, 380]},
+{"ammo_type": "ОБПС", "penetration_mm": [285, 281, 270, 254, 239, 223]},
+{"ammo_type": "ПТУР", "penetration_mm": [431, 431, 431, 431, 431, 431]}
+],
+"reload": {"seconds": 6.0}
+},
+"crew": 3,
+"engine": {"power_hp": 1500, "weight_tonnes": 51.7},
+"hull": {"front": 80, "sides": 46},
+"notes": "Совместный американо-немецкий проект. Отличная подвижность (64 км/ч), автомат заряжания (6 сек), 20-мм пушка. Недостатки: слабая броня."
+},
+{
+"id": "germ_mkpz_super_m48",
+"name": "M48 Super",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.3,
+"rank": "VI",
+"silver_price": 620000,
+"exp_price": 110000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [421, 419, 411, 401, 391, 381]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 1000, "weight_tonnes": 53.0},
+"hull": {"front": 110, "sides": 76},
+"notes": "Экспортная модернизация M48. ОБПС DM63 (421 мм), тепловизор. Недостатки: крупные размеры, всё ещё слабая броня для 9.3."
+},
+{
+"id": "germ_kpz_t72m1",
+"name": "T-72M1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.3,
+"rank": "VI",
+"silver_price": 620000,
+"exp_price": 220000,
+"premium": false,
+"gun": {
+"name": "125-мм пушка 2A46",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [440, 430, 420, 410, 405, 400]},
+{"ammo_type": "КС", "penetration_mm": [440, 440, 440, 440, 440, 440]}
+],
+"reload": {"seconds": 7.0}
+},
+"crew": 3,
+"engine": {"power_hp": 780, "weight_tonnes": 41.5},
+"hull": {"front": 110, "sides": 80},
+"notes": "Восточногерманский Т-72М1. Хорошая лобовая броня. Недостатки: задний ход 4 км/ч, плохие УВН."
+},
+{
+"id": "germ_jaguar_2",
+"name": "Jaguar 2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 8.7,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "ПТУР BGM-71 TOW",
+"penetration": [{"ammo_type": "ПТУР (тандем)", "penetration_mm": [800, 800, 800, 800, 800, 800]}]
+},
+"crew": 4,
+"engine": {"power_hp": 500, "weight_tonnes": 24.8},
+"hull": {"front": 30, "sides": 20},
+"notes": "Истребитель танков на базе Jagdpanzer 4-5 с ПТУР TOW (800 мм). Недостатки: очень слабая броня."
+},
+[
+{
+"id": "germ_leopard_i_a1",
+"name": "Leopard I A1",
+"nation": "germany",
+"br": 8.3,
+"notes": "Модернизированный Leopard I с улучшенной СУО. Недостатки: слабая броня."
+},
+{
+"id": "germ_leopard_1a5",
+"name": "Leopard 1A5",
+"nation": "germany",
+"br": 9.3,
+"notes": "Модернизация Leopard I до уровня 1A5 с тепловизором и ОБПС DM33. Недостатки: слабая броня."
+},
+{
+"id": "germ_flakpz_i_gepard",
+"name": "FlakPz I Gepard",
+"nation": "germany",
+"br": 8.3,
+"notes": "ЗСУ с двумя 35-мм пушками Oerlikon KDA. Эффективна против авиации, подкалиберные снаряды (102 мм пробития)."
+},
+{
+"id": "germ_wiesel_2_adwc",
+"name": "Wiesel 2 ADWC",
+"nation": "germany",
+"br": 9.3,
+"notes": "Сверхлёгкая ЗСУ с 12,7-мм пулемётом и зенитными ракетами Stinger."
+},
+{
+"id": "germ_thyssen_henschel_tam_2ip",
+"name": "TAM 2IP",
+"nation": "germany",
+"br": 9.3,
+"premium": true,
+"notes": "Премиумная версия TAM с улучшенной бронёй (дополнительный бронелист лба башни). Недостатки: слабая броня корпуса."
+}
+],
+{
+"id": "germ_leopard_i_a1",
+"name": "Leopard A1A1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [350, 347, 333, 317, 302, 287]},
+{"ammo_type": "ОБПС", "penetration_mm": [338, 336, 330, 323, 315, 307]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 4,
+"engine": {"power_hp": 830, "weight_tonnes": 42.4},
+"hull": {"front": 70, "sides": 35},
+"notes": "Модернизированный Leopard I с двухплоскостным стабилизатором, ОБПС DM23 и разнесённым бронированием башни (устойчивость к кумулятивам). Недостатки: броня всё ещё очень слабая."
+},
+{
+"id": "germ_flakpz_i_gepard",
+"name": "Gepard",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "2 x 35-мм пушка Oerlikon KDA",
+"penetration": [
+{"ammo_type": "БПС", "penetration_mm": [127, 125, 118, 110, 102, 95]},
+{"ammo_type": "БЗТ", "penetration_mm": [68, 66, 57, 47, 39, 32]}
+],
+"ammo_total": 680,
+"reload": {"seconds": 1.3, "aces": 1.0},
+"rate_of_fire_rpm": 550
+},
+"crew": 3,
+"engine": {"power_hp": 830, "weight_tonnes": 46.0},
+"hull": {"front": 30, "sides": 25},
+"notes": "Немецкая ЗСУ на базе Leopard I с двумя 35-мм пушками. Подкалиберные снаряды (127 мм), хорошая подвижность. Недостатки: большой силуэт, слабая броня."
+},
+{
+"id": "germ_wiesel_2_adwc",
+"name": "Ozelot",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 9.7,
+"rank": "VI",
+"silver_price": 520000,
+"exp_price": 190000,
+"premium": false,
+"gun": {
+"name": "Fliegerfaust 2 Stinger",
+"description": "Зенитные ракеты Stinger (8 шт.)",
+"atgm": {
+"name": "FIM-92 Stinger",
+"penetration_mm": null,
+"description": "Зенитная управляемая ракета с ИК ГСН"
+}
+},
+"crew": 2,
+"engine": {"power_hp": 110, "weight_tonnes": 4.1},
+"hull": {"front": 8},
+"notes": "Сверхлёгкая ЗСУ на базе Wiesel 2 с 8 ракетами Stinger. Очень маленькие размеры, пассивная система обнаружения. Недостатки: экипаж 2 человека, полное отсутствие брони."
+},
+{
+"id": "germ_leopard_1a5",
+"name": "Leopard 1A5",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.3,
+"rank": "VI",
+"silver_price": 520000,
+"exp_price": 94000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [421, 419, 411, 401, 391, 381]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 4,
+"engine": {"power_hp": 830, "weight_tonnes": 44.8},
+"hull": {"front": 70, "sides": 35},
+"notes": "Модернизация Leopard A1A1 с новой СУО EMES 18 (тепловизор) и ОБПС DM63 (421 мм). Недостатки: броня всё ещё очень слабая."
+},
+{
+"id": "germ_radpanzer_90",
+"name": "Radkampfwagen 90",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.0,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [421, 419, 411, 401, 391, 381]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 4,
+"engine": {"power_hp": 830, "weight_tonnes": 30.8},
+"hull": {"front": 38, "sides": 26},
+"notes": "Немецкий экспериментальный колёсный танк с 105-мм пушкой. Отличная подвижность (112 км/ч). Недостатки: отсутствие тепловизора, слабая броня."
+},
+{
+"id": "germ_thyssen_henschel_tam_2c",
+"name": "TAM 2C",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 150000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка FMK.4 Modelo 1L",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [430, 428, 420, 411, 401, 391]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 720, "weight_tonnes": 30.5},
+"notes": "Модернизированный TAM с тепловизором 3-го поколения, СПО и ОБПС DM63. Недостатки: очень слабая броня."
+},
+{
+"id": "germ_leopard_2k",
+"name": "Leopard 2K",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.0,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Rh120 L/44",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [408, 407, 400, 393, 385, 377]},
+{"ammo_type": "КС", "penetration_mm": [480, 480, 480, 480, 480, 480]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7},
+"secondary_gun": {"name": "20-мм пушка Rh202"}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 50.0},
+"hull": {"front": 59, "sides": 29},
+"notes": "Прототип Leopard 2 с 20-мм пушкой. Отличная подвижность (80 км/ч), 120-мм орудие. Недостатки: слабая броня."
+},
+{
+"id": "germ_leopard_2a4",
+"name": "Leopard 2A4",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 300000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Rh120 L/44",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [408, 407, 400, 393, 385, 377]},
+{"ammo_type": "КС", "penetration_mm": [480, 480, 480, 480, 480, 480]}
+],
+"reload": {"seconds": 7.8, "aces": 6.0}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 58.1},
+"hull": {"front": 80, "sides": 65},
+"notes": "Немецкий ОБТ с хорошей комбинированной бронёй. Лучшая подвижность среди ОБТ (68 км/ч). Недостатки: слабая броня корпуса при полном боекомплекте."
+},
+{
+"id": "germ_flarakpz_1",
+"name": "FlaRakPz 1",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 10.0,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 300000,
+"premium": false,
+"gun": {
+"name": "ЗУР Roland",
+"description": "Зенитные управляемые ракеты (10 шт.)",
+"atgm": {"name": "Roland 2", "penetration_mm": 54}
+},
+"crew": 3,
+"engine": {"power_hp": 600, "weight_tonnes": 32.5},
+"notes": "ЗРК на базе БМП Marder с 10 ракетами. РЛС обнаружения, хорошая подвижность. Недостатки: отсутствие пушек."
+},
+{
+"id": "germ_9a33bm3",
+"name": "◊Osa-AK",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 950000,
+"exp_price": 175000,
+"premium": false,
+"gun": {
+"name": "ЗУР 9М33М3",
+"description": "Зенитные управляемые ракеты (6 шт.)"
+},
+"crew": 5,
+"engine": {"power_hp": 300, "weight_tonnes": 18.7},
+"notes": "Восточногерманский ЗРК «Оса-АК». Дальность поражения до 10 км. Недостатки: отсутствие брони."
+},
+{
+"id": "germ_wiesel_1_tow",
+"name": "Wiesel 1A2",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 9.7,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "ПТУР BGM-71 TOW",
+"penetration": [{"ammo_type": "ПТУР (тандем)", "penetration_mm": [800, 800, 800, 800, 800, 800]}]
+},
+"crew": 3,
+"engine": {"power_hp": 87, "weight_tonnes": 2.9},
+"notes": "Сверхлёгкий ПТРК с 8 ракетами TOW. Очень маленькие размеры, хорошая подвижность. Недостатки: экипаж 3 человека, отсутствие брони."
+},
+{
+"id": "germ_boxer_3105",
+"name": "Boxer MGS",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "105-мм пушка Cockerill HP",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [430, 428, 420, 411, 401, 391]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 5.0}
+},
+"crew": 3,
+"engine": {"power_hp": 720, "weight_tonnes": 38.0},
+"notes": "Колёсный танк на базе Boxer. Автомат заряжания (5 сек), отличная подвижность (114 км/ч). Недостатки: слабая броня."
+},
+{
+"id": "germ_9a35_m",
+"name": "◊Strela-10M",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "ЗСУ",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 950000,
+"exp_price": 350000,
+"premium": false,
+"gun": {
+"name": "ЗУР 9М37М",
+"description": "Зенитные управляемые ракеты с ИК ГСН (8 шт.)"
+},
+"crew": 3,
+"engine": {"power_hp": 240, "weight_tonnes": 12.3},
+"notes": "Восточногерманский ЗРК «Стрела-10М». 8 ракет с ИК ГСН. Недостатки: отсутствие пушек."
+},
+{
+"id": "germ_boxer_swatrinf",
+"name": "sWaTrgInf",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 300000,
+"premium": false,
+"gun": {
+"name": "30-мм пушка MK 30-2/ABM",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [121, 120, 114, 107, 100, 92]}],
+"atgm": {"name": "Spike-LR II", "penetration_mm": 900}
+},
+"crew": 3,
+"engine": {"power_hp": 815, "weight_tonnes": 38.5},
+"notes": "Колёсная БМП на базе Boxer. 30-мм пушка с ОБПС, ПТУР Spike-LR II (900 мм), КАЗ. Недостатки: всего 4 ракеты."
+},
+{
+"id": "germ_leopard_2av",
+"name": "Leopard 2AV",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.7,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка L7A3",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [338, 336, 330, 323, 315, 307]},
+{"ammo_type": "КС", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"reload": {"seconds": 8.7, "aces": 6.7}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 52.0},
+"hull": {"front": 80, "sides": 40},
+"notes": "Предсерийный прототип Leopard 2 с 105-мм пушкой. Хорошая подвижность, улучшенная броня по сравнению с Leopard 2K. Недостатки: отсутствие 120-мм орудия."
+},
+{
+"id": "germ_schutzenpanzer_puma",
+"name": "Puma",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "30-мм пушка MK 30-2/ABM",
+"penetration": [
+{"ammo_type": "ОБПС", "penetration_mm": [121, 120, 114, 107, 100, 92]},
+{"ammo_type": "БПС", "penetration_mm": [87, 86, 81, 75, 70, 65]}
+],
+"atgm": {"name": "Spike-LR", "penetration_mm": 800}
+},
+"crew": 3,
+"engine": {"power_hp": 1100, "weight_tonnes": 43.0},
+"hull": {"front": 45, "sides": 20},
+"notes": "Современная немецкая БМП. Отличная броня для лёгкой техники (лоб 45 мм), ПТУР Spike-LR. Недостатки: всего 2 ракеты, отсутствие стабилизатора у ПТУР."
+},
+{
+"id": "germ_schutzenpanzer_puma_vjtf",
+"name": "Puma VJTF",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "30-мм пушка MK 30-2/ABM",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [121, 120, 114, 107, 100, 92]}],
+"atgm": {"name": "Spike-LR2", "penetration_mm": 900}
+},
+"crew": 3,
+"engine": {"power_hp": 1100, "weight_tonnes": 43.0},
+"notes": "Модернизированная Puma для сил быстрого реагирования НАТО. Улучшенные ПТУР (Spike-LR2, 900 мм). Недостатки: как у стандартной Puma."
+},
+{
+"id": "germ_boxer_swatrinf",
+"name": "sWaTrgInf",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 300000,
+"premium": false,
+"gun": {
+"name": "30-мм пушка MK 30-2/ABM",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [121, 120, 114, 107, 100, 92]}],
+"atgm": {"name": "Spike-LR II", "penetration_mm": 900}
+},
+"crew": 3,
+"engine": {"power_hp": 815, "weight_tonnes": 38.5},
+"notes": "Колёсная БМП на базе Boxer. 30-мм пушка с ОБПС, ПТУР Spike-LR II (900 мм), КАЗ. Недостатки: всего 4 ракеты, слабая броня."
+},
+{
+"id": "germ_vilkas",
+"name": "Vilkas",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.0,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "30-мм пушка MK 30-2/ABM",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [121, 120, 114, 107, 100, 92]}],
+"atgm": {"name": "Spike-LR", "penetration_mm": 800}
+},
+"crew": 3,
+"engine": {"power_hp": 815, "weight_tonnes": 38.5},
+"notes": "Литовская БМП на базе Boxer. Аналог sWaTrgInf с ПТУР Spike-LR. Недостатки: слабая броня."
+},
+{
+"id": "germ_leopard_2_pt14",
+"name": "Leopard 2 PL",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.7,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Rh120 L/44",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [481, 479, 471, 462, 452, 442]}]
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 58.0},
+"notes": "Польская модернизация Leopard 2A4 (PT-14). Улучшенная броня башни, ОБПС DM53. Недостатки: корпус остался от 2A4."
+},
+{
+"id": "germ_leopard_2a4m_can",
+"name": "Leopard 2A4M CAN",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.0,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка Rh120 L/44",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [481, 479, 471, 462, 452, 442]}]
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 62.0},
+"notes": "Премиумный канадский Leopard 2A4M с дополнительной бронёй (лоб башни усилен). Недостатки: увеличенный вес, сниженная подвижность."
+},
+{
+"id": "germ_leopard_2a4_pzbtl_123",
+"name": "Leopard 2A4 PzBtl 123",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка Rh120 L/44",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [408, 407, 400, 393, 385, 377]}]
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 58.0},
+"notes": "Премиумный Leopard 2A4 (батальон 123). Недостатки: как у стандартного 2A4."
+},
+{
+"id": "germ_leopard_2a4m_can_sm",
+"name": "Leopard 2A4M CAN (Snow)",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.0,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка Rh120 L/44",
+"penetration": [{"ammo_type": "ОБПС", "penetration_mm": [481, 479, 471, 462, 452, 442]}]
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "weight_tonnes": 62.0},
+"notes": "Премиумный канадский Leopard 2A4M в зимнем камуфляже. Характеристики как у 2A4M CAN."
+},
+{
+"id": "germ_leopard_2a5",
+"name": "Leopard 2A5",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.3,
+"rank": "VIII",
+"silver_price": 1080000,
+"exp_price": 400000,
+"premium": false,
+"gun": {
+"name": "120-мм гладкоствольная пушка Rh120 L/44",
+"penetration": [
+{"ammo_type": "DM53", "ammo_in_game_type": "APFSDS", "penetration_mm": [623, 621, 611, 599, 587, 574], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1750, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "DM33", "ammo_in_game_type": "APFSDS", "penetration_mm": [481, 480, 472, 462, 451, 441], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "DM12", "ammo_in_game_type": "HEAT", "penetration_mm": [480, 480, 480, 480, 480, 480], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1150, "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 42,
+"reload": {"seconds": 7.8, "aces": 6.0, "modes": {"arcade": 7.8, "realistic": 6.0, "simulator": 6.0}},
+"turn_rate": {"turret_deg_per_sec": 28.0, "hull_deg_per_sec": 32.0},
+"elevation": {"min_deg": -9, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12‑cylinder diesel", "weight_tonnes": 59.5},
+"hull": {"front": 80, "rear": 20, "sides": 30, "top": 15},
+"turret": {"front": 75, "sides": 80, "rear": 25, "top": 15},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Leopard 2A5 — немецкий основной боевой танк с клиновидной башней. Обеспечивает отличную защиту лобовой проекции, оснащён мощным 120-мм орудием с ОБПС DM53 (623 мм пробития). Хорошая подвижность и быстрая перезарядка. Недостатки: броня корпуса (80 мм) является ослабленной зоной."
+},
+{
+"id": "germ_leopard_2a6",
+"name": "Leopard 2A6",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1100000,
+"exp_price": 200000,
+"premium": false,
+"gun": {
+"name": "120-мм гладкоствольная пушка Rh120 L/55",
+"penetration": [
+{"ammo_type": "DM53", "ammo_in_game_type": "APFSDS", "penetration_mm": [653, 650, 641, 629, 617, 605], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1750, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "DM33", "ammo_in_game_type": "APFSDS", "penetration_mm": [496, 495, 487, 477, 467, 457], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "DM12", "ammo_in_game_type": "HEAT", "penetration_mm": [480, 480, 480, 480, 480, 480], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1150, "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 42,
+"reload": {"seconds": 7.8, "aces": 6.0, "modes": {"arcade": 7.8, "realistic": 6.0, "simulator": 6.0}},
+"turn_rate": {"turret_deg_per_sec": 28.0, "hull_deg_per_sec": 32.0},
+"elevation": {"min_deg": -9, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12‑cylinder diesel", "weight_tonnes": 59.9},
+"hull": {"front": 80, "rear": 20, "sides": 30, "top": 15},
+"turret": {"front": 75, "sides": 80, "rear": 25, "top": 15},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Leopard 2A6 — модернизация 2A5 с удлинённой 120-мм пушкой L/55. Имеет ОБПС DM53 с пробитием 653 мм, что позволяет уверенно поражать любые цели. Недостатки: броня корпуса осталась ослабленной."
+},
+{
+"id": "germ_flarakrad",
+"name": "FlaRakRad",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 11.7,
+"rank": "VIII",
+"silver_price": 1080000,
+"exp_price": 400000,
+"premium": false,
+"gun": {
+"name": "нет",
+"description": "Зенитный ракетный комплекс без пушечного вооружения"
+},
+"missiles": [
+{
+"name": "Roland 3/VT1",
+"type": "SAM",
+"range_m": 12000,
+"max_speed_mach": 3.5,
+"guidance": "радиокомандное с наведением по лучу (SACLOS)",
+"warhead_type": "осколочно-фугасная",
+"damage_type": "he",
+"launcher": "спаренная пусковая установка",
+"capacity": 10,
+"reload_time_sec": 5,
+"notes": "Дальность поражения до 12 км, высокая манёвренность"
+}
+],
+"crew": 3,
+"engine": {"power_hp": 360, "rpm": 2600, "model": "MAN D2866", "layout": "6‑cylinder diesel", "weight_tonnes": 27.5},
+"thermal_view": true,
+"night_vision": false,
+"hull": {"front": 5, "rear": 5, "sides": 5, "top": 5},
+"turret": {"front": 15, "sides": 15, "top": 15},
+"notes": "FlaRakRad — колёсный ЗРК на шасси MAN с ракетами Roland 3/VT1. Обладает высокой дальностью стрельбы (до 12 км) и хорошей мобильностью. Недостатки: полное отсутствие пушечного вооружения, огромный силуэт, слабая броня."
+},
+{
+"id": "germ_leopard_2a5_pso",
+"name": "Leopard 2 PSO",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1100000,
+"exp_price": 410000,
+"premium": false,
+"gun": {
+"name": "120-мм гладкоствольная пушка Rh120 L/44",
+"penetration": [
+{"ammo_type": "DM53", "ammo_in_game_type": "APFSDS", "penetration_mm": [623, 621, 611, 599, 587, 574], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1750, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "DM12", "ammo_in_game_type": "HEAT", "penetration_mm": [480, 480, 480, 480, 480, 480], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1150, "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 42,
+"reload": {"seconds": 7.8, "aces": 6.0, "modes": {"arcade": 7.8, "realistic": 6.0, "simulator": 6.0}},
+"turn_rate": {"turret_deg_per_sec": 28.0, "hull_deg_per_sec": 32.0},
+"elevation": {"min_deg": -9, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1630, "rpm": 2600, "model": "MTU MT883", "layout": "12‑cylinder diesel", "weight_tonnes": 67.0},
+"hull": {"front": 80, "rear": 20, "sides": 30, "top": 15},
+"turret": {"front": 75, "sides": 80, "rear": 25, "top": 15},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Leopard 2 PSO — версия для городских боевых операций. Оснащён дополнительными композитными экранами (усиленная защита от кумулятивов), дистанционно управляемым пулемётом и бульдозерным отвалом. Более мощный двигатель (1630 л.с.) компенсирует увеличенную массу. Недостатки: увеличенный вес (67 т)."
+},
+{
+"id": "germ_leopard_2a7v",
+"name": "Leopard 2A7V",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1120000,
+"exp_price": 420000,
+"premium": false,
+"gun": {
+"name": "120-мм гладкоствольная пушка Rh120 L/55 A1",
+"penetration": [
+{"ammo_type": "DM53", "ammo_in_game_type": "APFSDS", "penetration_mm": [653, 650, 641, 629, 617, 605], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1750, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "DM12", "ammo_in_game_type": "HEAT", "penetration_mm": [480, 480, 480, 480, 480, 480], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1150, "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 37,
+"reload": {"seconds": 7.8, "aces": 6.0, "modes": {"arcade": 7.8, "realistic": 6.0, "simulator": 6.0}},
+"turn_rate": {"turret_deg_per_sec": 28.0, "hull_deg_per_sec": 32.0},
+"elevation": {"min_deg": -9, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12‑cylinder diesel", "weight_tonnes": 66.5},
+"hull": {"front": 80, "rear": 20, "sides": 35, "top": 15},
+"turret": {"front": 80, "sides": 80, "rear": 25, "top": 15},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Leopard 2A7V — современная модификация с усиленным бронированием корпуса (как у Strv 122). Оснащена тепловизорами 3-го поколения для командира, наводчика и механика-водителя. Недостатки: увеличенная масса (66.5 т) незначительно снизила подвижность."
+},
+{
+"id": "germ_leopard_2a5_yt_cup_2019",
+"name": "␙Leopard 2A5",
+"nation": "germany",
+"nation_label": "🇩🇪 Германия",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.3,
+"rank": "VIII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм гладкоствольная пушка Rh120 L/44",
+"penetration": [
+{"ammo_type": "DM53", "ammo_in_game_type": "APFSDS", "penetration_mm": [623, 621, 611, 599, 587, 574], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1750, "description": "Оперённый бронебойный подкалиберный снаряд"}
+],
+"ammo_total": 42,
+"reload": {"seconds": 7.8, "aces": 6.0, "modes": {"arcade": 7.8, "realistic": 6.0, "simulator": 6.0}},
+"turn_rate": {"turret_deg_per_sec": 28.0, "hull_deg_per_sec": 32.0},
+"elevation": {"min_deg": -9, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "rpm": 2600, "model": "MTU MB 873 Ka-501", "layout": "12‑cylinder diesel", "weight_tonnes": 59.5},
+"hull": {"front": 80, "rear": 20, "sides": 30, "top": 15},
+"turret": {"front": 75, "sides": 80, "rear": 25, "top": 15},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Премиумный Leopard 2A5 с уникальным камуфляжем (приз турнира YouTube Cup 2019). По характеристикам идентичен стандартному Leopard 2A5. Недостатки: броня корпуса (80 мм) является ослабленной зоной."
+}
+]

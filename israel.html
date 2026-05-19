@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Израиль — Наземная техника | War Thunder Wiki</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+        :root {
+            --bg-page: #f0f2f5;
+            --bg-sidebar: #e8eaed;
+            --bg-main: #ffffff;
+            --text-dark: #202124;
+            --text-muted: #5f6368;
+            --border-light: #dadce0;
+            --accent: #1a73e9;
+            --accent-hover: #1557b0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-image: url('/Game_site/Img/termenator.jpg');
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-dark);
+            line-height: 1.5;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 8px 16px;
+        }
+
+        header {
+            padding: 8px 0 4px;
+            border-bottom: 1px solid var(--border-light);
+            margin-bottom: 10px;
+            flex-shrink: 0;
+        }
+        header h1 a {
+            text-decoration: none;
+            color: inherit;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 1.6rem;
+        }
+        header .subtitle {
+            color: var(--text-muted);
+            margin-top: 2px;
+            font-size: 0.8rem;
+        }
+        .top-tools {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 12px;
+            background: var(--bg-sidebar);
+            padding: 6px 16px;
+            border-radius: 48px;
+            flex-shrink: 0;
+        }
+        .search-wrapper {
+            flex: 2;
+            min-width: 180px;
+        }
+        .search-wrapper input {
+            width: 100%;
+            padding: 8px 16px;
+            border: 1px solid var(--border-light);
+            border-radius: 40px;
+            font-size: 0.85rem;
+            background: white;
+            transition: 0.2s;
+        }
+        .search-wrapper input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(26,115,233,0.2);
+        }
+        .user-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .btn {
+            border: none;
+            background: none;
+            padding: 6px 14px;
+            border-radius: 40px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+            font-size: 0.85rem;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+        }
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+        .btn-outline {
+            background: white;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+        }
+        .btn-outline:hover {
+            background: #e8f0fe;
+        }
+        .user-avatar {
+            width: 36px;
+            height: 36px;
+            background: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .profile-dropdown {
+            position: relative;
+        }
+        .dropdown-menu {
+            position: absolute;
+            top: 42px;
+            right: 0;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            width: 200px;
+            z-index: 200;
+            display: none;
+            border: 1px solid var(--border-light);
+            overflow: hidden;
+        }
+        .dropdown-menu.show {
+            display: block;
+        }
+        .dropdown-header {
+            padding: 10px 14px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+        .dropdown-menu a {
+            display: block;
+            padding: 8px 14px;
+            text-decoration: none;
+            color: var(--text-dark);
+            transition: background 0.1s;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+        .dropdown-menu a:hover {
+            background: #f1f3f4;
+        }
+        .dropdown-divider {
+            height: 1px;
+            background: var(--border-light);
+            margin: 4px 0;
+        }
+
+        .page-layout {
+            display: flex;
+            gap: 16px;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .left-sidebar {
+            width: 240px;
+            background: var(--bg-sidebar);
+            border: 1px solid var(--border-light);
+            border-radius: 14px;
+            padding: 12px;
+            flex-shrink: 0;
+            align-self: flex-start;
+            position: sticky;
+            top: 0;
+            max-height: calc(100vh - 110px);
+            overflow-y: auto;
+        }
+        .nations-block h3, .filters-block h3 {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 4px;
+        }
+        .nations-block ul, .filters-block ul { list-style: none; margin-bottom: 16px; }
+        .nations-block li { margin-bottom: 4px; }
+        .nations-block a {
+            display: block;
+            padding: 5px 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-dark);
+            font-size: 0.85rem;
+        }
+        .nations-block a:hover { background: #dadce0; }
+        .nations-block a.current {
+            background: #d3d3d3;
+            font-weight: 500;
+        }
+        .filter-btn {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 5px 8px;
+            border-radius: 8px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.85rem;
+            color: var(--text-dark);
+        }
+        .filter-btn:hover { background: #dadce0; }
+        .filter-btn.active {
+            background: #d3d3d3;
+            font-weight: 500;
+        }
+
+        .main-content {
+            flex: 1;
+            background: var(--bg-main);
+            border: 1px solid var(--border-light);
+            border-radius: 14px;
+            padding: 12px;
+            overflow-y: auto;
+            height: 100%;
+        }
+        .category { margin-bottom: 20px; }
+        .category h3 {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+        }
+        .vehicle-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+        .vehicle-table th, .vehicle-table td {
+            border: 1px solid var(--border-light);
+            padding: 6px 8px;
+            text-align: left;
+        }
+        .vehicle-table th { background: #f1f3f4; font-weight: 600; }
+        .vehicle-table tr:hover { background: #f8f9fa; cursor: pointer; }
+        .vehicle-name-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .vehicle-name-link:hover { text-decoration: underline; }
+        .premium-badge {
+            margin-left: 4px;
+            color: #ed9121;
+            font-size: 0.7rem;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal.visible { display: flex; }
+        .modal-content {
+            background: var(--bg-main);
+            width: 750px;
+            max-width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            border: 1px solid var(--border-light);
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 8px;
+        }
+        .modal-header h3, .modal-header h2 { font-size: 1.2rem; }
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 26px;
+            cursor: pointer;
+            color: #888;
+        }
+        .close-modal:hover { color: #e0534a; }
+        .modal-body ul { list-style: none; padding-left: 0; }
+        .modal-body li { margin-bottom: 8px; font-size: 0.85rem; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .pen-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 6px;
+            font-size: 0.75rem;
+        }
+        .pen-table th, .pen-table td {
+            border: 1px solid var(--border-light);
+            padding: 4px 6px;
+            text-align: center;
+        }
+        .mg-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 4px;
+        }
+        .mg-item {
+            background: #e8eaed;
+            padding: 3px 8px;
+            border-radius: 14px;
+            font-size: 0.75rem;
+        }
+        .auth-input {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            font-size: 0.85rem;
+        }
+        footer {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-light);
+            padding: 8px 0;
+            flex-shrink: 0;
+        }
+        .settings-group {
+            margin-bottom: 14px;
+        }
+        .settings-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: var(--text-dark);
+            font-size: 0.85rem;
+        }
+        .settings-group input {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            font-size: 0.85rem;
+            font-family: inherit;
+        }
+        .settings-group small {
+            display: block;
+            color: var(--text-muted);
+            font-size: 0.7rem;
+            margin-top: 2px;
+        }
+        .danger-zone {
+            margin-top: 18px;
+            padding-top: 12px;
+            border-top: 1px solid #e0e0e0;
+        }
+        @media (max-width: 900px) {
+            .page-layout { flex-direction: column; }
+            .left-sidebar { width: 100%; position: static; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1><a href="#">War Thunder Wiki</a></h1>
+        <p class="subtitle">Вики » Израиль — Наземная техника</p>
+    </header>
+    <div class="top-tools">
+        <div class="search-wrapper">
+            <input type="text" id="searchInput" placeholder=" Поиск по названию (например, Т-34, КВ, ИС)..." autocomplete="off">
+        </div>
+        <div class="user-area" id="userPanel"></div>
+    </div>
+
+    <div class="page-layout">
+        <div class="left-sidebar">
+            <div class="filters-block">
+                <h3> Категории</h3>
+                <ul>
+                    <li><button class="filter-btn active" data-cat="all"> Все категории</button></li>
+                    <li><button class="filter-btn" data-cat="light"> Лёгкие танки</button></li>
+                    <li><button class="filter-btn" data-cat="medium"> Средние танки</button></li>
+                    <li><button class="filter-btn" data-cat="heavy"> Тяжёлые танки</button></li>
+                    <li><button class="filter-btn" data-cat="aa_vehicle"> Зенитные установки</button></li>
+                    <li><button class="filter-btn" data-cat="tank_destroyer"> САУ / ПТ-САУ</button></li>
+                </ul>
+            </div>
+            <div class="nations-block">
+                <h3> Нации</h3>
+                <ul>
+                    <li><a href="/game_site/game_site.html"> Главная</a></li>
+                    <li><a href="/Game_site/ground/usa.html">🇺🇸 США</a></li>
+                    <li><a href="/Game_site/ground/germany.html">🇩🇪 Германия</a></li>
+                    <li><a href="/Game_site/ground/ussr.html" >🇷🇺 СССР</a></li>
+                    <li><a href="/Game_site/ground/britain.html">🇬🇧 Британия</a></li>
+                    <li><a href="/Game_site/ground/japan.html">🇯🇵 Япония</a></li>
+                    <li><a href="/Game_site/ground/china.html">🇨🇳 Китай</a></li>
+                    <li><a href="/Game_site/ground/france.html">🇫🇷 Франция</a></li>
+                    <li><a href="/Game_site/ground/italy.html">🇮🇹 Италия</a></li>
+                    <li><a href="/Game_site/ground/sweden.html">🇸🇪 Швеция</a></li>
+                    <li><a href="/Game_site/ground/israel.html"class="current">🇮🇱 Израиль</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-content" id="mainContent">Загрузка техники...</div>
+    </div>
+    <footer>© War Thunder Fan Wiki · данные загружены из официального источника</footer>
+</div>
+
+<!-- Модалка техники -->
+<div class="modal" id="tankModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalTitle">—</h2>
+            <button class="close-modal" id="closeModalBtn">✖</button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+    </div>
+</div>
+
+<div class="modal" id="settingsSupportModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3> Настройки профиля и поддержка</h3>
+            <button class="close-modal" id="closeSettingsModal">✖</button>
+        </div>
+        <div class="modal-body" id="settingsModalBody"></div>
+    </div>
+</div>
+
+<div class="modal" id="authModal">
+    <div class="modal-content" style="max-width: 360px;">
+        <div class="modal-header">
+            <h3 id="authTitle">Вход / Регистрация</h3>
+            <button class="close-modal" id="closeAuthModalBtn">✖</button>
+        </div>
+        <div class="modal-body">
+            <input type="text" id="authUsername" class="auth-input" placeholder="Имя пользователя">
+            <input type="password" id="authPassword" class="auth-input" placeholder="Пароль">
+            <button class="btn btn-primary" id="submitAuthBtn" style="width:100%; margin-top:6px;">Войти</button>
+            <p style="margin-top:10px; text-align:center;">
+                <a href="#" id="switchToRegisterLink">Нет аккаунта? Зарегистрироваться</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    let allVehicles = [];
+    let currentCategory = "all";
+    let currentSearchTerm = "";
+    let currentUser = null;     
+
+    const categoryTitles = {
+        light: " Лёгкие танки",
+        medium: " Средние танки",
+        heavy: " Тяжёлые танки",
+        aa_vehicle: " Зенитные установки",
+        tank_destroyer: " САУ / ПТ-САУ"
+    };
+    async function loadVehicles() {
+        try {
+            const res = await fetch("/Game_site/script/Israel.json");
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            allVehicles = await res.json();
+        } catch(err) {
+            console.warn("Файл ussr.json не загружен, используются демо-данные СССР");
+            allVehicles = [
+                { id: "t_34_85", name: "Т-34-85", nation: "ussr", nation_label: "🇷🇺 СССР", type: "medium", type_label: "Средний танк", br: 5.7, rank: "III", premium: false, gun: { name: "85 мм ЗиС-53", penetration: [{ ammo_type: "БР-365К", ammo_in_game_type: "APHE", penetration_mm: [148,143,126,106,90,77] }] }, crew: 5, hull: { front: 45 }, notes: "Легендарный средний танк с мощным орудием." },
+                { id: "is_2", name: "ИС-2", nation: "ussr", nation_label: "🇷🇺 СССР", type: "heavy", type_label: "Тяжёлый танк", br: 6.3, rank: "IV", premium: false, gun: { name: "122 мм Д-25Т", penetration: [{ ammo_type: "БР-471", ammo_in_game_type: "APHE", penetration_mm: [200,197,179,156,135,117] }] }, crew: 4, notes: "Тяжёлый танк прорыва." },
+                { id: "isu_152", name: "ИСУ-152", nation: "ussr", nation_label: "🇷🇺 СССР", type: "tank_destroyer", type_label: "САУ", br: 4.7, rank: "III", premium: false, gun: { name: "152 мм МЛ-20С", penetration: [{ ammo_type: "ОФ-540", ammo_in_game_type: "HE", penetration_mm: [49,49,49,49,49,49] }] }, notes: "Зверобой." }
+            ];
+        }
+        renderTables();
+    }
+
+    function getRankByBr(br) {
+        if (br <= 2.3) return "I";
+        if (br <= 4.0) return "II";
+        if (br <= 6.0) return "III";
+        if (br <= 7.0) return "IV";
+        if (br <= 8.0) return "V";
+        if (br <= 9.7) return "VI";
+        if (br <= 12.0) return "VII";
+        if (br <= 12.7) return "VIII";
+        return "IX";
+    }
+
+    function formatPenetrationTable(penetrationData) {
+        if (!penetrationData || penetrationData.length === 0) return "<p>Нет данных</p>";
+        let html = `<table class="pen-table"><thead><tr><th>Снаряд</th><th>10 м</th><th>100 м</th><th>500 м</th><th>1000 м</th><th>1500 м</th><th>2000 м</th></tr></thead><tbody>`;
+        for (let p of penetrationData) {
+            let penValues = p.penetration_mm;
+            if (!Array.isArray(penValues)) penValues = [penValues];
+            html += `<tr>
+                        <td><strong>${p.ammo_type}</strong><br><small>${p.ammo_in_game_type}</small></td>
+                        <td>${penValues[0] || "—"} мм</td>
+                        <td>${penValues[1] || penValues[0] || "—"} мм</td>
+                        <td>${penValues[2] || penValues[1] || penValues[0] || "—"} мм</td>
+                        <td>${penValues[3] || penValues[2] || penValues[1] || penValues[0] || "—"} мм</td>
+                        <td>${penValues[4] || penValues[3] || penValues[2] || penValues[1] || penValues[0] || "—"} мм</td>
+                        <td>${penValues[5] || penValues[4] || penValues[3] || penValues[2] || penValues[1] || penValues[0] || "—"} мм</td>
+                      </tr>`;
+        }
+        html += `</tbody></table>`;
+        return html;
+    }
+
+    function formatMGs(mgArray) {
+        if (!mgArray || mgArray.length === 0) return "<p>Нет пулемётов</p>";
+        const mountMap = { "hull": "Курсовой", "coaxial": "Спаренный", "roof pintle": "Зенитный" };
+        let html = `<div class="mg-list">`;
+        for (let mg of mgArray) {
+            let mountName = mg.mount || mg.name;
+            let translated = mountMap[mountName] || mountName;
+            html += `<div class="mg-item">${translated}: ${mg.name}</div>`;
+        }
+        html += `</div>`;
+        return html;
+    }
+
+    function renderTables() {
+        let vehicles = allVehicles.filter(v => {
+            if (currentCategory !== "all" && v.type !== currentCategory) return false;
+            if (currentSearchTerm && !v.name.toLowerCase().includes(currentSearchTerm.toLowerCase())) return false;
+            return true;
+        });
+        let grouped = {};
+        if (currentCategory === "all") {
+            for (let v of vehicles) {
+                if (!categoryTitles[v.type]) continue;
+                if (!grouped[v.type]) grouped[v.type] = [];
+                grouped[v.type].push(v);
+            }
+        } else {
+            grouped[currentCategory] = vehicles;
+        }
+        let html = "";
+        for (let [type, list] of Object.entries(grouped)) {
+            const title = categoryTitles[type] || type;
+            list.sort((a,b) => a.br - b.br);
+            html += `<div class="category"><h3>${title}</h3><table class="vehicle-table"><thead><tr><th>Ранг</th><th>Название</th><th>БР</th><th>Тип</th></tr></thead><tbody>`;
+            for (let v of list) {
+                let premBadge = (v.premium || v.is_premium) ? `<span class="premium-badge"> Премиум</span>` : "";
+                if (v.is_gift) premBadge = `<span class="premium-badge"> Подарочный</span>`;
+                const rankRoman = getRankByBr(v.br);
+                html += `<tr>
+                            <td>${rankRoman}</td>
+                            <td><a href="#" class="vehicle-name-link" data-id="${v.id}">${v.name}</a> ${premBadge}</td>
+                            <td>${v.br}</td>
+                            <td>${v.type_label || v.type}</td>
+                         </tr>`;
+            }
+            html += `</tbody></table></div>`;
+        }
+        if (html === "") html = "<p> Ничего не найдено. Попробуйте другие фильтры.</p>";
+        document.getElementById("mainContent").innerHTML = html;
+        document.querySelectorAll(".vehicle-name-link").forEach(link => {
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+                const id = link.getAttribute("data-id");
+                const tank = allVehicles.find(v => v.id === id);
+                if (tank) showModal(tank);
+            });
+        });
+    }
+
+    function showModal(tank) {
+        const modal = document.getElementById("tankModal");
+        document.getElementById("modalTitle").innerText = tank.name;
+        let details = `<ul>`;
+        details += `<li><strong>БР:</strong> ${tank.br}  |  <strong>Ранг:</strong> ${getRankByBr(tank.br)}</li>`;
+        if (tank.nation_label) details += `<li><strong>Страна:</strong> ${tank.nation_label}</li>`;
+        if (tank.weight_tonnes) details += `<li><strong>Вес:</strong> ${tank.weight_tonnes} т</li>`;
+        if (tank.silver_price) details += `<li><strong>Стоимость (серебро):</strong> ${tank.silver_price.toLocaleString()}</li>`;
+        if (tank.exp_price) details += `<li><strong>Опыт:</strong> ${tank.exp_price.toLocaleString()}</li>`;
+        if (tank.premium || tank.is_premium) details += `<li> Премиумная техника</li>`;
+        if (tank.gun) {
+            details += `<li><strong>Орудие:</strong> ${tank.gun.name || tank.gun.description || "—"}</li>`;
+            if (tank.gun.reload?.seconds) details += `<li><strong>Перезарядка:</strong> ${tank.gun.reload.seconds} с</li>`;
+            if (tank.gun.ammo_total) details += `<li><strong>Боекомплект:</strong> ${tank.gun.ammo_total}</li>`;
+            if (tank.gun.penetration?.length) details += `<li><strong>Бронепробитие:</strong><br>${formatPenetrationTable(tank.gun.penetration)}</li>`;
+        }
+        if (tank.mg?.length) details += `<li><strong>Пулемёты:</strong><br>${formatMGs(tank.mg)}</li>`;
+        if (tank.engine) {
+            details += `<li><strong>Двигатель:</strong> ${tank.engine.model || tank.engine.layout || "—"}</li>`;
+            if (tank.engine.power_hp) details += `<li><strong>Мощность:</strong> ${tank.engine.power_hp} л.с.</li>`;
+        }
+        if (tank.crew) details += `<li><strong>Экипаж:</strong> ${tank.crew} чел.</li>`;
+        if (tank.hull) details += `<li><strong>Броня корпуса:</strong> лоб ${tank.hull.front} / борт ${tank.hull.sides} / корма ${tank.hull.rear} мм</li>`;
+        if (tank.turret?.front) details += `<li><strong>Броня башни:</strong> лоб ${tank.turret.front} / борт ${tank.turret.sides} мм</li>`;
+        if (tank.notes) details += `<li><em>${tank.notes}</em></li>`;
+        details += `</ul>`;
+        document.getElementById("modalBody").innerHTML = details;
+        modal.classList.add("visible");
+    }
+    function loadUsers() { return JSON.parse(localStorage.getItem("wiki_users") || "[]"); }
+    function saveUsers(users) { localStorage.setItem("wiki_users", JSON.stringify(users)); }
+
+    function registerUser(username, password) {
+        let users = loadUsers();
+        if (users.find(u => u.username === username)) return false;
+        users.push({ username, password, displayName: username, joined: new Date().toLocaleDateString() });
+        saveUsers(users);
+        return true;
+    }
+
+    function loginUser(username, password) {
+        let users = loadUsers();
+        let found = users.find(u => u.username === username && u.password === password);
+        if (found) {
+            currentUser = { ...found };
+            localStorage.setItem("wiki_current_user", JSON.stringify(currentUser));
+            return true;
+        }
+        return false;
+    }
+
+    function logoutUser() {
+        currentUser = null;
+        localStorage.removeItem("wiki_current_user");
+        updateUserPanel();
+    }
+
+    function loadCurrentUser() {
+        let saved = localStorage.getItem("wiki_current_user");
+        if (saved) { currentUser = JSON.parse(saved); }
+        updateUserPanel();
+    }
+    function updateUserProfile(displayName, newPassword) {
+        if (!currentUser) return false;
+        let users = loadUsers();
+        let userIndex = users.findIndex(u => u.username === currentUser.username);
+        if (userIndex === -1) return false;
+        if (displayName && displayName.trim() !== "") {
+            users[userIndex].displayName = displayName.trim();
+            currentUser.displayName = displayName.trim();
+        }
+        if (newPassword && newPassword.trim() !== "") {
+            users[userIndex].password = newPassword.trim();
+            currentUser.password = newPassword.trim();
+        }
+        saveUsers(users);
+        localStorage.setItem("wiki_current_user", JSON.stringify(currentUser));
+        return true;
+    }
+    function renderSettingsModal() {
+        const container = document.getElementById("settingsModalBody");
+        if (!container) return;
+        if (!currentUser) {
+            container.innerHTML = `<p style="color:red;">Авторизуйтесь, чтобы изменить настройки.</p>`;
+            return;
+        }
+        container.innerHTML = `
+            <div class="settings-group">
+                <label> Имя пользователя (логин)</label>
+                <input type="text" id="settingsLogin" value="${currentUser.username}" disabled>
+                <small>Логин нельзя изменить</small>
+            </div>
+            <div class="settings-group">
+                <label> Отображаемое имя</label>
+                <input type="text" id="settingsDisplayName" placeholder="Как вас видно" value="${currentUser.displayName || currentUser.username}">
+                <small>Имя, которое будет отображаться в профиле</small>
+            </div>
+            <div class="settings-group">
+                <label> Новый пароль</label>
+                <input type="password" id="settingsNewPassword" placeholder="Оставьте пустым, если не меняете">
+                <small>Минимум 3 символа</small>
+            </div>
+            <button class="btn btn-primary" id="saveProfileSettingsBtn"> Сохранить изменения</button>
+            <div class="danger-zone">
+                <p><strong> Поддержка:</strong> <a href="#">zayavlin.artem@yandex.ru</a></p>
+                <button class="btn btn-outline" id="reportBugFromSettingsBtn"> Сообщить об ошибке</button>
+                <p style="margin-top: 12px; font-size:0.75rem;">Версия 2.5.0</p>
+            </div>
+        `;
+        document.getElementById("saveProfileSettingsBtn")?.addEventListener("click", () => {
+            const newDisplay = document.getElementById("settingsDisplayName").value.trim();
+            const newPass = document.getElementById("settingsNewPassword").value.trim();
+            if (updateUserProfile(newDisplay, newPass || null)) {
+                alert(" Настройки профиля обновлены!");
+                updateUserPanel();      
+                document.getElementById("settingsSupportModal").classList.remove("visible");
+            } else {
+                alert(" Ошибка при сохранении настроек.");
+            }
+        });
+        document.getElementById("reportBugFromSettingsBtn")?.addEventListener("click", () => {
+            alert("Спасибо! Отправьте скриншот на поддержку.");
+        });
+    }
+
+    function updateUserPanel() {
+        const panel = document.getElementById("userPanel");
+        if (!panel) return;
+        if (currentUser) {
+            const displayName = currentUser.displayName || currentUser.username;
+            const firstLetter = displayName.charAt(0).toUpperCase();
+            panel.innerHTML = `
+                <div class="profile-dropdown" id="profileDropdown">
+                    <div class="user-avatar" id="avatarBtn">${firstLetter}</div>
+                    <div class="dropdown-menu" id="userMenu">
+                        <div class="dropdown-header">${displayName}</div>
+                        <a id="profileInfoBtn"> Мой профиль</a>
+                        <a id="settingsOpenBtn"> Настройки</a>
+                        <a id="supportOpenBtn"> Поддержка</a>
+                        <div class="dropdown-divider"></div>
+                        <a id="logoutBtn"> Выйти</a>
+                    </div>
+                </div>
+            `;
+            const container = document.getElementById("profileDropdown");
+            const menu = document.getElementById("userMenu");
+            document.getElementById("avatarBtn")?.addEventListener("click", (e) => { e.stopPropagation(); menu.classList.toggle("show"); });
+            document.addEventListener("click", (e) => { if (!container.contains(e.target)) menu.classList.remove("show"); });
+            document.getElementById("logoutBtn")?.addEventListener("click", (e) => { e.preventDefault(); logoutUser(); });
+            document.getElementById("profileInfoBtn")?.addEventListener("click", () => {
+                alert(` Профиль: ${currentUser.displayName || currentUser.username}\n Логин: ${currentUser.username}\n Регистрация: ${currentUser.joined || 'неизвестно'}\n Статус: игрок`);
+                menu.classList.remove("show");
+            });
+            document.getElementById("settingsOpenBtn")?.addEventListener("click", () => {
+                renderSettingsModal();
+                document.getElementById("settingsSupportModal").classList.add("visible");
+                menu.classList.remove("show");
+            });
+            document.getElementById("supportOpenBtn")?.addEventListener("click", () => {
+                renderSettingsModal();  
+                document.getElementById("settingsSupportModal").classList.add("visible");
+                menu.classList.remove("show");
+            });
+        } else {
+            panel.innerHTML = `<button class="btn btn-outline" id="showAuthBtn"> Войти</button>`;
+            document.getElementById("showAuthBtn")?.addEventListener("click", () => showAuthModal());
+        }
+    }
+    let authIsLogin = true;
+    function showAuthModal() {
+        authIsLogin = true;
+        document.getElementById("authTitle").innerText = "Вход";
+        document.getElementById("submitAuthBtn").innerText = "Войти";
+        document.getElementById("switchToRegisterLink").innerText = "Нет аккаунта? Зарегистрироваться";
+        document.getElementById("authModal").classList.add("visible");
+    }
+
+    document.getElementById("closeAuthModalBtn")?.addEventListener("click", () => document.getElementById("authModal").classList.remove("visible"));
+    document.getElementById("switchToRegisterLink")?.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (authIsLogin) {
+            authIsLogin = false;
+            document.getElementById("authTitle").innerText = "Регистрация";
+            document.getElementById("submitAuthBtn").innerText = "Зарегистрироваться";
+            document.getElementById("switchToRegisterLink").innerText = "Уже есть аккаунт? Войти";
+        } else {
+            authIsLogin = true;
+            document.getElementById("authTitle").innerText = "Вход";
+            document.getElementById("submitAuthBtn").innerText = "Войти";
+            document.getElementById("switchToRegisterLink").innerText = "Нет аккаунта? Зарегистрироваться";
+        }
+    });
+    document.getElementById("submitAuthBtn")?.addEventListener("click", () => {
+        let username = document.getElementById("authUsername").value.trim();
+        let password = document.getElementById("authPassword").value;
+        if (!username || !password) { alert("Заполните поля!"); return; }
+        if (authIsLogin) {
+            if (loginUser(username, password)) { alert(`Добро пожаловать, ${username}!`); document.getElementById("authModal").classList.remove("visible"); updateUserPanel(); renderTables(); }
+            else alert("Неверное имя или пароль.");
+        } else {
+            if (registerUser(username, password)) { alert("Регистрация успешна! Теперь войдите."); authIsLogin = true; document.getElementById("authTitle").innerText = "Вход"; document.getElementById("submitAuthBtn").innerText = "Войти"; document.getElementById("switchToRegisterLink").innerText = "Нет аккаунта? Зарегистрироваться"; document.getElementById("authUsername").value = ""; document.getElementById("authPassword").value = ""; }
+            else alert("Пользователь уже существует.");
+        }
+    });
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            currentCategory = btn.getAttribute("data-cat");
+            renderTables();
+        });
+    });
+    document.getElementById("searchInput")?.addEventListener("input", (e) => {
+        currentSearchTerm = e.target.value;
+        renderTables();
+    });
+    document.getElementById("closeModalBtn")?.addEventListener("click", () => document.getElementById("tankModal").classList.remove("visible"));
+    document.getElementById("closeSettingsModal")?.addEventListener("click", () => document.getElementById("settingsSupportModal").classList.remove("visible"));
+    document.getElementById("reportBugBtn")?.addEventListener("click", () => alert("Спасибо! Сообщение можно отправить на почту поддержки."));
+    window.addEventListener("click", (e) => {
+        if (e.target.classList.contains("modal")) e.target.classList.remove("visible");
+    });
+
+    loadCurrentUser();
+    loadVehicles();
+</script>
+</body>
+</html>

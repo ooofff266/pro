@@ -1,0 +1,3732 @@
+[
+{
+"id": "uk_a_13_mk1",
+"name": "A13 Mk.I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 87,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 4,
+"engine": {
+"power_hp": 340,
+"rpm": 2600,
+"model": "Nuffield Liberty V12",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 13.8
+},
+"hull": {"front": 14, "sides": 14, "rear": 14},
+"turret": {"front": 14, "sides": 14, "rear": 14},
+"notes": "Британский крейсерский танк A13 Mk.I. Отличная подвижность (54 км/ч), хорошая 40-мм пушка с быстрой перезарядкой. Недостатки: очень слабая броня (14 мм)."
+},
+{
+"id": "uk_m3_stuart",
+"name": "Stuart I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 700,
+"exp_price": 2900,
+"premium": false,
+"gun": {
+"name": "37-мм пушка M5",
+"penetration": [
+{"ammo_type": "M51 APC", "ammo_in_game_type": "AP", "penetration_mm": [86, 83, 71, 59, 49, 40], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 103,
+"reload": {"seconds": 3.7, "aces": 2.9},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {
+"power_hp": 262,
+"rpm": 2800,
+"model": "Continental W-670-9A",
+"layout": "7‑cylinder radial gasoline",
+"weight_tonnes": 12.7
+},
+"hull": {"front": 44, "sides": 25, "rear": 25},
+"turret": {"front": 38, "sides": 25, "rear": 25},
+"notes": "Американский лёгкий танк M3 Stuart по ленд-лизу. Хорошая броня (лоб 44 мм), неплохая подвижность. Недостатки: высокий силуэт, плотная компоновка."
+},
+{
+"id": "uk_a17_mk_1_tetrarch",
+"name": "Tetrarch I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 25}
+},
+"crew": 3,
+"engine": {
+"power_hp": 167,
+"rpm": 3000,
+"model": "Meadows 12-cylinder",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 7.7
+},
+"hull": {"front": 16, "sides": 14, "rear": 10},
+"turret": {"front": 16, "sides": 14, "rear": 10},
+"notes": "Британский лёгкий аэротранспортабельный танк Tetrarch I. Отличная подвижность (75 км/ч), хорошая 40-мм пушка. Недостатки: очень слабая броня, экипаж 3 человека."
+},
+{
+"id": "uk_vickers_mk_6_aa_mk_1",
+"name": "Light AA Mk I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 1.0,
+"rank": "I",
+"silver_price": 2100,
+"exp_price": 4000,
+"premium": false,
+"gun": {
+"name": "4 x 7,92-мм пулемёт BESA",
+"description": "Счетверённая пулемётная установка",
+"penetration": [
+{"ammo_type": "Б/Т/ЗТ/П", "ammo_in_game_type": "AP", "penetration_mm": [13, 12, 7, 3, 2, 0], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 823, "description": "Бронебойная пуля"}
+],
+"ammo_total": 3600,
+"reload": {"seconds": 7.8, "aces": 6.0},
+"rate_of_fire_rpm": 600,
+"elevation": {"min_deg": -10, "max_deg": 65}
+},
+"crew": 2,
+"engine": {
+"power_hp": 88,
+"rpm": 2800,
+"model": "Meadows 6-cylinder",
+"layout": "6‑cylinder gasoline",
+"weight_tonnes": 4.9
+},
+"hull": {"front": 14, "sides": 14, "rear": 14},
+"notes": "ЗСУ на базе лёгкого танка Mk VI. Счетверённые 7,92-мм пулемёты BESA. Недостатки: экипаж 2 человека, открытая рубка, слабая броня."
+},
+{
+"id": "uk_mark_v",
+"name": "Mark V",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "2 x 57-мм пушка 6pdr OQF Hotchkiss Mk.I",
+"description": "Бортовые орудия в спонсонах",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [37, 36, 29, 23, 18, 14], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 550, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 282,
+"reload": {"seconds": 3.9, "aces": 3.0}
+},
+"crew": 8,
+"engine": {
+"power_hp": 150,
+"rpm": 1200,
+"model": "Ricardo 6-cylinder",
+"layout": "6‑cylinder gasoline",
+"weight_tonnes": 30.0
+},
+"hull": {"front": 16, "sides": 12, "rear": 12},
+"notes": "Британский танк Первой мировой войны Mark V. Вооружён двумя 57-мм орудиями по бортам. Экипаж 8 человек. Недостатки: очень низкая скорость (9 км/ч), слабая броня."
+},
+{
+"id": "uk_a_13_mk2",
+"name": "A13 Mk.II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 700,
+"exp_price": 2900,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 87,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 4,
+"engine": {
+"power_hp": 340,
+"rpm": 2600,
+"model": "Nuffield Liberty V12",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 14.5
+},
+"hull": {"front": 30, "sides": 14, "rear": 14},
+"turret": {"front": 14, "sides": 14, "rear": 14},
+"notes": "Модернизированный A13 Mk.I с усиленной лобовой бронёй корпуса (30 мм). Недостатки: броня башни всё ещё 14 мм."
+},
+{
+"id": "uk_m3a1_stuart",
+"name": "Stuart III",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.3,
+"rank": "I",
+"silver_price": 6300,
+"exp_price": 5900,
+"premium": false,
+"gun": {
+"name": "37-мм пушка M6",
+"penetration": [
+{"ammo_type": "M51 APC", "ammo_in_game_type": "AP", "penetration_mm": [87, 84, 73, 60, 50, 41], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 106,
+"reload": {"seconds": 3.7, "aces": 2.9},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {
+"power_hp": 262,
+"rpm": 2800,
+"model": "Continental W-670-9A",
+"layout": "7‑cylinder radial gasoline",
+"weight_tonnes": 12.9
+},
+"hull": {"front": 38, "sides": 25, "rear": 25},
+"turret": {"front": 38, "sides": 32, "rear": 32},
+"notes": "Американский M3A1 Stuart по ленд-лизу. Улучшенная башня (лоб 38 мм), хорошая подвижность (65 км/ч). Недостатки: слабое бронепробитие 37-мм пушки."
+},
+{
+"id": "uk_daimler_mk_2",
+"name": "Daimler Mk II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 700,
+"exp_price": 2900,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 52,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 25}
+},
+"crew": 3,
+"engine": {
+"power_hp": 110,
+"rpm": 3000,
+"model": "Daimler 6-cylinder",
+"layout": "6‑cylinder gasoline",
+"weight_tonnes": 7.6
+},
+"hull": {"front": 16, "sides": 10, "rear": 14},
+"turret": {"front": 16, "sides": 14, "rear": 10},
+"notes": "Британский колёсный бронеавтомобиль Daimler Mk II. Отличная скорость (89 км/ч). Недостатки: слабая броня, колёсная база (плохая проходимость)."
+},
+{
+"id": "uk_t17e2",
+"name": "Staghound AA",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 2.0,
+"rank": "I",
+"silver_price": 6300,
+"exp_price": 5900,
+"premium": false,
+"gun": {
+"name": "2 x 12,7-мм пулемёт M2HB",
+"description": "Спаренная крупнокалиберная пулемётная установка",
+"penetration": [
+{"ammo_type": "БЗТ", "ammo_in_game_type": "AP", "penetration_mm": [31, 29, 21, 14, 9, 6], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 880, "description": "Бронебойно-зажигательный трассирующий"}
+],
+"ammo_total": 2800,
+"reload": {"seconds": 10.4, "aces": 8.0},
+"rate_of_fire_rpm": 575,
+"elevation": {"min_deg": -10, "max_deg": 75}
+},
+"crew": 3,
+"engine": {
+"power_hp": 194,
+"rpm": 3000,
+"model": "GMC 2-cylinder diesel",
+"layout": "2‑cylinder diesel",
+"weight_tonnes": 12.0
+},
+"hull": {"front": 22, "sides": 19, "rear": 9},
+"turret": {"front": 32, "sides": 32, "rear": 32},
+"notes": "Колёсная ЗСУ Staghound AA. Спаренная 12,7-мм пулемётная установка, хорошая подвижность (96 км/ч). Недостатки: открытая башня, слабая броня."
+},
+{
+"id": "uk_a_13_mk1_3rd_rtr",
+"name": "A13 Mk.I (3rd R.T.R.)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.0,
+"rank": "I",
+"silver_price": 250,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 87,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 4,
+"engine": {
+"power_hp": 340,
+"rpm": 2600,
+"model": "Nuffield Liberty V12",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 13.8
+},
+"hull": {"front": 14, "sides": 14, "rear": 14},
+"turret": {"front": 14, "sides": 14, "rear": 14},
+"notes": "Премиумный A13 Mk.I с уникальным камуфляжем 3-го батальона Королевского танкового полка. Отличная подвижность (54 км/ч), хорошая 40-мм пушка с быстрой перезарядкой. Недостатки: очень слабая броня (14 мм)."
+},
+{
+"id": "uk_a_13_mk2_1939",
+"name": "A13 Mk.II 1939",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 87,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 4,
+"engine": {
+"power_hp": 340,
+"rpm": 2600,
+"model": "Nuffield Liberty V12",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 14.5
+},
+"hull": {"front": 30, "sides": 14, "rear": 14},
+"turret": {"front": 14, "sides": 14, "rear": 14},
+"notes": "Премиумный A13 Mk.II с уникальным камуфляжем Французской кампании 1940 года. Усиленная лобовая броня корпуса (30 мм). Недостатки: броня башни всё ещё 14 мм."
+},
+{
+"id": "uk_a1e1_independent",
+"name": "Independent",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 1.3,
+"rank": "I",
+"silver_price": 2100,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "47-мм пушка Ordnance QF 3-pounder",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [49, 47, 38, 29, 22, 17], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 550, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 201,
+"reload": {"seconds": 3.9, "aces": 3.0},
+"elevation": {"min_deg": -4, "max_deg": 20}
+},
+"crew": 8,
+"engine": {
+"power_hp": 370,
+"rpm": 2000,
+"model": "Armstrong Siddeley V12",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 31.7
+},
+"hull": {"front": 28, "sides": 13, "rear": 13},
+"turret": {"front": 28, "sides": 28, "rear": 28},
+"notes": "Премиумный британский многобашенный тяжёлый танк. Экипаж 8 человек, 4 пулемётные башни. Недостатки: очень слабая броня (лоб 28 мм), низкая скорость (34 км/ч)."
+},
+{
+"id": "uk_alecto_mk_1",
+"name": "Alecto I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 1.7,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "95-мм гаубица Ordnance QF SP Mk. III",
+"penetration": [
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [110, 110, 110, 110, 110, 110], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 300, "description": "Кумулятивный снаряд"},
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [10, 10, 10, 10, 10, 10], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 300, "description": "Осколочно-фугасный снаряд"}
+],
+"ammo_total": 48,
+"reload": {"seconds": 11.1, "aces": 8.6},
+"elevation": {"min_deg": -5, "max_deg": 26},
+"horizontal_traverse": {"min_deg": -15, "max_deg": 15}
+},
+"crew": 4,
+"engine": {
+"power_hp": 164,
+"rpm": 2800,
+"model": "Meadows 12-cylinder",
+"layout": "12‑cylinder gasoline",
+"weight_tonnes": 8.1
+},
+"hull": {"front": 10, "sides": 10, "rear": 10},
+"notes": "Премиумная лёгкая САУ Alecto I. 95-мм гаубица с кумулятивными снарядами (110 мм), хорошая подвижность (55 км/ч), малый силуэт. Недостатки: очень слабая броня (10 мм), долгая перезарядка."
+},
+{
+"id": "uk_crusader_mk_2",
+"name": "Crusader II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 110,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 16.3},
+"hull": {"front": 20, "sides": 28, "rear": 14},
+"turret": {"front": 52, "sides": 24, "rear": 30},
+"notes": "Британский крейсерский танк Crusader II. Хорошая динамика, скорострельная 40-мм пушка. Недостатки: слабая броня корпуса."
+},
+{
+"id": "uk_crusader_mk_3",
+"name": "Crusader III",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 3.0,
+"rank": "II",
+"silver_price": 16000,
+"exp_price": 4600,
+"premium": false,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.III",
+"penetration": [
+{"ammo_type": "Shot Mk.III AP", "ammo_in_game_type": "AP", "penetration_mm": [122, 118, 101, 84, 70, 58], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 65,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 3,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 20.3},
+"hull": {"front": 20, "sides": 14, "rear": 14},
+"turret": {"front": 30, "sides": 28, "rear": 28},
+"notes": "Crusader III с 57-мм пушкой. Хорошее бронепробитие (122 мм), отличная подвижность. Недостатки: слабая броня, экипаж 3 человека."
+},
+{
+"id": "uk_valentine_mk_1",
+"name": "Valentine I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 61,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 3,
+"engine": {"power_hp": 135, "rpm": 2000, "model": "AEC A190", "layout": "6‑cylinder diesel", "weight_tonnes": 15.7},
+"hull": {"front": 60, "sides": 60, "rear": 60},
+"turret": {"front": 65, "sides": 60, "rear": 65},
+"notes": "Пехотный танк Valentine I. Хорошая броня (лоб 60 мм). Недостатки: низкая скорость (27 км/ч), экипаж 3 человека."
+},
+{
+"id": "uk_valentine_mk_11",
+"name": "Valentine XI",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 16000,
+"exp_price": 4600,
+"premium": false,
+"gun": {
+"name": "75-мм пушка Ordnance QF Mk.V",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [103, 100, 89, 77, 66, 57], "velocity_ms": 550, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 45,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -8, "max_deg": 17}
+},
+"crew": 3,
+"engine": {"power_hp": 165, "rpm": 2800, "model": "GMC 6-71", "layout": "6‑cylinder diesel", "weight_tonnes": 18.0},
+"hull": {"front": 60, "sides": 43, "rear": 60},
+"turret": {"front": 65, "sides": 60, "rear": 65},
+"notes": "Valentine XI с 75-мм пушкой. Хорошая броня, фугасные снаряды. Недостатки: низкая скорость, долгая перезарядка."
+},
+{
+"id": "uk_valentine_mk_9",
+"name": "Valentine IX",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.0,
+"rank": "II",
+"silver_price": 22000,
+"exp_price": 5600,
+"premium": false,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.III",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [122, 118, 101, 84, 70, 58], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 53,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -8, "max_deg": 17}
+},
+"crew": 3,
+"engine": {"power_hp": 165, "rpm": 2800, "model": "GMC 6-71", "layout": "6‑cylinder diesel", "weight_tonnes": 17.3},
+"hull": {"front": 60, "sides": 43, "rear": 60},
+"turret": {"front": 65, "sides": 60, "rear": 65},
+"notes": "Valentine IX с 57-мм пушкой. Отличное бронепробитие (122 мм), хорошая броня. Недостатки: низкая скорость, отсутствие фугасов."
+},
+{
+"id": "uk_sp_17_pdr_valentine",
+"name": "Archer",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 2.7,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 39,
+"reload": {"seconds": 6.1, "aces": 4.7},
+"horizontal_traverse": {"min_deg": -22, "max_deg": 22}
+},
+"crew": 4,
+"engine": {"power_hp": 195, "rpm": 2800, "model": "GMC 6-71", "layout": "6‑cylinder diesel", "weight_tonnes": 16.3},
+"hull": {"front": 20, "sides": 20, "rear": 20},
+"notes": "САУ Archer с орудием направленным назад. Мощная 17-pdr пушка (190 мм пробития). Недостатки: очень низкая скорость, слабая броня."
+},
+{
+"id": "uk_3_inch_gun_carrier",
+"name": "Gun Carrier (3-in)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 3.0,
+"rank": "II",
+"silver_price": 16000,
+"exp_price": 9200,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 3in 20cwt",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [131, 125, 104, 82, 65, 51], "velocity_ms": 610, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 65,
+"reload": {"seconds": 8.1, "aces": 6.3}
+},
+"crew": 4,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 39.0},
+"hull": {"front": 76, "sides": 64, "rear": 51},
+"notes": "САУ на базе Churchill. Отличная лобовая броня (76 мм). Недостатки: очень низкая скорость (28 км/ч), узкие углы горизонтальной наводки."
+},
+{
+"id": "uk_a27m_cromwell_1",
+"name": "Cromwell I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 32000,
+"exp_price": 6900,
+"premium": false,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.III",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [122, 118, 101, 84, 70, 58], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 75,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 27.4},
+"hull": {"front": 64, "sides": 46, "rear": 32},
+"turret": {"front": 64, "sides": 51, "rear": 44},
+"notes": "Крейсерский танк Cromwell I. Отличная подвижность (72 км/ч), хорошая броня (лоб 64 мм). Недостатки: задний ход 4 км/ч."
+},
+{
+"id": "uk_sherman_ii",
+"name": "Sherman II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 32000,
+"exp_price": 6900,
+"premium": false,
+"gun": {
+"name": "75-мм пушка М3",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [104, 102, 93, 84, 75, 68], "velocity_ms": 620, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 90,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -12, "max_deg": 18}
+},
+"crew": 5,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 30.6},
+"hull": {"front": 51, "sides": 38, "rear": 38},
+"turret": {"front": 76, "sides": 51, "rear": 51},
+"notes": "Британский M4A1 Sherman (литой корпус). Хороший стабилизатор, 75-мм пушка, броня 76 мм в лоб башни. Недостатки: броня корпуса 51 мм."
+},
+{
+"id": "uk_crusader_aa_mk_1",
+"name": "Crusader AA Mk I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 2.0,
+"rank": "I",
+"silver_price": 6300,
+"exp_price": 5000,
+"premium": false,
+"gun": {
+"name": "2 x 40-мм пушка Bofors (T1)",
+"description": "Спаренная зенитная установка",
+"penetration": [
+{"ammo_type": "БТ", "ammo_in_game_type": "AP", "penetration_mm": [51, 48, 36, 26, 18, 13], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 880, "description": "Бронебойный трассирующий снаряд"}
+],
+"ammo_total": 240,
+"magazine_size": 4,
+"reload": {"seconds": 0.5, "aces": 0.4},
+"rate_of_fire_rpm": 240,
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 5,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 18.7},
+"hull": {"front": 20, "sides": 28, "rear": 14},
+"turret": {"front": 20, "sides": 20, "rear": 20},
+"notes": "ЗСУ на базе Crusader со спаренными 40-мм пушками Bofors. Хорошая подвижность, мощное зенитное вооружение. Недостатки: открытая башня, долгая перезарядка."
+},
+{
+"id": "uk_armored_car_mk_2_aa",
+"name": "Armored Car Mk II AA",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 2.0,
+"rank": "I",
+"silver_price": 6300,
+"exp_price": 5000,
+"premium": false,
+"gun": {
+"name": "2 x 12,7-мм пулемёт Vickers",
+"description": "Спаренная крупнокалиберная пулемётная установка",
+"penetration": [
+{"ammo_type": "БЗТ", "ammo_in_game_type": "AP", "penetration_mm": [20, 18, 12, 7, 4, 2], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 850, "description": "Бронебойно-зажигательный трассирующий"}
+],
+"ammo_total": 800,
+"reload": {"seconds": 10.4, "aces": 8.0},
+"rate_of_fire_rpm": 600,
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 2,
+"engine": {"power_hp": 100, "rpm": 2800, "model": "Ford V8", "layout": "8‑cylinder gasoline", "weight_tonnes": 4.5},
+"hull": {"front": 12, "sides": 10, "rear": 10},
+"notes": "Лёгкий бронеавтомобиль со спаренными 12,7-мм пулемётами Vickers. Недостатки: экипаж 2 человека, очень слабая броня."
+},
+{
+"id": "uk_marmon_herrington_mk_6_2pdr",
+"name": "Marmon-Herrington Mk VI 2pdr",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 3,
+"engine": {"power_hp": 95, "rpm": 2800, "model": "Ford V8", "layout": "8‑cylinder gasoline", "weight_tonnes": 5.6},
+"hull": {"front": 15, "sides": 12, "rear": 12},
+"notes": "Южноафриканский бронеавтомобиль Marmon-Herrington Mk VI с 40-мм пушкой. Недостатки: слабая броня, медленный."
+},
+{
+"id": "uk_a25_mk_8",
+"name": "A25 Mk VIII (Harry Hopkins)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.0,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "37-мм пушка M5",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [86, 83, 71, 59, 49, 40], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 70,
+"reload": {"seconds": 3.7, "aces": 2.9},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 3,
+"engine": {"power_hp": 148, "rpm": 2800, "model": "Meadows 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 8.1},
+"hull": {"front": 20, "sides": 16, "rear": 14},
+"turret": {"front": 25, "sides": 20, "rear": 20},
+"notes": "Премиумный лёгкий танк Harry Hopkins. Авиадесантный, хорошая подвижность. Недостатки: слабая броня, слабое 37-мм орудие."
+},
+{
+"id": "uk_marmon_herrington_mk_6_6pdr",
+"name": "Marmon-Herrington Mk VI 6pdr",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.3,
+"rank": "I",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.III",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [122, 118, 101, 84, 70, 58], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 40,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 3,
+"engine": {"power_hp": 95, "rpm": 2800, "model": "Ford V8", "layout": "8‑cylinder gasoline", "weight_tonnes": 5.6},
+"hull": {"front": 15, "sides": 12, "rear": 12},
+"notes": "Южноафриканский бронеавтомобиль Marmon-Herrington Mk VI с 57-мм пушкой. Отличное бронепробитие (122 мм). Недостатки: очень слабая броня, медленный."
+},
+{
+"id": "uk_cruiser_ram_1",
+"name": "Ram II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.8,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.III",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [122, 118, 101, 84, 70, 58], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 92,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 29.5},
+"hull": {"front": 88, "sides": 63, "rear": 63},
+"turret": {"front": 88, "sides": 63, "rear": 63},
+"notes": "Премиумный канадский танк Ram II. Отличная броня (лоб 88 мм), 57-мм пушка. Недостатки: 57-мм орудие слабовато для 3.8."
+},
+{
+"id": "uk_a_12_mk_2_matilda_2",
+"name": "Matilda II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 10000,
+"exp_price": 7900,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 93,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 174, "rpm": 2000, "model": "Leyland E148/E149", "layout": "2 × 6‑cylinder diesel", "weight_tonnes": 26.9},
+"hull": {"front": 78, "sides": 70, "rear": 55},
+"turret": {"front": 75, "sides": 75, "rear": 75},
+"notes": "Пехотный танк Matilda II. Очень хорошая броня (лоб 78 мм). Недостатки: очень медленный (26 км/ч), 40-мм пушка слабая."
+},
+{
+"id": "uk_a_22_mk_1_churchill_1941",
+"name": "Churchill I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 3.3,
+"rank": "II",
+"silver_price": 16000,
+"exp_price": 9200,
+"premium": false,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder + 75-мм гаубица в корпусе",
+"description": "Двухорудийная установка",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "description": "Бронебойный снаряд (40-мм)"}
+],
+"ammo_total": 150,
+"reload": {"seconds": 3.6, "aces": 2.8}
+},
+"crew": 5,
+"engine": {"power_hp": 350, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 39.6},
+"hull": {"front": 89, "sides": 76, "rear": 51},
+"turret": {"front": 89, "sides": 76, "rear": 51},
+"notes": "Пехотный танк Churchill I. Очень хорошая броня (лоб 89 мм). Недостатки: очень медленный (28 км/ч), два орудия неудобны в использовании."
+},
+{
+"id": "uk_a27m_cromwell_5",
+"name": "Cromwell V",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 32000,
+"exp_price": 6900,
+"premium": false,
+"gun": {
+"name": "75-мм пушка ROQF Mk.V",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [103, 100, 89, 77, 66, 57], "velocity_ms": 600, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 64,
+"reload": {"seconds": 6.5, "aces": 5.0}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 28.0},
+"hull": {"front": 64, "sides": 46, "rear": 32},
+"turret": {"front": 76, "sides": 63, "rear": 57},
+"notes": "Cromwell V с 75-мм пушкой. Отличная подвижность (72 км/ч), хорошая броня. Недостатки: задний ход 4 км/ч."
+},
+{
+"id": "uk_17_pdr_m10_achilles",
+"name": "M10 Achilles",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 3.3,
+"rank": "II",
+"silver_price": 18000,
+"exp_price": 10000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 900, "description": "Бронебойный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "APCBC", "penetration_mm": [171, 168, 155, 139, 126, 113], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 900, "description": "Бронебойный снаряд с баллистическим колпачком"}
+],
+"ammo_total": 54,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -10, "max_deg": 30}
+},
+"crew": 5,
+"engine": {"power_hp": 375, "rpm": 2800, "model": "General Motors 6046", "layout": "2 × 6‑cylinder diesel", "weight_tonnes": 29.6},
+"hull": {"front": 38, "sides": 25, "rear": 25},
+"turret": {"front": 57, "sides": 25, "rear": 25},
+"notes": "Британская ПТ-САУ на базе американского M10 Wolverine с мощной 17-pdr пушкой (пробитие 190 мм). Хорошая подвижность. Недостатки: открытая башня, слабая броня."
+},
+{
+"id": "uk_crusader_mk_2_the_saint",
+"name": "Crusader \"The Saint\"",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 700,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 110,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -15, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 16.3},
+"hull": {"front": 20, "sides": 28, "rear": 14},
+"turret": {"front": 52, "sides": 24, "rear": 30},
+"notes": "Премиумный Crusader II с уникальным камуфляжем «The Saint» (10-й королевский гусарский полк). Отличная подвижность, хорошая 40-мм пушка. Недостатки: слабая броня корпуса."
+},
+{
+"id": "uk_mk1_grant",
+"name": "Grant I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка М2 + 37-мм пушка M5",
+"description": "Двухорудийная установка (основное орудие в корпусе, вспомогательное в башне)",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [97, 95, 87, 78, 70, 63], "description": "Бронебойный снаряд (75-мм)"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [87, 84, 73, 60, 50, 41], "description": "Бронебойный снаряд (37-мм)"}
+]
+},
+"crew": 6,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 27.9},
+"hull": {"front": 51, "sides": 38, "rear": 38},
+"turret": {"front": 76, "sides": 51, "rear": 51},
+"notes": "Премиумный британский M3 Grant (версия Lee с новой башней). Два орудия (75-мм в корпусе, 37-мм в башне), стабилизатор, экипаж 6 человек. Недостатки: основное орудие в корпусе, слабая броня."
+},
+{
+"id": "uk_armored_car_aec_mk_2",
+"name": "AEC Mk II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 3.3,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.V",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [132, 127, 110, 91, 75, 63], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 60,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 160, "rpm": 2800, "model": "AEC 7.7L", "layout": "6‑cylinder diesel", "weight_tonnes": 12.8},
+"hull": {"front": 17, "sides": 25, "rear": 14},
+"turret": {"front": 31, "sides": 25, "rear": 20},
+"notes": "Премиумный колёсный бронеавтомобиль AEC Mk II. 57-мм пушка, хорошая подвижность (74 км/ч). Недостатки: слабая броня, колёсная база."
+},
+{
+"id": "uk_matilda_hedgehog",
+"name": "Matilda Hedgehog",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"rocket_launcher": {
+"name": "Hedgehog",
+"description": "Противолодочный бомбомёт (7 ракет)",
+"ammo_count": 7
+}
+},
+"crew": 4,
+"engine": {"power_hp": 190, "rpm": 2000, "model": "Leyland E148/E149", "layout": "2 × 6‑cylinder diesel", "weight_tonnes": 27.3},
+"hull": {"front": 75, "sides": 70, "rear": 55},
+"turret": {"front": 75, "sides": 75, "rear": 75},
+"notes": "Премиумная австралийская Matilda с пусковой установкой Hedgehog (7 ракет). Отличная броня (лоб 75 мм). Недостатки: очень медленная (26 км/ч), ракеты ситуативны."
+},
+{
+"id": "uk_a27m_cromwell_5_rp3",
+"name": "Cromwell V (RP-3)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 3450,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка Ordnance QF Mk.V",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [103, 100, 89, 77, 66, 57], "velocity_ms": 600, "description": "Бронебойный снаряд"}
+],
+"rocket_launcher": {
+"name": "4 x RP-3",
+"description": "Авиационные неуправляемые ракеты",
+"penetration_mm": 52
+}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 28.7},
+"hull": {"front": 64, "sides": 46, "rear": 32},
+"turret": {"front": 64, "sides": 51, "rear": 44},
+"notes": "Премиумный Cromwell V с 4 ракетами RP-3. Отличная подвижность (72 км/ч), хорошая броня. Недостатки: слабое бронепробитие 75-мм пушки (103 мм), ракеты ситуативны."
+},
+{
+"id": "uk_churchill_avre",
+"name": "Churchill AVRE Petard",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 2.7,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "230-мм мортира Petard",
+"description": "Короткоствольный миномёт",
+"penetration": [{"ammo_type": "НУР", "ammo_in_game_type": "HE", "penetration_mm": [64, 64, 64, 64, 64, 64]}],
+"ammo_total": 16,
+"reload": {"seconds": 26.0, "aces": 20.0}
+},
+"crew": 5,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 39.0},
+"hull": {"front": 89, "sides": 76, "rear": 51},
+"turret": {"front": 89, "sides": 89, "rear": 76},
+"notes": "Премиумный инженерный Churchill с 230-мм миномётом Petard. Отличная броня (лоб 89 мм). Недостатки: очень медленный (28 км/ч), долгая перезарядка (26 сек)."
+},
+{
+"id": "uk_m4a5_ram_2",
+"name": "Ram II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.7,
+"rank": "II",
+"silver_price": 1150,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.III",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [122, 118, 101, 84, 70, 58], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 92,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -7, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 29.5},
+"hull": {"front": 89, "sides": 70, "rear": 38},
+"turret": {"front": 108, "sides": 76, "rear": 64},
+"notes": "Премиумный канадский танк Ram II. Отличная броня (лоб 89 мм, башня 108 мм), 57-мм пушка с высоким пробитием. Недостатки: 57-мм орудие имеет слабое фугасное действие."
+},
+{
+"id": "uk_ac1_sentinel",
+"name": "A.C.I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 3.0,
+"rank": "II",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "40-мм пушка Ordnance QF 2-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [89, 86, 77, 66, 57, 50], "velocity_ms": 750, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 130,
+"reload": {"seconds": 3.6, "aces": 2.8},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 26.0},
+"hull": {"front": 64, "sides": 46, "rear": 32},
+"turret": {"front": 64, "sides": 51, "rear": 44},
+"notes": "Премиумный австралийский танк AC I Sentinel. Хорошая броня (лоб 64 мм). Недостатки: 40-мм орудие слабо для БР 3.0, низкая подвижность."
+},{
+"id": "uk_sherman_vc_firefly",
+"name": "Sherman Firefly",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 76000,
+"exp_price": 26000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 80,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -4, "max_deg": 21}
+},
+"crew": 4,
+"engine": {"power_hp": 425, "rpm": 2800, "model": "Chrysler Multibank A57", "layout": "30‑cylinder gasoline", "weight_tonnes": 37.1},
+"hull": {"front": 51, "sides": 38, "rear": 38},
+"turret": {"front": 76, "sides": 51, "rear": 51},
+"notes": "Британский Sherman с мощной 17-pdr пушкой (пробитие 190 мм). Недостатки: слабая броня, плохая подвижность."
+},
+{
+"id": "uk_a_22b_mk_3_churchill_1942",
+"name": "Churchill III",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.0,
+"rank": "III",
+"silver_price": 47000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "57-мм пушка 6pdr Ordnance QF Mk.V",
+"penetration": [
+{"ammo_type": "Shot Mk.V AP", "ammo_in_game_type": "AP", "penetration_mm": [132, 127, 110, 91, 75, 63], "velocity_ms": 850, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 85,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 39.0},
+"hull": {"front": 89, "sides": 76, "rear": 51},
+"turret": {"front": 89, "sides": 89, "rear": 76},
+"notes": "Churchill III со сварной башней и 57-мм пушкой. Хорошая броня (лоб 89 мм). Недостатки: очень медленный (30 км/ч)."
+},
+{
+"id": "uk_churchill_na75",
+"name": "Churchill NA75",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.3,
+"rank": "III",
+"silver_price": 76000,
+"exp_price": 13000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка M3",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [104, 102, 93, 84, 75, 68], "velocity_ms": 620, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 81,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 39.0},
+"hull": {"front": 89, "sides": 76, "rear": 76},
+"turret": {"front": 102, "sides": 89, "rear": 89},
+"notes": "Churchill IV с 75-мм орудием от Sherman. Улучшенная броня башни (102 мм). Недостатки: очень медленный (28 км/ч)."
+},
+{
+"id": "uk_m44",
+"name": "▄M44",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 4.0,
+"rank": "III",
+"silver_price": 47000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "155-мм пушка М45",
+"penetration": [{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [61, 61, 61, 61, 61, 61]}],
+"ammo_total": 24,
+"reload": {"seconds": 19.5, "aces": 15.0}
+},
+"crew": 5,
+"engine": {"power_hp": 500, "rpm": 2800, "model": "Continental AOS-895-3", "layout": "6‑cylinder gasoline", "weight_tonnes": 29.0},
+"hull": {"front": 13, "sides": 13, "rear": 13},
+"notes": "Британская M44 Cardinal (американская САУ по программе MDAP). 155-мм гаубица, хорошая подвижность. Недостатки: открытая рубка, долгая перезарядка."
+},
+{
+"id": "uk_ystervark_spaa",
+"name": "Ystervark",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 4.0,
+"rank": "III",
+"silver_price": 47000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка GAI-C01",
+"penetration": [{"ammo_type": "БПТ", "ammo_in_game_type": "AP", "penetration_mm": [57, 52, 37, 24, 15, 10]}],
+"ammo_total": 600,
+"reload": {"seconds": 9.1, "aces": 7.0},
+"rate_of_fire_rpm": 996
+},
+"crew": 3,
+"engine": {"power_hp": 124, "rpm": 2800, "model": "Mercedes-Benz OM352", "layout": "6‑cylinder diesel", "weight_tonnes": 6.0},
+"hull": {"front": 4, "sides": 4, "rear": 4},
+"notes": "Южноафриканская ЗСУ Ystervark. 20-мм пушка, отличная подвижность (97 км/ч). Недостатки: полное отсутствие брони, экипаж 3 человека."
+},
+{
+"id": "uk_crusader_aa_mk_2",
+"name": "Crusader AA Mk.II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 4.0,
+"rank": "III",
+"silver_price": 76000,
+"exp_price": 13000,
+"premium": false,
+"gun": {
+"name": "2 x 20-мм пушка Oerlikon Mk.II",
+"penetration": [{"ammo_type": "БТ", "ammo_in_game_type": "AP", "penetration_mm": [38, 35, 23, 14, 9, 5]}],
+"ammo_total": 1200,
+"reload": {"seconds": 7.8, "aces": 6.0},
+"rate_of_fire_rpm": 450
+},
+"crew": 4,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 19.6},
+"hull": {"front": 20, "sides": 28, "rear": 14},
+"turret": {"front": 51, "sides": 51, "rear": 51},
+"notes": "ЗСУ на базе Crusader со спаренными 20-мм пушками Oerlikon. Хорошая подвижность, закрытая башня. Недостатки: слабая броня корпуса."
+},
+{
+"id": "uk_concept3_ngac",
+"name": "Concept 3",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 47000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "77-мм пушка Ordnance QF Mk.II",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [161, 158, 145, 131, 118, 106], "velocity_ms": 800, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 60,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 209, "rpm": 2800, "model": "General Motors 6V-53N", "layout": "6‑cylinder diesel", "weight_tonnes": 14.5},
+"hull": {"front": 25, "sides": 12, "rear": 12},
+"notes": "Южноафриканский колёсный прототип Concept 3. 77-мм пушка (161 мм пробития). Недостатки: слабая броня."
+},
+{
+"id": "uk_a30_challenger",
+"name": "Challenger",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 5.3,
+"rank": "III",
+"silver_price": 105000,
+"exp_price": 33000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [269, 264, 246, 226, 207, 189], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"}
+],
+"ammo_total": 48,
+"reload": {"seconds": 6.7, "aces": 5.1},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 31.5},
+"hull": {"front": 64, "sides": 28, "rear": 38},
+"turret": {"front": 102, "sides": 40, "rear": 40},
+"notes": "Крейсерский танк Challenger на базе Cromwell. 17-pdr пушка с ОБПС (269 мм). Недостатки: высокий силуэт, слабая броня корпуса."
+},
+{
+"id": "uk_a_34_comet",
+"name": "Comet I",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 5.3,
+"rank": "III",
+"silver_price": 135000,
+"exp_price": 20000,
+"premium": false,
+"gun": {
+"name": "77-мм пушка Ordnance QF Mk.II",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [217, 213, 199, 182, 167, 153], "velocity_ms": 850, "description": "Бронебойный подкалиберный снаряд"}
+],
+"ammo_total": 61,
+"reload": {"seconds": 9.6, "aces": 7.4},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 33.5},
+"hull": {"front": 76, "sides": 43, "rear": 32},
+"turret": {"front": 102, "sides": 64, "rear": 57},
+"notes": "Крейсерский танк Comet I. Улучшенная броня, 77-мм пушка с ОБПС (217 мм). Недостатки: задний ход 3 км/ч."
+},
+{
+"id": "uk_a_22f_mk_7_churchill_1944",
+"name": "Churchill VII",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 105000,
+"exp_price": 33000,
+"premium": false,
+"gun": {
+"name": "75-мм пушка Ordnance QF Mk.V",
+"penetration": [{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [103, 100, 89, 77, 66, 57]}],
+"ammo_total": 84,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 42.2},
+"hull": {"front": 152, "sides": 95, "rear": 51},
+"turret": {"front": 152, "sides": 95, "rear": 95},
+"notes": "Churchill VII с очень толстой бронёй (лоб 152 мм). Недостатки: очень медленный (23 км/ч), слабое 75-мм орудие."
+},
+{
+"id": "uk_a30_sp_avenger",
+"name": "Avenger",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 5.3,
+"rank": "III",
+"silver_price": 105000,
+"exp_price": 33000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [269, 264, 246, 226, 207, 189]}]
+},
+"crew": 5,
+"engine": {"power_hp": 600, "weight_tonnes": 30.5},
+"hull": {"front": 64, "sides": 28},
+"notes": "ПТ-САУ на базе Challenger с открытой рубкой. 17-pdr пушка с ОБПС (269 мм). Недостатки: открытая рубка, слабая броня."
+},
+{
+"id": "uk_bosvark",
+"name": "Bosvark",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 4.0,
+"rank": "III",
+"silver_price": 47000,
+"exp_price": 18000,
+"premium": false,
+"gun": {
+"name": "2 x 23-мм пушка ЗУ-23-2",
+"penetration": [{"ammo_type": "БТ", "ammo_in_game_type": "AP", "penetration_mm": [65, 63, 53, 44, 36, 29]}],
+"rate_of_fire_rpm": 800
+},
+"crew": 3,
+"engine": {"power_hp": 124, "weight_tonnes": 7.5},
+"notes": "Южноафриканская ЗСУ Bosvark на базе грузовика Samil 100. Спаренная 23-мм пушка ЗУ-23-2. Недостатки: открытая установка, отсутствие брони."
+},
+{
+"id": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+"name": "Achilles (65 Rg.)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 3.3,
+"rank": "III",
+"silver_price": 1300,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -10, "max_deg": 30}
+},
+"crew": 5,
+"engine": {"power_hp": 410, "rpm": 2800, "model": "General Motors 6046", "layout": "2 × 6‑cylinder diesel", "weight_tonnes": 29.9},
+"hull": {"front": 51, "sides": 25, "rear": 25},
+"turret": {"front": 57, "sides": 25, "rear": 25},
+"notes": "Премиумный британский M10 Achilles с 17-pdr пушкой. Пробитие 190 мм. Недостатки: медленный поворот башни (3.1°/с), открытая рубка."
+},
+{
+"id": "uk_a_33_excelsior",
+"name": "Excelsior",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка Ordnance QF Mk.V",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [103, 100, 89, 77, 66, 57], "velocity_ms": 600, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 80,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 628, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 40.1},
+"hull": {"front": 114, "sides": 76, "rear": 76},
+"turret": {"front": 114, "sides": 89, "rear": 76},
+"notes": "Премиумный экспериментальный тяжёлый танк Excelsior. Отличная броня (лоб 114 мм), хорошая подвижность (51 км/ч). Недостатки: слабое 75-мм орудие."
+},
+{
+"id": "uk_sherman_vc_firefly_kit_3rank",
+"name": "Firefly (Overlord)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 80,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -4, "max_deg": 21}
+},
+"crew": 4,
+"engine": {"power_hp": 425, "rpm": 2800, "model": "Chrysler Multibank A57", "layout": "30‑cylinder gasoline", "weight_tonnes": 35.3},
+"hull": {"front": 51, "sides": 38, "rear": 38},
+"turret": {"front": 76, "sides": 51, "rear": 51},
+"notes": "Премиумный Sherman Firefly (операция Overlord). 17-pdr пушка, уникальный камуфляж с маскировочной сетью. Недостатки: слабая броня."
+},
+{
+"id": "uk_a30_sp_avenger_kit_3rank",
+"name": "Avenger (Overlord)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 55,
+"reload": {"seconds": 7.2, "aces": 5.6},
+"elevation": {"min_deg": -10, "max_deg": 17}
+},
+"crew": 4,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 31.5},
+"hull": {"front": 64, "sides": 28, "rear": 38},
+"turret": {"front": 51, "sides": 40, "rear": 40},
+"notes": "Премиумный Avenger на базе Challenger. 17-pdr пушка, хорошая подвижность. Недостатки: слабая броня, открытая рубка."
+},
+{
+"id": "uk_crusader_aa_mk_2_kit_3rank",
+"name": "Crusader AA (Overlord)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 4.0,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "2 x 20-мм пушка Oerlikon Mk.II",
+"penetration": [{"ammo_type": "БТ", "ammo_in_game_type": "AP", "penetration_mm": [38, 35, 23, 14, 9, 5]}],
+"ammo_total": 1200,
+"reload": {"seconds": 7.8, "aces": 6.0},
+"rate_of_fire_rpm": 450
+},
+"crew": 4,
+"engine": {"power_hp": 340, "rpm": 2600, "model": "Nuffield Liberty V12", "layout": "12‑cylinder gasoline", "weight_tonnes": 19.6},
+"hull": {"front": 20, "sides": 28, "rear": 14},
+"turret": {"front": 51, "sides": 51, "rear": 51},
+"notes": "Премиумный Crusader AA с уникальным камуфляжем (Overlord). Хорошая подвижность, спаренные 20-мм пушки. Недостатки: слабая броня корпуса."
+},
+{
+"id": "uk_a_22f_mk_7_churchill_crocodile",
+"name": "Churchill Crocodile",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "75-мм пушка Ordnance QF Mk.V",
+"penetration": [{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [103, 100, 89, 77, 66, 57]}],
+"flamethrower": true
+},
+"crew": 5,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 45.2},
+"hull": {"front": 152, "sides": 95, "rear": 51},
+"turret": {"front": 152, "sides": 95, "rear": 95},
+"notes": "Премиумный огнемётный Churchill Crocodile. Очень толстая броня (лоб 152 мм). Недостатки: очень медленный (23 км/ч), слабое 75-мм орудие."
+},
+{
+"id": "uk_sherman_ic_firefly",
+"name": "Sherman IC \"Trzyniec\"",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 4.7,
+"rank": "III",
+"silver_price": 2980,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 80,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -4, "max_deg": 21}
+},
+"crew": 4,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 31.5},
+"hull": {"front": 51, "sides": 38, "rear": 38},
+"turret": {"front": 76, "sides": 51, "rear": 51},
+"notes": "Премиумный польский Sherman IC Firefly. 17-pdr пушка, уникальный камуфляж. Недостатки: слабая броня."
+},
+{
+"id": "uk_a_34_comet_iron_duke",
+"name": "Comet I \"Iron Duke IV\"",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 5.3,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "77-мм пушка Ordnance QF Mk.II",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [217, 213, 199, 182, 167, 153], "velocity_ms": 850, "description": "Бронебойный подкалиберный снаряд"}
+],
+"ammo_total": 61,
+"reload": {"seconds": 9.6, "aces": 7.4},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 33.5},
+"hull": {"front": 76, "sides": 43, "rear": 32},
+"turret": {"front": 102, "sides": 64, "rear": 57},
+"notes": "Премиумный Comet I с уникальным камуфляжем «Iron Duke IV». Хорошая подвижность, 77-мм пушка с ОБПС (217 мм). Недостатки: слабая броня."
+},
+{
+"id": "uk_ac4_thunderbolt",
+"name": "A.C.IV",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 5.3,
+"rank": "III",
+"silver_price": 3410,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 397, "rpm": 2800, "model": "Perrier-Cadillac V8", "layout": "8‑cylinder gasoline", "weight_tonnes": 26.4},
+"hull": {"front": 64, "sides": 45, "rear": 45},
+"turret": {"front": 64, "sides": 64, "rear": 64},
+"notes": "Премиумный австралийский танк AC IV Thunderbolt. 17-pdr пушка, хорошая броня (лоб 64 мм). Недостатки: нет фугасных снарядов."
+},
+{
+"id": "uk_tog_2",
+"name": "TOG II",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 5.3,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "94-мм пушка 28pdr Ordnance QF",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [204, 202, 192, 180, 169, 159], "velocity_ms": 700, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 68,
+"reload": {"seconds": 7.8, "aces": 6.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 8,
+"engine": {"power_hp": 600, "rpm": 2200, "model": "Paxman Ricardo V12", "layout": "12‑cylinder diesel", "weight_tonnes": 77.5},
+"hull": {"front": 101, "sides": 76, "rear": 19},
+"turret": {"front": 127, "sides": 89, "rear": 89},
+"notes": "Премиумный сверхтяжёлый танк TOG II. Отличная броня (лоб 101 мм, башня 127 мм), экипаж 8 человек. Недостатки: очень медленный (15 км/ч)."
+},
+{
+"id": "uk_ram_90mm_aa",
+"name": "Ram 90mm AA",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 4.7,
+"rank": "III",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "90-мм безоткатное орудие",
+"description": "Экспериментальная зенитная установка с безоткатным орудием",
+"penetration": [
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [305, 305, 305, 305, 305, 305], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 500, "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 24,
+"reload": {"seconds": 5.0, "aces": 4.0},
+"elevation": {"min_deg": -5, "max_deg": 75},
+"horizontal_traverse": {"min_deg": -360, "max_deg": 360}
+},
+"crew": 4,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 28.0},
+"hull": {"front": 89, "sides": 70, "rear": 38},
+"notes": "Премиумный канадский Ram с 90-мм безоткатным орудием. Кумулятивный снаряд 305 мм. Недостатки: открытая установка, слабая броня."
+},
+{
+"id": "uk_centurion_mk_1",
+"name": "Centurion Mk.1",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [269, 264, 246, 226, 207, 189], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 75,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 640, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 46.9},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 127, "sides": 76, "rear": 76},
+"notes": "Первый серийный Centurion. Хорошая броня (лоб башни 127 мм), 17-pdr пушка с ОБПС (269 мм). Недостатки: отсутствует стабилизатор, слабая подвижность."
+},
+{
+"id": "uk_charioteer_mk_7",
+"name": "Charioteer Mk.VII",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 185000,
+"exp_price": 54000,
+"premium": false,
+"gun": {
+"name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 25,
+"reload": {"seconds": 8.1, "aces": 6.3},
+"elevation": {"min_deg": -5, "max_deg": 10}
+},
+"crew": 3,
+"engine": {"power_hp": 600, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 30.0},
+"hull": {"front": 64, "sides": 46, "rear": 32},
+"turret": {"front": 30, "sides": 20, "rear": 30},
+"notes": "ПТ-САУ на базе Cromwell. 20-pdr пушка с ОБПС (385 мм). Недостатки: очень слабая броня, экипаж 3 человека."
+},
+{
+"id": "uk_fv4005",
+"name": "FV4005",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "183-мм пушка QF L4A1",
+"penetration": [
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [228, 228, 228, 228, 228, 228], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 12,
+"reload": {"seconds": 32.5, "aces": 25.0},
+"elevation": {"min_deg": -7, "max_deg": 15},
+"horizontal_traverse": {"min_deg": -45, "max_deg": 45}
+},
+"crew": 5,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 50.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 14, "sides": 14, "rear": 14},
+"notes": "САУ с 183-мм пушкой. Огромный урон от HESH снарядов. Недостатки: очень долгая перезарядка (32.5 сек), слабая броня, открытая рубка."
+},
+{
+"id": "uk_m109a1",
+"name": "▄M109A1",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.3,
+"rank": "IV",
+"silver_price": 185000,
+"exp_price": 27000,
+"premium": false,
+"gun": {
+"name": "155-мм пушка М185",
+"penetration": [
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [61, 61, 61, 61, 61, 61], "description": "Осколочно-фугасный снаряд"},
+{"ammo_type": "ОФ-РВ", "ammo_in_game_type": "HE-VT", "penetration_mm": [61, 61, 61, 61, 61, 61], "description": "Осколочно-фугасный снаряд с радиовзрывателем"}
+],
+"ammo_total": 28,
+"reload": {"seconds": 17.3, "aces": 13.3},
+"elevation": {"min_deg": -3, "max_deg": 75}
+},
+"crew": 6,
+"engine": {"power_hp": 405, "rpm": 2800, "model": "General Motors 8V-71T", "layout": "8‑cylinder diesel", "weight_tonnes": 24.1},
+"hull": {"front": 32, "sides": 32, "rear": 32},
+"notes": "Британская M109A1 Cardinal. 155-мм гаубица, хорошая подвижность. Недостатки: слабая броня, долгая перезарядка."
+},
+{
+"id": "uk_skink_aa",
+"name": "Skink",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 5.3,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "4 x 20-мм автоматическая пушка Polsten",
+"penetration": [
+{"ammo_type": "БТ", "ammo_in_game_type": "AP", "penetration_mm": [38, 35, 23, 14, 9, 5], "description": "Бронебойный трассирующий снаряд"}
+],
+"ammo_total": 1920,
+"reload": {"seconds": 5.2, "aces": 4.0},
+"rate_of_fire_rpm": 450,
+"elevation": {"min_deg": -5, "max_deg": 80}
+},
+"crew": 5,
+"engine": {"power_hp": 400, "rpm": 2800, "model": "Continental R-975", "layout": "9‑cylinder radial gasoline", "weight_tonnes": 27.7},
+"hull": {"front": 51, "sides": 38, "rear": 38},
+"turret": {"front": 57, "sides": 38, "rear": 25},
+"notes": "Канадская ЗСУ Skink на базе Sherman. 4×20-мм пушки, хорошая броня. Недостатки: малый боекомплект (30 снарядов на ствол)."
+},
+{
+"id": "uk_ratel_90",
+"name": "Ratel 90",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "90-мм пушка GT-2",
+"penetration": [
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [350, 350, 350, 350, 350, 350], "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 53,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -8, "max_deg": 15}
+},
+"crew": 3,
+"engine": {"power_hp": 310, "rpm": 2800, "model": "Daimler-Benz OM352", "layout": "6‑cylinder diesel", "weight_tonnes": 20.1},
+"hull": {"front": 20, "sides": 10, "rear": 10},
+"notes": "Южноафриканская БМП Ratel 90 с 90-мм пушкой. Отличная подвижность (117 км/ч). Недостатки: очень слабая броня."
+},
+{
+"id": "uk_ratel_20",
+"name": "Ratel 20",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 185000,
+"exp_price": 27000,
+"premium": false,
+"gun": {
+"name": "20-мм пушка GI-2",
+"penetration": [{"ammo_type": "БПТ", "ammo_in_game_type": "AP", "penetration_mm": [57, 52, 37, 24, 15, 10]}],
+"atgm": {
+"name": "7 x ПТУР MILAN",
+"penetration_mm": 530
+}
+},
+"crew": 3,
+"engine": {"power_hp": 310, "rpm": 2800, "model": "Daimler-Benz OM352", "layout": "6‑cylinder diesel", "weight_tonnes": 18.9},
+"hull": {"front": 20, "sides": 10, "rear": 10},
+"notes": "Южноафриканская БМП Ratel 20. 20-мм пушка, ПТУР MILAN (530 мм). Недостатки: очень слабая броня."
+},
+{
+"id": "uk_eland_90_mk_7",
+"name": "Eland 90 Mk.7",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "90-мм пушка GT-2",
+"penetration": [
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [350, 350, 350, 350, 350, 350], "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 29,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -8, "max_deg": 15}
+},
+"crew": 3,
+"engine": {"power_hp": 90, "rpm": 4000, "model": "Panhard 4-cylinder", "layout": "4‑cylinder gasoline", "weight_tonnes": 6.0},
+"hull": {"front": 10, "sides": 10, "rear": 10},
+"notes": "Южноафриканский бронеавтомобиль Eland 90 Mk.7. 90-мм пушка, отличная подвижность (100 км/ч). Недостатки: очень слабая броня."
+},
+{
+"id": "uk_a39_tortoise",
+"name": "Tortoise",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 31000,
+"premium": false,
+"gun": {
+"name": "94-мм пушка 32pdr Ordnance QF",
+"penetration": [
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [256, 253, 241, 226, 212, 199], "velocity_ms": 800, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 60,
+"reload": {"seconds": 11.1, "aces": 8.6},
+"elevation": {"min_deg": -10, "max_deg": 18},
+"horizontal_traverse": {"min_deg": -20, "max_deg": 20}
+},
+"crew": 7,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 81.3},
+"hull": {"front": 170, "sides": 110, "rear": 100},
+"turret": {"front": 215, "sides": 152, "rear": 110},
+"notes": "Тяжёлое штурмовое орудие Tortoise. Отличная броня (лоб 170-215 мм), экипаж 7 человек. Недостатки: очень медленный (21 км/ч)."
+},
+{
+"id": "uk_fv4202",
+"name": "FV4202",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 60,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -10, "max_deg": 18}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 48.0},
+"hull": {"front": 130, "sides": 51, "rear": 38},
+"turret": {"front": 200, "sides": 89, "rear": 89},
+"notes": "Экспериментальный британский танк с наклонной бронёй. Отличная броня (лоб корпуса 130 мм, башня 200 мм). Недостатки: длинная передняя часть корпуса уязвима."
+},
+{
+"id": "uk_fv4004_conway",
+"name": "FV4004 Conway",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 7.0,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L1A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [450, 446, 431, 412, 394, 376], "velocity_ms": 1400, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [305, 302, 294, 284, 274, 264], "velocity_ms": 1000, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 35,
+"reload": {"seconds": 10.4, "aces": 8.0},
+"elevation": {"min_deg": -10, "max_deg": 10}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 52.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 50, "sides": 25, "rear": 25},
+"notes": "ПТ-САУ на базе Centurion с 120-мм пушкой. ОБПС с пробитием 450 мм. Недостатки: очень слабая броня, высокий силуэт."
+},
+{
+"id": "uk_centurion_mk_3",
+"name": "Centurion Mk.3",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 200000,
+"exp_price": 63000,
+"premium": false,
+"gun": {
+"name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 65,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -12, "max_deg": 18}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 50.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 127, "sides": 76, "rear": 76},
+"notes": "Centurion Mk.3 с 20-pdr пушкой. Улучшенная броня, стабилизатор. Хорошее бронепробитие (385 мм). Недостатки: слабые борта."
+},
+{
+"id": "uk_g6_spg",
+"name": "G6 SPG",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "155-мм гаубица G6",
+"penetration": [
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [61, 61, 61, 61, 61, 61], "description": "Осколочно-фугасный снаряд"}
+],
+"ammo_total": 45,
+"reload": {"seconds": 8.0, "aces": 6.2},
+"elevation": {"min_deg": -5, "max_deg": 75}
+},
+"crew": 6,
+"engine": {"power_hp": 525, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 47.0},
+"hull": {"front": 20, "sides": 15, "rear": 15},
+"notes": "Южноафриканская колёсная САУ G6. 155-мм гаубица, хорошая подвижность. Недостатки: очень слабая броня, огромные размеры."
+},
+{
+"id": "uk_fv4005_stage2",
+"name": "FV4005 Stage 2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 155000,
+"exp_price": 46000,
+"premium": false,
+"gun": {
+"name": "183-мм пушка QF L4A1",
+"penetration": [
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [228, 228, 228, 228, 228, 228], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 12,
+"reload": {"seconds": 32.5, "aces": 25.0},
+"elevation": {"min_deg": -7, "max_deg": 15},
+"horizontal_traverse": {"min_deg": -45, "max_deg": 45}
+},
+"crew": 5,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 50.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 14, "sides": 14, "rear": 14},
+"notes": "FV4005 Stage 2 — версия с бронированной башней. 183-мм пушка с HESH снарядами. Недостатки: очень долгая перезарядка, броня башни 14 мм."
+},
+{
+"id": "uk_vickers_gbt_155",
+"name": "GBT 155",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 7.0,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "155-мм гаубица L/39",
+"penetration": [
+{"ammo_type": "ОФС", "ammo_in_game_type": "HE", "penetration_mm": [64, 64, 64, 64, 64, 64]},
+{"ammo_type": "ОФ-РВ", "ammo_in_game_type": "HE-VT", "penetration_mm": [61, 61, 61, 61, 61, 61]}
+],
+"ammo_total": 31,
+"reload": {"seconds": 8.4, "aces": 6.5},
+"elevation": {"min_deg": -5, "max_deg": 70}
+},
+"crew": 4,
+"engine": {"power_hp": 720, "rpm": 2800, "model": "General Motors 8V-71T", "layout": "8‑cylinder diesel", "weight_tonnes": 43.0},
+"hull": {"front": 32, "sides": 32, "rear": 32},
+"notes": "Премиумная британская САУ GBT 155 на базе Vickers Mk.3. 155-мм гаубица, быстрая перезарядка. Недостатки: слабая броня, крупный силуэт."
+},
+{
+"id": "uk_a_43_black_prince",
+"name": "Black Prince",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 6.0,
+"rank": "IV",
+"silver_price": 6090,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [269, 264, 246, 226, 207, 189], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 89,
+"reload": {"seconds": 7.1, "aces": 5.5},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 5,
+"engine": {"power_hp": 355, "rpm": 2000, "model": "Bedford 12-cylinder", "layout": "12‑cylinder gasoline", "weight_tonnes": 50.0},
+"hull": {"front": 152, "sides": 95, "rear": 51},
+"turret": {"front": 152, "sides": 95, "rear": 101},
+"notes": "Премиумный тяжёлый танк Black Prince (модернизация Churchill). Отличная броня (лоб 152 мм), 17-pdr пушка. Недостатки: очень медленный (19 км/ч)."
+},
+{
+"id": "uk_centurion_mk_3_ss11",
+"name": "▄Strv 81 (RB 52)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.7,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "84-мм пушка kan Strv 81",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"atgm": {
+"name": "3 x ПТУР Robot 52 (SS.11)",
+"penetration_mm": 600
+}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 50.8},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Премиумный шведский Centurion Mk.3 с ПТУР SS.11 (3 ракеты, 600 мм). Хорошая броня башни (152 мм). Недостатки: низкая подвижность."
+},
+    {
+"id": "uk_centurion_mk_2",
+"name": "Centurion Mk.2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 6.7,
+"rank": "IV",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "76-мм пушка Ordnance QF 17-pounder",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [269, 264, 246, 226, 207, 189], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "Shot Mk.IX AP", "ammo_in_game_type": "AP", "penetration_mm": [190, 187, 172, 155, 140, 126], "velocity_ms": 900, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 77,
+"reload": {"seconds": 7.6, "aces": 5.9},
+"elevation": {"min_deg": -12, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 640, "rpm": 2800, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 48.8},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Премиумный Centurion Mk.2 (переходная версия). Улучшенная броня башни (152 мм), 17-pdr пушка. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_centurion_action_x",
+"name": "Centurion Action X",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.7,
+"rank": "IV",
+"silver_price": 6090,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 63,
+"reload": {"seconds": 8.1, "aces": 6.3},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 50.8},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 198, "sides": 89, "rear": 89},
+"notes": "Премиумный Centurion Action X с улучшенной скошенной башней (лоб 198 мм). 20-pdr пушка. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_fv221_caernarvon",
+"name": "Caernarvon",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 240000,
+"exp_price": 82000,
+"premium": false,
+"gun": {
+"name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 65,
+"reload": {"seconds": 8.1, "aces": 6.3},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 821, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 61.0},
+"hull": {"front": 127, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Тяжёлый танк Caernarvon. Хорошая броня (лоб корпуса 127 мм, башни 152 мм), 20-pdr пушка. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_conqueror_mk_2",
+"name": "Conqueror",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "heavy",
+"type_label": "Тяжёлый танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 270000,
+"exp_price": 48000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Ordnance QF Tk. L1A2",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [502, 496, 474, 447, 422, 398], "velocity_ms": 1400, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 35,
+"reload": {"seconds": 19.4, "aces": 14.9},
+"elevation": {"min_deg": -7, "max_deg": 15}
+},
+"crew": 4,
+"engine": {"power_hp": 821, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 67.1},
+"hull": {"front": 130, "sides": 51, "rear": 38},
+"turret": {"front": 313, "sides": 89, "rear": 50},
+"notes": "Тяжёлый танк Conqueror. Отличная броня башни (313 мм), 120-мм пушка с ОБПС (502 мм). Недостатки: очень долгая перезарядка (19.4 сек), низкая подвижность."
+},
+{
+"id": "uk_vickers_mbt_mk_1",
+"name": "Vickers Mk.1",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 105000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка Royal Ordnance L7A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [350, 347, 333, 317, 302, 287], "velocity_ms": 1400, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 44,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -7, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 709, "rpm": 2600, "model": "Leyland L60", "layout": "6‑cylinder diesel", "weight_tonnes": 38.1},
+"hull": {"front": 80, "sides": 30, "rear": 20},
+"turret": {"front": 80, "sides": 40, "rear": 40},
+"notes": "Экспортный танк Vickers Mk.1. 105-мм пушка L7, хорошая подвижность. Недостатки: очень слабая броня."
+},
+{
+"id": "uk_fv438_swingfire",
+"name": "Swingfire",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 8.0,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 105000,
+"premium": false,
+"gun": {
+"name": "2 x ПТУР BAe Swingfire",
+"penetration": [{"ammo_type": "ПТУР", "ammo_in_game_type": "ATGM", "penetration_mm": [535, 535, 535, 535, 535, 535]}],
+"ammo_total": 14,
+"reload": {"seconds": 13.0, "aces": 10.0}
+},
+"crew": 3,
+"engine": {"power_hp": 240, "rpm": 2800, "model": "Rolls-Royce K60", "layout": "6‑cylinder diesel", "weight_tonnes": 15.9},
+"hull": {"front": 12, "sides": 12, "rear": 10},
+"notes": "ПТРК Swingfire на базе БТР FV432. ПТУР с пробитием 535 мм. Недостатки: очень слабая броня, ракеты летят вверх."
+},
+{
+"id": "uk_falcon",
+"name": "Falcon",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 8.3,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 105000,
+"premium": false,
+"gun": {
+"name": "2 x 30-мм пушка HSS 831L",
+"penetration": [{"ammo_type": "ПБЗ", "ammo_in_game_type": "AP", "penetration_mm": [53, 50, 42, 34, 27, 21]}],
+"ammo_total": 680,
+"rate_of_fire_rpm": 650,
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 3,
+"engine": {"power_hp": 216, "rpm": 2800, "model": "Jaguar", "layout": "6‑cylinder gasoline", "weight_tonnes": 15.9},
+"hull": {"front": 12, "sides": 12, "rear": 10},
+"notes": "ЗСУ Falcon на базе САУ Abbot. 2×30-мм пушки, РЛС сопровождения. Недостатки: слабая броня."
+},
+{
+"id": "uk_fv107_scimitar",
+"name": "Scimitar",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 240000,
+"exp_price": 82000,
+"premium": false,
+"gun": {
+"name": "30-мм автоматическая пушка L21A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [110, 101, 95, 69, 52, 41]},
+{"ammo_type": "ПБЗ", "ammo_in_game_type": "AP", "penetration_mm": [53, 50, 42, 34, 27, 21]}
+],
+"ammo_total": 165,
+"reload": {"seconds": 1.0, "aces": 0.8},
+"rate_of_fire_rpm": 80,
+"elevation": {"min_deg": -10, "max_deg": 40}
+},
+"crew": 3,
+"engine": {"power_hp": 195, "rpm": 2800, "model": "Jaguar J60", "layout": "6‑cylinder gasoline", "weight_tonnes": 7.8},
+"hull": {"front": 63, "sides": 32, "rear": 38},
+"notes": "Лёгкая разведывательная гусеничная машина Scimitar. 30-мм пушка, отличная подвижность (90 км/ч). Недостатки: слабая броня."
+},
+{
+"id": "uk_fv721_fox",
+"name": "Fox",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 270000,
+"exp_price": 48000,
+"premium": false,
+"gun": {
+"name": "30-мм автоматическая пушка L21A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [110, 101, 95, 69, 52, 41]},
+{"ammo_type": "ПБЗ", "ammo_in_game_type": "AP", "penetration_mm": [53, 50, 42, 34, 27, 21]}
+],
+"ammo_total": 99,
+"reload": {"seconds": 1.0, "aces": 0.8},
+"rate_of_fire_rpm": 80,
+"elevation": {"min_deg": -14, "max_deg": 41}
+},
+"crew": 3,
+"engine": {"power_hp": 195, "rpm": 2800, "model": "Jaguar J60", "layout": "6‑cylinder gasoline", "weight_tonnes": 6.1},
+"hull": {"front": 33, "sides": 41, "rear": 38},
+"notes": "Колёсная разведывательная машина Fox. 30-мм пушка, отличная подвижность (117 км/ч). Недостатки: очень слабая броня."
+},
+{
+"id": "uk_centurion_mk_10",
+"name": "Centurion Mk.10",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.0,
+"rank": "V",
+"silver_price": 300000,
+"exp_price": 105000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка Royal Ordnance L7A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [350, 347, 333, 317, 302, 287], "velocity_ms": 1400, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 70,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 51.8},
+"hull": {"front": 76, "sides": 51, "rear": 32},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Centurion Mk.10 с 105-мм пушкой L7A1. Хорошая броня башни (152 мм). Недостатки: низкая подвижность."
+},
+{
+"id": "uk_centurion_mk_5_avre_era",
+"name": "Centurion Mk.5 AVRE (ERA)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.0,
+"rank": "V",
+"silver_price": 8200,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "165-мм пушка ORD BL 6.5in L9A1",
+"penetration": [{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [203, 203, 203, 203, 203, 203]}],
+"ammo_total": 53,
+"reload": {"seconds": 27.7, "aces": 21.3},
+"elevation": {"min_deg": -10, "max_deg": 18}
+},
+"crew": 5,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 54.1},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Премиумная инженерная машина Centurion AVRE с динамической защитой. 165-мм пушка с HESH (203 мм). Недостатки: очень долгая перезарядка (27.7 сек), низкая подвижность."
+},
+{
+"id": "uk_centurion_mk_5_raac",
+"name": "Centurion Mk.5/1",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 7.7,
+"rank": "V",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "84-мм пушка 20pdr Ordnance QF Mk.I",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [385, 381, 364, 344, 325, 307], "velocity_ms": 1000, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БС", "ammo_in_game_type": "AP", "penetration_mm": [239, 236, 222, 206, 192, 178], "velocity_ms": 870, "description": "Бронебойный снаряд"}
+],
+"ammo_total": 64,
+"reload": {"seconds": 8.1, "aces": 6.3},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 650, "rpm": 2600, "model": "Rolls-Royce Meteor", "layout": "12‑cylinder gasoline", "weight_tonnes": 52.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Премиумный австралийский Centurion Mk.5/1 с усиленной лобовой бронёй. 20-pdr пушка. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_chieftain_mk_3",
+"name": "Chieftain Mk.3",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.7,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Ordnance BL Tk. L11A5",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [298, 296, 288, 277, 268, 258], "velocity_ms": 1400, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 53,
+"reload": {"seconds": 9.7, "aces": 7.5},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 660, "rpm": 2200, "model": "Leyland L60", "layout": "6‑cylinder diesel", "weight_tonnes": 56.0},
+"hull": {"front": 86, "sides": 38, "rear": 25},
+"turret": {"front": 280, "sides": 86, "rear": 45},
+"notes": "Британский ОБТ Chieftain Mk.3. Отличная броня башни (280 мм), 120-мм пушка. Недостатки: низкая подвижность, слабое НЛД."
+},
+{
+"id": "uk_chieftain_mk_5",
+"name": "Chieftain Mk.5",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.7,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 81000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Ordnance BL Tk. L11A5",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [298, 296, 288, 277, 268, 258]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 760, "rpm": 2200, "model": "Leyland L60", "layout": "6‑cylinder diesel", "weight_tonnes": 55.0},
+"hull": {"front": 86, "sides": 38, "rear": 25},
+"turret": {"front": 280, "sides": 86, "rear": 45},
+"notes": "Модернизированный Chieftain Mk.5 с двигателем 760 л.с. Недостатки: всё ещё низкая подвижность."
+},
+{
+"id": "uk_vickers_mbt_mk_3",
+"name": "Vickers Mk.3",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка Royal Ordnance L7A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [265, 263, 252, 240, 228, 216]},
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [400, 400, 400, 400, 400, 400]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127]}
+],
+"ammo_total": 50,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 720, "rpm": 2600, "model": "General Motors 8V-71T", "layout": "8‑cylinder diesel", "weight_tonnes": 38.7},
+"hull": {"front": 80, "sides": 30, "rear": 20},
+"turret": {"front": 80, "sides": 40, "rear": 40},
+"notes": "Экспортный Vickers Mk.3. Лазерный дальномер, 105-мм пушка. Недостатки: слабая броня."
+},
+{
+"id": "uk_olifant_mk_1a",
+"name": "Olifant Mk.1A",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 81000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка GT-3",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [338, 336, 330, 323, 315, 307]},
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+],
+"ammo_total": 72,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 750, "rpm": 2600, "model": "Continental AV1790", "layout": "12‑cylinder gasoline", "weight_tonnes": 56.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Южноафриканский Olifant Mk.1A (модернизация Centurion). ОБПС, лазерный дальномер. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_fv510_isv",
+"name": "Warrior",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "30-мм автоматическая пушка L21A1",
+"penetration": [{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [110, 101, 95, 69, 52, 41]}],
+"atgm": {
+"name": "ПТУР MILAN 2",
+"penetration_mm": 730
+}
+},
+"crew": 3,
+"engine": {"power_hp": 550, "rpm": 2800, "model": "Perkins V-8", "layout": "8‑cylinder diesel", "weight_tonnes": 25.9},
+"hull": {"front": 44, "sides": 44, "rear": 44},
+"notes": "БМП Warrior. 30-мм пушка, ПТУР MILAN 2 (730 мм). Недостатки: слабая броня."
+},
+{
+"id": "uk_ratel_zt3",
+"name": "ZT3A2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 81000,
+"premium": false,
+"gun": {
+"name": "ПТУР ZT3",
+"penetration": [
+{"ammo_type": "ПТУР", "ammo_in_game_type": "ATGM", "penetration_mm": [650, 650, 650, 650, 650, 650]},
+{"ammo_type": "ПТУР (тандем)", "ammo_in_game_type": "ATGM", "penetration_mm": [1000, 1000, 1000, 1000, 1000, 1000]}
+],
+"ammo_total": 15
+},
+"crew": 4,
+"engine": {"power_hp": 310, "rpm": 2800, "model": "Daimler-Benz OM352", "layout": "6‑cylinder diesel", "weight_tonnes": 18.5},
+"hull": {"front": 20, "sides": 10, "rear": 10},
+"notes": "Южноафриканский Ratel ZT3A2. Тандемные ПТУР с пробитием 1000 мм. Недостатки: очень слабая броня."
+},
+{
+"id": "uk_chieftain_marksman",
+"name": "Chieftain Marksman",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "2 x 35-мм пушка Oerlikon KDA",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APCR", "penetration_mm": [127, 125, 118, 110, 102, 95]},
+{"ammo_type": "БЗТ", "ammo_in_game_type": "AP", "penetration_mm": [68, 66, 57, 47, 39, 32]}
+],
+"ammo_total": 500,
+"rate_of_fire_rpm": 550
+},
+"crew": 3,
+"engine": {"power_hp": 760, "rpm": 2200, "model": "Leyland L60", "layout": "6‑cylinder diesel", "weight_tonnes": 55.0},
+"hull": {"front": 86, "sides": 38, "rear": 25},
+"notes": "ЗСУ Chieftain Marksman с двумя 35-мм пушками. РЛС, подкалиберные снаряды (127 мм). Недостатки: низкая подвижность."
+},
+{
+"id": "uk_rooikat_za_35",
+"name": "ZA-35",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 8.7,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 81000,
+"premium": false,
+"gun": {
+"name": "2 x 35-мм пушка GA-35",
+"penetration": [{"ammo_type": "БЗТ", "ammo_in_game_type": "AP", "penetration_mm": [68, 66, 57, 47, 39, 32]}],
+"ammo_total": 460,
+"rate_of_fire_rpm": 550
+},
+"crew": 3,
+"engine": {"power_hp": 567, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 32.0},
+"hull": {"front": 30, "sides": 25, "rear": 20},
+"notes": "Южноафриканская ЗСУ на базе Rooikat. 2×35-мм пушки, РЛС, отличная подвижность (131 км/ч). Недостатки: слабая броня."
+},
+{
+"id": "uk_badger",
+"name": "Badger",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "30-мм пушка Denel GI-30",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [114, 113, 108, 103, 97, 91]},
+{"ammo_type": "БПС", "ammo_in_game_type": "AP", "penetration_mm": [87, 86, 81, 75, 70, 65]}
+],
+"ammo_total": 420,
+"rate_of_fire_rpm": 100
+},
+"crew": 4,
+"engine": {"power_hp": 543, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 28.0},
+"hull": {"front": 10, "sides": 10, "rear": 10},
+"notes": "Южноафриканская БМП Badger. 30-мм пушка с ОБПС, хорошая подвижность. Недостатки: очень слабая броня."
+},
+{
+"id": "uk_rooikat_76",
+"name": "Rooikat 76",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка GT-4",
+"penetration": [{"ammo_type": "БПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [219, 215, 201, 185, 171, 158]}],
+"ammo_total": 48,
+"reload": {"seconds": 6.5, "aces": 5.0}
+},
+"crew": 4,
+"engine": {"power_hp": 563, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 28.0},
+"hull": {"front": 30, "sides": 25, "rear": 20},
+"notes": "Южноафриканский колёсный танк Rooikat 76. Отличная подвижность (120 км/ч). Недостатки: слабая броня, 76-мм пушка."
+},
+{
+"id": "uk_rooikat_76",
+"name": "Rooikat 76",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "76-мм пушка GT-4",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [219, 215, 201, 185, 171, 158], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1400, "description": "Бронебойный оперённый подкалиберный снаряд"}
+],
+"ammo_total": 48,
+"reload": {"seconds": 6.5, "aces": 5.0, "modes": {"arcade": 6.5, "realistic": 5.0, "simulator": 5.0}},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 563, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 28.0},
+"hull": {"front": 30, "sides": 25, "rear": 20},
+"notes": "Южноафриканский колёсный лёгкий танк Rooikat 76. Отличная подвижность (120 км/ч), 76-мм пушка с ОБПС. Недостатки: слабая броня, малое бронепробитие для БР 8.3."
+},
+{
+"id": "uk_chieftain_mk_10",
+"name": "Chieftain Mk.10",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Ordnance BL Tk. L11A5",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [298, 296, 288, 277, 268, 258], "velocity_ms": 1400, "description": "Бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 64,
+"reload": {"seconds": 9.7, "aces": 7.5},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 760, "rpm": 2200, "model": "Leyland L60", "layout": "6‑cylinder diesel", "weight_tonnes": 56.0},
+"hull": {"front": 86, "sides": 38, "rear": 25},
+"turret": {"front": 280, "sides": 86, "rear": 45},
+"notes": "Chieftain Mk.10 с улучшенной броней (Stillbrew) и двигателем. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_chieftain_900",
+"name": "Chieftain 900",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка Ordnance BL Tk. L11A5",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [298, 296, 288, 277, 268, 258]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 900, "rpm": 2200, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 58.0},
+"notes": "Премиумный Chieftain 900 с дополнительной бронёй Stillbrew и двигателем 900 л.с. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_olifant_mk_2",
+"name": "Olifant Mk.2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка GT-8",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [421, 419, 411, 401, 391, 381], "velocity_ms": 1500, "description": "Оперённый бронебойный подкалиберный снаряд DM63"}
+],
+"ammo_total": 72,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 900, "rpm": 2600, "model": "Diesel", "layout": "12‑cylinder diesel", "weight_tonnes": 58.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Южноафриканский Olifant Mk.2. ОБПС DM63 (421 мм), тепловизор, улучшенная броня. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_fv102_striker",
+"name": "Striker",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "tank_destroyer",
+"type_label": "САУ",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 380000,
+"exp_price": 135000,
+"premium": false,
+"gun": {
+"name": "5 x ПТУР Swingfire",
+"penetration": [{"ammo_type": "ПТУР", "ammo_in_game_type": "ATGM", "penetration_mm": [535, 535, 535, 535, 535, 535]}],
+"ammo_total": 10,
+"reload": {"seconds": 13.0, "aces": 10.0}
+},
+"crew": 3,
+"engine": {"power_hp": 195, "rpm": 2800, "model": "Jaguar J60", "layout": "6‑cylinder gasoline", "weight_tonnes": 8.5},
+"hull": {"front": 12, "sides": 12, "rear": 10},
+"notes": "ПТРК Striker на базе FV101 Scorpion. 10 ракет Swingfire (535 мм). Недостатки: очень слабая броня."
+},
+{
+"id": "uk_tracked_rapier",
+"name": "Tracked Rapier",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 10.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "ЗУР Rapier",
+"description": "Зенитные управляемые ракеты (8 шт.)",
+"atgm": {"name": "Rapier", "penetration_mm": 60}
+},
+"crew": 4,
+"engine": {"power_hp": 275, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 14.0},
+"notes": "ЗРК Tracked Rapier на базе M548. 8 ракет Rapier. Недостатки: отсутствие пушек, слабая броня."
+},
+{
+"id": "uk_vfm_5",
+"name": "VFM 5",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.3,
+"rank": "VI",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "105-мм пушка Royal Ordnance L7A3",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [421, 419, 411, 401, 391, 381]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127]}
+],
+"ammo_total": 36,
+"reload": {"seconds": 6.0, "aces": 6.0}
+},
+"crew": 3,
+"engine": {"power_hp": 550, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 22.0},
+"hull": {"front": 30, "sides": 20, "rear": 15},
+"notes": "Премиумный лёгкий танк VFM 5 на базе CCV-L. 105-мм пушка с ОБПС, хорошая подвижность. Недостатки: слабая броня."
+},
+{
+"id": "uk_vijayanta",
+"name": "Vijayanta",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка Royal Ordnance L7A1",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [265, 263, 252, 240, 228, 216]},
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [400, 400, 400, 400, 400, 400]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 720, "rpm": 2600, "model": "General Motors 8V-71T", "layout": "8‑cylinder diesel", "weight_tonnes": 39.0},
+"hull": {"front": 80, "sides": 30, "rear": 20},
+"notes": "Индийский Vijayanta (лицензионный Vickers Mk.1). 105-мм пушка. Недостатки: слабая броня."
+},
+{
+"id": "uk_centurion_shot_kal_d",
+"name": "Centurion Shot Kal Dalet",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 8.3,
+"rank": "VI",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "105-мм пушка Royal Ordnance L7A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [421, 419, 411, 401, 391, 381]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 750, "rpm": 2600, "model": "Continental AV1790", "layout": "12‑cylinder gasoline", "weight_tonnes": 52.0},
+"hull": {"front": 76, "sides": 51, "rear": 38},
+"turret": {"front": 152, "sides": 89, "rear": 89},
+"notes": "Премиумный израильский Centurion Shot Kal Dalet. 105-мм пушка с ОБПС, тепловизор. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_khalid",
+"name": "Khalid",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка Ordnance BL Tk. L11A5",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [298, 296, 288, 277, 268, 258]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 1200, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 56.0},
+"notes": "Премиумный иорданский Khalid (Chieftain) с двигателем 1200 л.с. и улучшенной СУО. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_shir_2",
+"name": "Shir 2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.0,
+"rank": "VI",
+"silver_price": 450000,
+"exp_price": 160000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Ordnance BL Tk. L11A5",
+"penetration": [
+{"ammo_type": "БПС", "ammo_in_game_type": "APDS", "penetration_mm": [298, 296, 288, 277, 268, 258]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 1200, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 56.0},
+"notes": "Прототип Shir 2 (экспортный Chieftain для Ирана) с улучшенной броней. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_rooikat_mttd",
+"name": "Rooikat MTTD",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.3,
+"rank": "VI",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "105-мм пушка GT-7",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [421, 419, 411, 401, 391, 381]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127]}
+],
+"reload": {"seconds": 5.0, "aces": 5.0}
+},
+"crew": 4,
+"engine": {"power_hp": 563, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 30.0},
+"notes": "Премиумный южноафриканский Rooikat MTTD с 105-мм пушкой и автоматом заряжания. Отличная подвижность. Недостатки: слабая броня."
+},
+{
+"id": "uk_rooikat_105_td",
+"name": "Rooikat 105",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.7,
+"rank": "VI",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "105-мм пушка GT-7",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [482, 480, 471, 462, 452, 442]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [127, 127, 127, 127, 127, 127]}
+],
+"reload": {"seconds": 6.0, "aces": 6.0}
+},
+"crew": 4,
+"engine": {"power_hp": 563, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 30.0},
+"notes": "Премиумный южноафриканский Rooikat 105. 105-мм пушка с ОБПС DM63 (482 мм). Недостатки: слабая броня."
+},
+{
+"id": "uk_challenger_1",
+"name": "Challenger Mk.2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L11A5",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [410, 408, 405, 400, 390, 380], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1500, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 52,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 64.8},
+"hull": {"front": 80, "sides": 38, "rear": 25},
+"turret": {"front": 110, "sides": 80, "rear": 44},
+"notes": "Британский ОБТ Challenger 1 Mk.2. Комбинированная броня Chobham, 120-мм пушка, тепловизор. Недостатки: средняя подвижность."
+},
+{
+"id": "uk_challenger_mk_3",
+"name": "Challenger Mk.3",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 150000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L11A5",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [471, 470, 465, 458, 451, 443], "velocity_ms": 1550, "description": "Оперённый бронебойный подкалиберный снаряд"}
+],
+"ammo_total": 52,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 67.1},
+"hull": {"front": 80, "sides": 38, "rear": 25},
+"turret": {"front": 110, "sides": 80, "rear": 44},
+"notes": "Challenger Mk.3 с динамической защитой ROMOR и улучшенными ОБПС (471 мм). Недостатки: низкая подвижность."
+},
+{
+"id": "uk_ttd",
+"name": "TTD",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.0,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "105-мм пушка GT-3",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [430, 428, 420, 411, 401, 391], "velocity_ms": 1500, "description": "Оперённый бронебойный подкалиберный снаряд DM63"}
+],
+"ammo_total": 54,
+"reload": {"seconds": 8.7, "aces": 6.7},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1250, "rpm": 2600, "model": "Diesel", "layout": "12‑cylinder diesel", "weight_tonnes": 58.3},
+"hull": {"front": 85, "sides": 35, "rear": 20},
+"turret": {"front": 55, "sides": 30, "rear": 55},
+"notes": "Южноафриканский демонстратор технологий TTD. 105-мм пушка с ОБПС, тепловизор. Недостатки: слабая броня."
+},
+{
+"id": "uk_desert_warrior",
+"name": "Desert Warrior",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 9.7,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "25-мм пушка M242",
+"penetration": [{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [92, 90, 84, 75, 67, 58]}],
+"atgm": {
+"name": "ПТУР BGM-71 TOW",
+"penetration_mm": 800
+}
+},
+"crew": 3,
+"engine": {"power_hp": 550, "rpm": 2800, "model": "Perkins V-8", "layout": "8‑cylinder diesel", "weight_tonnes": 29.0},
+"hull": {"front": 44, "sides": 44, "rear": 44},
+"notes": "Экспортная БМП Desert Warrior для Кувейта. 25-мм пушка, ПТУР TOW (800 мм). Недостатки: слабая броня."
+},
+{
+"id": "uk_stormer_air_defence",
+"name": "Stormer AD",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 10.0,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "25-мм пушка GAU-12U",
+"penetration": [{"ammo_type": "ПБОФЗТ", "ammo_in_game_type": "AP", "penetration_mm": [66, 62, 46, 33, 23, 16]}],
+"atgm": {
+"name": "FIM-92 Stinger",
+"ammo_total": 8,
+"description": "Зенитные ракеты Stinger"
+}
+},
+"crew": 3,
+"engine": {"power_hp": 250, "rpm": 2800, "model": "Perkins T6.3544", "layout": "6‑cylinder diesel", "weight_tonnes": 11.8},
+"hull": {"front": 25, "sides": 13, "rear": 13},
+"notes": "ЗСУ Stormer AD. 25-мм пушка GAU-12U, 8 ракет Stinger. Недостатки: слабая броня."
+},
+{
+"id": "uk_9a33bm2",
+"name": "▄Osa-AK",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 150000,
+"premium": false,
+"gun": {
+"name": "ЗУР 9М33М3",
+"description": "Зенитные управляемые ракеты (6 шт.)"
+},
+"crew": 5,
+"engine": {"power_hp": 300, "rpm": 2600, "model": "ЗИЛ-375", "layout": "8‑cylinder gasoline", "weight_tonnes": 18.7},
+"hull": {"front": 4, "sides": 4, "rear": 4},
+"notes": "Индийский ЗРК «Оса-АК» в британском дереве. Дальность поражения до 10 км. Недостатки: отсутствие брони."
+},
+{
+"id": "uk_ajax",
+"name": "Ajax",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "40-мм пушка CTC",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [157, 156, 150, 143, 135, 128]},
+{"ammo_type": "ОФ-ДВ", "ammo_in_game_type": "HE-VT", "penetration_mm": [64, 63, 57, 52, 46, 42]}
+],
+"ammo_total": 191,
+"reload": {"seconds": 0.3, "aces": 0.3},
+"rate_of_fire_rpm": 200,
+"elevation": {"min_deg": -10, "max_deg": 45}
+},
+"crew": 3,
+"engine": {"power_hp": 816, "rpm": 2800, "model": "MTU V8 199", "layout": "8‑cylinder diesel", "weight_tonnes": 38.0},
+"hull": {"front": 75, "sides": 50, "rear": 25},
+"notes": "Современная британская БМП Ajax. 40-мм пушка с ОБПС (157 мм). Недостатки: отсутствие ПТУР."
+},
+{
+"id": "uk_challenger_ii",
+"name": "Challenger 2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.7,
+"rank": "VII",
+"silver_price": 950000,
+"exp_price": 350000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [494, 493, 488, 481, 475, 468], "velocity_ms": 1550, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 67.4},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 80, "rear": 58},
+"notes": "Британский ОБТ Challenger 2. Отличная броня (лоб корпуса 130 мм, башни 270 мм), 120-мм нарезная пушка L30A1 с ОБПС (564 мм). Недостатки: низкая подвижность."
+},
+{
+"id": "uk_challenger_2_dorchester",
+"name": "Challenger 2 (2F)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.7,
+"rank": "VII",
+"silver_price": 950000,
+"exp_price": 175000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [494, 493, 488, 481, 475, 468], "velocity_ms": 1550, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 49,
+"reload": {"seconds": 6.5, "aces": 5.0},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 70.0},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 80, "rear": 58},
+"notes": "Challenger 2 (2F) с дополнительной бронёй Dorchester Level 2F. Отличная защита от кумулятивных снарядов. Недостатки: очень низкая подвижность."
+},
+{
+"id": "uk_challenger_2_tes",
+"name": "Challenger 2 TES",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.7,
+"rank": "VII",
+"silver_price": 950000,
+"exp_price": 175000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 74.8},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 80, "rear": 58},
+"notes": "Challenger 2 TES с динамической защитой Rafael на бортах. Максимально защищённая версия. Недостатки: очень низкая подвижность, огромная масса (74.8 т)."
+},
+{
+"id": "uk_vickers_mk7",
+"name": "Vickers Mk.7",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 9.7,
+"rank": "VII",
+"silver_price": 710000,
+"exp_price": 260000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L11A5",
+"penetration": [{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [410, 408, 405, 400, 390, 380]}]
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 60.0},
+"notes": "Экспортный Vickers Mk.7 с башней от Challenger 1. Недостатки: слабая броня корпуса."
+},
+{
+"id": "uk_stormer_hvm",
+"name": "Stormer HVM",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 830000,
+"exp_price": 300000,
+"premium": false,
+"gun": {
+"name": "ЗУР Starstreak HVM",
+"description": "Зенитные управляемые ракеты (16 шт.)",
+"atgm": {"name": "Starstreak", "penetration_mm": 30}
+},
+"crew": 3,
+"engine": {"power_hp": 250, "rpm": 2800, "model": "Perkins T6.3544", "layout": "6‑cylinder diesel", "weight_tonnes": 13.5},
+"notes": "ЗРК Stormer HVM с гиперзвуковыми ракетами Starstreak (16 шт.). Недостатки: отсутствие пушек."
+},
+{
+"id": "uk_9a35_m",
+"name": "▄Strela-10M",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 10.3,
+"rank": "VII",
+"silver_price": 950000,
+"exp_price": 175000,
+"premium": false,
+"gun": {
+"name": "ЗУР 9М37М",
+"description": "Зенитные управляемые ракеты с ИК ГСН (8 шт.)"
+},
+"crew": 3,
+"engine": {"power_hp": 240, "rpm": 2800, "model": "ЯМЗ-238В", "layout": "8‑cylinder diesel", "weight_tonnes": 12.3},
+"notes": "Индийский ЗРК «Стрела-10М». 8 ракет с ИК ГСН. Недостатки: отсутствие пушек."
+},
+{
+"id": "uk_challenger_1_mk_3_gulf",
+"name": "Challenger DS",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка L11A5",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [471, 470, 465, 458, 451, 443]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152]}
+],
+"reload": {"seconds": 6.5, "aces": 5.0}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 63.7},
+"hull": {"front": 80, "sides": 38, "rear": 25},
+"turret": {"front": 110, "sides": 80, "rear": 44},
+"notes": "Премиумный Challenger DS (операция «Буря в пустыне»). Пустынный камуфляж, улучшенные ОБПС (471 мм). Недостатки: отсутствует динамическая защита."
+},
+{
+"id": "uk_t_90s_bheeshma",
+"name": "Bhishma TWMP",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 760000,
+"exp_price": 520000,
+"premium": false,
+"gun": {
+"name": "125-мм пушка 2А46М",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [457, 454, 445, 431, 419, 406]},
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [550, 550, 550, 550, 550, 550]},
+{"ammo_type": "ПТУР (тандем)", "ammo_in_game_type": "ATGM", "penetration_mm": [850, 850, 850, 850, 850, 850]}
+],
+"reload": {"seconds": 7.0, "aces": 7.0}
+},
+"crew": 3,
+"engine": {"power_hp": 1000, "rpm": 2200, "model": "В-92С2", "layout": "12‑cylinder diesel", "weight_tonnes": 46.5},
+"hull": {"front": 105, "sides": 80, "rear": 50},
+"turret": {"front": 180, "sides": 160, "rear": 65},
+"notes": "Индийский T-90S Bhishma с минными тралами TWMP. Хорошая броня, тандемные ПТУР (850 мм). Недостатки: задний ход 4 км/ч."
+},
+{
+"id": "uk_challenger_2_megatron",
+"name": "Challenger 2 OES",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.7,
+"rank": "VII",
+"silver_price": 9620,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539]},
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [494, 493, 488, 481, 475, 468]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 74.8},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 80, "rear": 58},
+"notes": "Премиумный Challenger 2 OES «Megatron». Максимальная бронезащита. Недостатки: очень низкая подвижность (74.8 т)."
+},
+{
+"id": "uk_boxer_crv_block2",
+"name": "CRV Block 2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "light",
+"type_label": "Лёгкий танк",
+"br": 10.7,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": false,
+"gun": {
+"name": "30-мм пушка MK 30-2/ABM",
+"penetration": [{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [121, 120, 114, 107, 100, 92]}],
+"atgm": {
+"name": "Spike-LR II",
+"penetration_mm": 900
+}
+},
+"crew": 3,
+"engine": {"power_hp": 720, "rpm": 2800, "model": "Diesel", "layout": "6‑cylinder diesel", "weight_tonnes": 38.5},
+"notes": "Австралийский Boxer CRV Block 2. 30-мм пушка, ПТУР Spike-LR II (900 мм), КАЗ. Недостатки: слабая броня."
+},
+{
+"id": "uk_challenger_ii_yt_cup_2019",
+"name": "␙Challenger 2",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 11.7,
+"rank": "VII",
+"silver_price": 0,
+"exp_price": 0,
+"premium": true,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539]},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152]}
+]
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 67.4},
+"hull": {"front": 130, "sides": 45, "rear": 20},
+"turret": {"front": 270, "sides": 90, "rear": 63},
+"notes": "Премиумный Challenger 2 (YouTube Cup 2019). Уникальный камуфляж. Характеристики как у обычного Challenger 2."
+},
+{
+"id": "uk_challenger_2_lep",
+"name": "Challenger 3 TD",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.0,
+"rank": "VIII",
+"silver_price": 1080000,
+"exp_price": 400000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка Rh120 L/55 A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [653, 650, 641, 629, 617, 605], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1750, "description": "Оперённый бронебойный подкалиберный снаряд DM53"},
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [496, 495, 487, 477, 467, 457], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "КС", "ammo_in_game_type": "HEAT", "penetration_mm": [480, 480, 480, 480, 480, 480], "velocity_ms": 1150, "description": "Кумулятивный снаряд"}
+],
+"ammo_total": 37,
+"reload": {"seconds": 7.8, "aces": 6.0, "modes": {"arcade": 7.8, "realistic": 6.0, "simulator": 6.0}},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 62.5},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 90, "rear": 58},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Challenger 3 TD — демонстратор технологий для будущего Challenger 3. 120-мм пушка L/55 A1 с ОБПС DM53 (653 мм). Современная СУО, СПО. Недостатки: низкая подвижность."
+},
+{
+"id": "uk_challenger_2_bn",
+"name": "Black Night",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1100000,
+"exp_price": 410000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [494, 493, 488, 481, 475, 468], "velocity_ms": 1550, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 6.5, "aces": 5.0, "modes": {"arcade": 6.5, "realistic": 5.0, "simulator": 5.0}},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1314, "rpm": 2600, "model": "Rolls-Royce CV12", "layout": "12‑cylinder diesel", "weight_tonnes": 65.0},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 90, "rear": 58},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Challenger 2 Black Night с комплексом активной защиты Iron Fist (перехватывает ПТУР и ОБПС). Улучшенная СУО. Недостатки: низкая подвижность."
+},
+    {
+"id": "uk_challenger_2e",
+"name": "Challenger 2E",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "medium",
+"type_label": "Средний танк",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1120000,
+"exp_price": 210000,
+"premium": false,
+"gun": {
+"name": "120-мм пушка L30A1",
+"penetration": [
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [564, 563, 558, 552, 546, 539], "velocity_ms": 1650, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "ОБПС", "ammo_in_game_type": "APFSDS", "penetration_mm": [494, 493, 488, 481, 475, 468], "velocity_ms": 1550, "description": "Оперённый бронебойный подкалиберный снаряд"},
+{"ammo_type": "БФС", "ammo_in_game_type": "HESH", "penetration_mm": [152, 152, 152, 152, 152, 152], "velocity_ms": 700, "description": "Бронебойно-фугасный снаряд (HESH)"}
+],
+"ammo_total": 50,
+"reload": {"seconds": 6.5, "aces": 5.0, "modes": {"arcade": 6.5, "realistic": 5.0, "simulator": 5.0}},
+"elevation": {"min_deg": -10, "max_deg": 20}
+},
+"crew": 4,
+"engine": {"power_hp": 1500, "rpm": 2600, "model": "MTU MT883", "layout": "12‑cylinder diesel", "weight_tonnes": 62.5},
+"hull": {"front": 130, "sides": 38, "rear": 50},
+"turret": {"front": 270, "sides": 90, "rear": 58},
+"thermal_view": true,
+"night_vision": true,
+"notes": "Challenger 2E — экспортная версия с двигателем MTU MT883 (1500 л.с.). Отличная подвижность (80 км/ч). Недостатки: отсутствует динамическая защита"
+},
+{
+"id": "uk_adats_m113a3",
+"name": "ADATS (M113)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 11.7,
+"rank": "VIII",
+"silver_price": 1080000,
+"exp_price": 400000,
+"premium": false,
+"gun": {
+"name": "ПТУР/ЗУР MIM146",
+"description": "Универсальная ракета двойного назначения",
+"penetration": [{"ammo_type": "ЗУР", "ammo_in_game_type": "ATGM/SAM", "penetration_mm": [900, 900, 900, 900, 900, 900], "distance_m": [10, 100, 500, 1000, 1500, 2000], "velocity_ms": 1000, "description": "Универсальная ракета MIM146 (против танков и авиации)"}],
+"ammo_total": 8,
+"reload": {"seconds": 60.0, "aces": 60.0, "modes": {"arcade": 60.0, "realistic": 60.0, "simulator": 60.0}},
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 3,
+"engine": {"power_hp": 279, "rpm": 2800, "model": "Detroit Diesel 6V53T", "layout": "6‑cylinder diesel", "weight_tonnes": 16.6},
+"hull": {"front": 38, "sides": 44, "rear": 38},
+"notes": "Канадский ЗРК ADATS на базе M113. 8 универсальных ракет MIM146 (пробитие 900 мм). Недостатки: отсутствие пушек, долгая перезарядка."
+},
+{
+"id": "uk_sky_sabre_fcs",
+"name": "Sky Sabre (СОЦ)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1100000,
+"exp_price": 410000,
+"premium": false,
+"gun": {
+"name": "нет",
+"description": "Станция обнаружения и целеуказания (без вооружения)"
+},
+"crew": 3,
+"engine": {"power_hp": 440, "rpm": 2600, "model": "Scania DC13", "layout": "6‑cylinder diesel", "weight_tonnes": 27.5},
+"notes": "Станция обнаружения целей ЗРК Sky Sabre. Оснащена РЛС Giraffe AMB (дальность обнаружения до 120 км). Не имеет вооружения, крайне уязвима."
+},
+{
+"id": "uk_sky_sabre_launcher",
+"name": "Sky Sabre (СОУ)",
+"nation": "uk",
+"nation_label": "🇬🇧 Великобритания",
+"type": "aa_vehicle",
+"type_label": "Зенитная установка",
+"br": 12.7,
+"rank": "VIII",
+"silver_price": 1100000,
+"exp_price": 410000,
+"premium": false,
+"gun": {
+"name": "ЗУР CAMM/CAMM-ER",
+"description": "Зенитные управляемые ракеты с активной РЛС ГСН",
+"ammo_total": 8,
+"elevation": {"min_deg": -10, "max_deg": 85}
+},
+"crew": 3,
+"engine": {"power_hp": 440, "rpm": 2600, "model": "Scania DC13", "layout": "6‑cylinder diesel", "weight_tonnes": 27.5},
+"notes": "Пусковая установка ЗРК Sky Sabre (8 ракет CAMM/CAMM-ER). Работает только в связке с СОЦ. Недостатки: отсутствие пушек, огромные размеры."
+}
+
+]
